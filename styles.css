@@ -168,6 +168,7 @@ footer img {
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
 
+/**👋----------------Home Page-------------------👋**/
 	header {
 		padding-top: 190px;
 		padding-right: 90px;
@@ -193,11 +194,6 @@ footer img {
 		width: 90%;
 	}
 
-	nav {
-		float: right;
-		width: 40%;
-		top: 0px;
-	}
 
 h1 {
 	font-size: 58px;
@@ -243,6 +239,13 @@ h6 a{
 	text-decoration: none;
 	font-weight: 900;
 	color: #95C623;
+}
+
+/**🍌----------------Navigation Bar-------------------🍌**/
+nav {
+	float: right;
+	width: 40%;
+	top: 0px;
 }
 
 #nav{
@@ -291,6 +294,7 @@ li a:hover{
 	height: 50px;
 }
 
+/**💻----------------Work-------------------💻**/
 #work{
 	width: 100%;
 	padding-left: 60px;
@@ -339,6 +343,7 @@ padding: 30px 140px 0 0;
 	color: white;
 }
 
+/**🍪----------------About-------------------🍪**/
 #about-right img {
 	float: right;
 	height: 450px;
@@ -351,6 +356,7 @@ padding: 30px 140px 0 0;
 	transition: all ease-in-out 950ms;
 }
 
+/**📋----------------Resume Button-------------------📋**/
 #btn-container{
 	text-align: center;
 	float: left;
@@ -372,6 +378,59 @@ padding: 30px 140px 0 0;
 	color: white;
 }
 
+/**🤝----------------Connect-------------------🤝**/
+#connect-container{
+	display: inline-block;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#emoji{
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#connect-header{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#connect-subhead{
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	position: relative;
+	text-align: center;
+}
+
+#contact-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 20px;
+
+}
+#contact-links img{
+	height: 45px;
+	margin: 7px;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+#contact-links img:hover{
+	transform: scale(0.85);
+	transition: all ease-in-out 0.25s
+}
+
+/**👇----------------Footer-------------------👇**/
 footer img {
 	height: 100px;
 	transition-duration: 900ms;
