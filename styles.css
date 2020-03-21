@@ -232,6 +232,7 @@ footer img {
 	body{
 		width: 100%;
 		background-color: white;
+		overflow-x: hidden;
 }
 	#wrapper {
 		width: 90%;
