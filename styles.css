@@ -269,7 +269,7 @@ nav a::before{
 	height: 3px;
 	border-radius:30px;
 	width: 0%;
-	top: 50px;
+	top: 22px;
 	background: #95C623;
 	position: absolute;
 	transition: all ease-in-out 250ms;
