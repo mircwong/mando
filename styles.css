@@ -92,6 +92,7 @@ h6 a{
 .proj {
 	padding-bottom: 30px;
 }
+
 #about-right img {
 	height: 350px;
 	padding-left: 30px;
@@ -101,7 +102,7 @@ h6 a{
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 40px;
+	border-radius: 15px;
 	padding: 10px 30px 10px 30px;
 	font-size: 15px;
 	color:  #95C623;
@@ -140,13 +141,11 @@ li a {
   color: #95C623;
 }
 
-
 #work img{
 	width: 100%;
 	height: 100%;
 	margin: 10px 0 10px 0px;
 	border-radius: 10px;
-
 }
 
 footer p {
@@ -166,14 +165,10 @@ footer img {
 	height: 80px;
 }
 
-
-
-
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
 
 	header {
-		text-align: left;
 		padding-top: 190px;
 		padding-right: 90px;
 	}
@@ -190,9 +185,9 @@ footer img {
 		transform: rotate(20deg);
 	}
 
-body{
-	width: 100%;
-	background-color: white;
+	body{
+		width: 100%;
+		background-color: white;
 }
 	#wrapper {
 		width: 90%;
@@ -302,13 +297,13 @@ li a:hover{
 }
 
 #work img {
-		width: 45%;
-		margin: 2%;
-		object-fit: cover;
+	width: 45%;
+	margin: 2%;
+	object-fit: cover;
 
-		filter: grayscale(1);
-		transition-duration: 1000ms;
-		transition-property: all;
+	filter: grayscale(1);
+	transition-duration: 1000ms;
+	transition-property: all;
 }
 
 #work img:hover {
@@ -319,12 +314,29 @@ li a:hover{
   filter: alpha(opacity=100);
 }
 
-
 .proj-desc{
 float: right;
 width: 34%;
 padding: 30px 140px 0 0;
+}
 
+.proj-btn{
+	text-align: center;
+	float: left;
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	color:  #95C623;
+	letter-spacing: 1px;
+	border: solid 2px #95C623;
+	transition: 0.5s;
+	margin-top: 20px;
+}
+
+.proj-btn:hover{
+	background-color: #95C623;
+	color: white;
 }
 
 #about-right img {
@@ -345,7 +357,7 @@ padding: 30px 140px 0 0;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 	text-decoration: none;
-	border-radius: 30px;
+	border-radius: 15px;
 	padding: 10px 30px 10px 30px;
 	font-size: 15px;
 	color:  #95C623;
@@ -365,10 +377,12 @@ footer img {
 	transition-duration: 900ms;
 	transition-property: all;
 }
+
 footer {
 	float: right;
 	width: 59%;
 }
+
 #footer {
 	display: flex;
 	align-items: center;
@@ -376,7 +390,6 @@ footer {
 
 footer img:hover {
 	transform: scale(.9);
-
 }
 
 }
