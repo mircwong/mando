@@ -97,23 +97,17 @@ h6 a{
 	padding-left: 30px;
 }
 
-#btn-container {
-	text-align: center;
-	padding-top: 20px;
+#btn-container{
 	float: left;
-}
-
-#btn-resume {
-	background-color: white;
-	border: 1px solid #080a52;
-	border-radius: 25px;
-	padding: 10px 30px 10px 30px;
-}
-#btn-resume a{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 500;
+	text-align: center;
 	text-decoration: none;
-	color: #080a52;
+	border-radius: 40px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	color:  #95C623;
+	letter-spacing: 1px;
+  border: solid 2px #95C623;
+	margin-top: 30px;
 }
 
 nav {
@@ -333,7 +327,6 @@ padding: 30px 140px 0 0;
 
 }
 
-
 #about-right img {
 	float: right;
 	height: 450px;
@@ -346,47 +339,26 @@ padding: 30px 140px 0 0;
 	transition: all ease-in-out 950ms;
 }
 
-#btn-container {
+#btn-container{
 	text-align: center;
-	padding: 40px 0 0 100px;
-}
-
-#btn-resume {
 	float: left;
-	background-color: white;
-	border: 1px solid;
-	border-radius: 25px;
-	padding: 9px 30px;
-
-	font-size: 12px;
-	color: #080a52;
-	font-weight: 700;
-	letter-spacing: 2px;
-
-	transition-duration: 500ms;
-	transition-property: all;
-}
-
-#btn-resume a {
-	font-weight: 600;
-	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
 	text-decoration: none;
-	color: #080a52;
+	border-radius: 30px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	color:  #95C623;
+	letter-spacing: 1px;
+  border: solid 2px #95C623;
+  transition: 0.5s;
+	margin: 40px 0 0 100px;
 }
 
-#btn-resume a:hover{
+#btn-container:hover{
+  background-color: #95C623;
 	color: white;
 }
-
-#btn-resume:hover{
-	background-color: #080a52;
-	color: white;
-}
-
-#btn-resume::before{
-		transition: all ease-in-out;
-}
-
 
 footer img {
 	height: 100px;
