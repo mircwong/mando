@@ -151,6 +151,28 @@ li a {
 	border-radius: 10px;
 }
 
+#about-container{
+	color: gray;
+}
+.about-title{
+	font-family: "Karla", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 20px;
+	color: #071013;
+}
+
+.about-list{
+	font-family: "Karla", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	padding-top: 15px;
+}
+
+.about-list a{
+	text-decoration: none;
+	color: #95C623;
+}
 #connect-container{
 	display: inline-block;
 	position: absolute;
@@ -164,6 +186,7 @@ li a {
 	font-size: 90px;
 	text-align: center;
 	padding-bottom: 30px;
+	padding-top: 50px;
 }
 
 #connect-header{
@@ -412,20 +435,13 @@ h6 a{
 }
 
 .about-title{
-	font-family: "Karla", sans-serif;
 	font-size: 20px;
 	color: #071013;
 }
 
 .about-list{
-	font-family: "Karla", sans-serif;
 	padding-top: 10px;
 	font-size: 15px;
-}
-
-.about-list a{
-	text-decoration: none;
-	color: #95C623;
 }
 
 /**📋----------------Resume Button-------------------📋**/
