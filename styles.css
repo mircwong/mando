@@ -214,13 +214,13 @@ footer img {
 /**👋----------------Home Page-------------------👋**/
 	header {
 		padding-top: 190px;
-		padding-right: 90px;
+		padding-right: 200px;
 	}
 
 	header img {
 		height: 140px;
 		float: right;
-		padding: 35px 0;
+		padding: 25px 0;
 		transition-duration: 800ms;
 		transition-property: all;
 	}
@@ -235,7 +235,7 @@ footer img {
 		overflow-x: hidden;
 }
 	#wrapper {
-		width: 90%;
+		width: 100%;
 	}
 
 
@@ -288,7 +288,7 @@ h6 a{
 /**🍌----------------Navigation Bar-------------------🍌**/
 nav {
 	float: right;
-	width: 40%;
+	width: 30%;
 	top: 0px;
 }
 
@@ -331,7 +331,8 @@ li a:hover{
 
 .logo-left {
 	float: left;
-	padding: 30px 0 0 00px;
+	padding-top: 30px;
+	padding-left: 60px;
 }
 
 .logo-left img {
