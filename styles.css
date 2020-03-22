@@ -10,7 +10,7 @@
 
 html{
 	font-family: 'Source Sans Pro', sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 }
 
 header {
@@ -54,17 +54,20 @@ h1 {
 }
 
 h2 {
+	font-family: "Karla", sans-serif;
 	color: #071013;
 	font-size: 12px;
 	font-weight: 300;
-	line-height: 2em;
+	line-height: 1.8em;
 	padding-top: 20px;
 }
 
 h3 {
+	font-family: "Karla", sans-serif;
 	font-weight: 300;
 	padding: 20px 0 20px 0;
 	width: 95%;
+	color: #aaaaaa;
 }
 
 h4{
@@ -170,7 +173,7 @@ li a {
 }
 
 #connect-subhead{
-	font-family: "Lato", sans-serif;
+	font-family: "Karla", sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	position: relative;
@@ -214,7 +217,7 @@ footer img {
 /**👋----------------Home Page-------------------👋**/
 	header {
 		padding-top: 190px;
-		padding-right: 200px;
+		padding-right: 100px;
 	}
 
 	header img {
@@ -246,17 +249,18 @@ h1 {
 }
 
 h2 {
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
 	padding-left: 90px;
 	padding-top: 50px;
 	padding-bottom: 100px;
+	color: gray;
 }
 
 h3 {
 	font-weight: 300;
 	margin-bottom: 1%;
-	color: #071013;
+	color: #aaaaaa;
 }
 
 h4{
@@ -266,17 +270,21 @@ h4{
 }
 
 h5{
-	font-size: 20px;
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
 	font-weight: 300;
 	margin-top: 2%;
 	color: #071013;
+	line-height: 1.7em;
 }
 
 h6 {
+	font-family: "Karla", sans-serif;
 	padding: 30px 0 0 100px;
-	width: 50%;
+	width: 58%;
 	font-weight: 300;
 	line-height: 1.8em;
+	color: gray;
 }
 
 h6 a{
