@@ -154,6 +154,12 @@ li a {
 #about-container{
 	color: gray;
 }
+
+#about-container a{
+	text-decoration: none;
+	color: #95C623;
+}
+
 .about-title{
 	font-family: "Karla", sans-serif;
 	font-size: 15px;
