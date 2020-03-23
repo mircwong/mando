@@ -91,15 +91,16 @@
   padding-bottom: 30px;
 }
 
-/**
+.proto-img{
+  padding-top: 30px;
+}
 .proto-img img{
-  height: 1100px;
+  height: 500px;
   width: 800px;
   object-fit: cover;
-  border-radius: 20px;
+  padding-bottom: 50px;
 
 }
-**/
 
 .step-title, .subtitle{
   font-family: "Karla", sans-serif;
