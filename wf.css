@@ -81,6 +81,7 @@
   object-fit: cover;
 }
 
+
 .img{
   max-width: 700px;
   margin-left: auto;
@@ -89,6 +90,14 @@
   vertical-align: middle;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.proto-img img{
+  height: 1000px;
+  width: 900px;
+  object-fit: cover;
+  border-radius: 20px;
+
 }
 
 .step-title, .subtitle{
