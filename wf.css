@@ -77,7 +77,6 @@
 .step-desc img{
   height: 630px;
   width:700px;
-  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -92,6 +91,7 @@
   padding-bottom: 30px;
 }
 
+/**
 .proto-img img{
   height: 1100px;
   width: 800px;
@@ -99,6 +99,7 @@
   border-radius: 20px;
 
 }
+**/
 
 .step-title, .subtitle{
   font-family: "Karla", sans-serif;
