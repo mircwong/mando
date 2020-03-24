@@ -76,12 +76,12 @@
 
 .step-desc img{
   height: 630px;
-  width:700px;
+  width: 700px;
   object-fit: cover;
 }
 
 
-.img, .interview-img{
+.img, .interview-img, .currentapp-img{
   max-width: 700px;
   margin-left: auto;
 	margin-right: auto;
@@ -91,19 +91,39 @@
   padding-bottom: 30px;
 }
 
-.proto-img{
-  padding-top: 30px;
-}
-.proto-img img{
-  height: 500px;
-  width: 800px;
-  object-fit: cover;
-  padding-bottom: 50px;
 
+.left-img, .right-img{
+  max-width: 400px;
+
+}
+
+.left-img img{
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
+
+}
+
+.right-img img{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .interview-img img{
   height: 800px;
+}
+
+.proto-img {
+  padding-top: 30px;
+}
+.proto-img img, .currentapp-img img{
+  height: 500px;
+  width: 800px;
+  object-fit: cover;
+  padding-bottom: 50px;
 }
 
 .step-title, .subtitle{
