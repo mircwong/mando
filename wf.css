@@ -36,6 +36,8 @@
   transform: translate(-50%, -50%)
 }
 **/
+
+
 #details-container, #process-container{
   position: relative;
 	max-width: 800px;
