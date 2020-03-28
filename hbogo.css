@@ -103,24 +103,22 @@
   padding-bottom: 30px;
 }
 
-/** use for when you want to put images side by side
+
 .left-img img{
-  width: 250px;
-  height: 150px;
+  width: 500px;
+  height: 400px;
   object-fit: cover;
   padding-right: 20px;
 
 }
 
 .right-img img{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 450px;
-  height: 250px;
+  width: 500px;
+  height: 400px;
   object-fit: cover;
 }
 
-**/
+
 
 .interview-img img{
   height: 800px;
