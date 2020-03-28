@@ -82,16 +82,6 @@
   object-fit: cover;
 }
 
-.compare-img{
-  max-width: 900px;
-  padding-top: 20px;
-}
-
-.compare-img img{
-  height: 330px;
-  width: 900px;
-  object-fit: cover;
-}
 
 .img, .interview-img{
   max-width: 700px;
@@ -117,7 +107,6 @@
   height: 400px;
   object-fit: cover;
 }
-
 
 
 .interview-img img{
@@ -171,8 +160,47 @@
   line-height: 1.5em;
   margin-right: 10%;
 
+
 }
 
+.three-triangle{
+  max-width: 800px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.three-left-img, .three-right-img{
+  margin: 2%;
+}
+
+.three-left-img img{
+  width: 430px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.three-right-img img{
+  width: 430px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+/** for when you want 3 images in a triangle shape
+ .three-middle-img{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+ }
+
+ .three-middle-img img{
+   width: 430px;
+   height: 250px;
+   object-fit: cover;
+ }
+**/
 .subtitle{
   padding-top: 30px;
   font-size: 16px;
