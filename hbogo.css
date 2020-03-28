@@ -171,13 +171,14 @@
 }
 
 .three-left-img, .three-right-img{
-  margin: 2%;
+  margin: 3%;
 }
 
 .three-left-img img{
   width: 430px;
   height: 250px;
   object-fit: cover;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -185,6 +186,7 @@
   width: 430px;
   height: 250px;
   object-fit: cover;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
