@@ -1,0 +1,218 @@
+/*-------------DESKTOP----------------*/
+@media only screen and (min-width: 1000px)  {
+
+  body{
+  margin: 0;
+  padding: 0;
+}
+
+#banner-container {
+		width: 100%;
+		position: absolute;
+	}
+
+#proj-header {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		top: 130px;
+		padding-bottom: 100px;
+	}
+
+#proj-header img{
+  max-width: 100%;
+}
+/**
+.proj-title{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  padding-top: 100px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+**/
+
+
+#details-container, #process-container{
+  position: relative;
+	max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  top: 650px;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+  padding-bottom: 30px;
+}
+
+.details-title{
+  font-weight: 500;
+  font-size: 16px;
+  color: #071013;
+  background-color: white;
+}
+
+.details-desc, .step-desc, .subtitle-span{
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: gray;
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+.process-step{
+  text-transform: uppercase;
+  color: #0EB2F0;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+
+}
+
+.step-desc img{
+  height: 630px;
+  width: 700px;
+  object-fit: cover;
+}
+
+
+.img, .interview-img{
+  max-width: 700px;
+  margin-left: auto;
+	margin-right: auto;
+	position: relative;
+  vertical-align: middle;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.left-img img{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  padding-right: 20px;
+
+}
+
+.right-img img{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sketch-img{
+  max-width: 800px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.sketch-img img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: 2%;
+}
+
+.interview-img img{
+  height: 800px;
+}
+
+.proto-img {
+  padding-top: 30px;
+}
+.proto-img img, .current-img img{
+  height: 500px;
+  width: 800px;
+  object-fit: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.step-title, .subtitle{
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+.question-title{
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  color: #071013;
+  line-height: 1.7em;
+}
+
+.two-column, .three-triangle{
+  max-width: 800px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.left-side, .right-side{
+  max-width: 400px;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: gray;
+  padding-bottom: 30px;
+  line-height: 1.5em;
+  margin-right: 10%;
+
+
+}
+
+.three-left-img, .three-right-img{
+  margin: 3%;
+}
+
+.three-left-img img{
+  width: 430px;
+  height: 250px;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.three-right-img img{
+  width: 430px;
+  height: 250px;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/** for when you want 3 images in a triangle shape
+ .three-middle-img{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+ }
+
+ .three-middle-img img{
+   width: 430px;
+   height: 250px;
+   object-fit: cover;
+ }
+**/
+.subtitle{
+  padding-top: 30px;
+  font-size: 16px;
+  color: #071013;
+}
+
+}
