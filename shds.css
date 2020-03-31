@@ -104,16 +104,16 @@
 
 
 .left-img img{
-  width: 500px;
-  height: 400px;
+  width: 390px;
+  height: 390px;
   object-fit: cover;
   padding-right: 20px;
 
 }
 
 .right-img img{
-  width: 500px;
-  height: 400px;
+  width: 390px;
+  height: 390px;
   object-fit: cover;
 }
 
@@ -135,10 +135,10 @@
   height: 800px;
 }
 
-.proto-img {
+.lcd-img {
   padding-top: 30px;
 }
-.proto-img img, .current-img img{
+.lcd-img img, .current-img img{
   height: 500px;
   width: 800px;
   object-fit: cover;
@@ -152,18 +152,6 @@
   font-size: 20px;
   padding-bottom: 6px;
   color: #071013;
-}
-
-.question-title{
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  color: #071013;
-  line-height: 1.7em;
 }
 
 .two-column, .three-triangle{
