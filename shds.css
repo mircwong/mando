@@ -83,14 +83,23 @@
 }
 
 
-.img, .interview-img{
-  max-width: 700px;
+.header-img{
+  max-width: 800px;
   margin-left: auto;
 	margin-right: auto;
 	position: relative;
   vertical-align: middle;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.header-img img{
+  height: 100px;
+  width: 800px;
+  object-fit: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 
@@ -142,6 +151,7 @@
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 6px;
+  color: #071013;
 }
 
 .question-title{
@@ -163,8 +173,15 @@
 	justify-content: center;
 }
 
-.left-side, .right-side{
-  max-width: 400px;
+.three-column{
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-side, .middle, .right-side{
+  max-width: 265px;
   font-family: "Karla", sans-serif;
   font-weight: 300;
   font-size: 16px;
