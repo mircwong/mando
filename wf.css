@@ -1,3 +1,169 @@
+
+/*------------MOBILE-----------------*/
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+#nav{
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: "Karla", sans-serif;
+
+}
+
+#banner-container {
+  width: 100%;
+  position: absolute;
+}
+
+#proj-header{
+  max-width: 100%;
+}
+#proj-header img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container{
+  padding-top: 170px;
+  font-size: 10px;
+}
+
+.process-step{
+  font-size: 10px;
+  color: #DD1E25;
+  padding: 10px 0 0 0;
+}
+
+.step-title{
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.step-desc{
+  font-size: 10px;
+}
+
+.subtitle{
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.subtitle-span{
+  font-size: 10px;
+}
+.left-side, .right-side{
+  font-size: 10px;
+}
+
+.current-img{
+  width: 100%;
+}
+
+.current-img img{
+  width: 100%;
+  height: 100%;
+}
+.three-triangle {
+  width: 100%;
+
+}
+
+.three-left-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.three-right-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.interview-img {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.interview-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle{
+  font-size: 10px;
+}
+
+.two-column{
+  width: 100%;
+}
+
+.left-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.right-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.sketch-img {
+  width: 100%;
+}
+
+.sketch-img img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.img img{
+  width: 100%;
+  height: 100%;
+}
+
+.proto-img{
+  width: 100%;
+}
+
+.proto-img img{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.step-desc {
+  width: 100%;
+}
+
+
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
 
