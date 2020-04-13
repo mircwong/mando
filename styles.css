@@ -77,7 +77,7 @@ h4{
 
 h5{
 	font-weight: 300;
-
+	padding-bottom: 15px;
 }
 
 h6{
@@ -94,6 +94,18 @@ h6 a{
 
 .proj {
 	padding-bottom: 30px;
+}
+
+.proj-desc a{
+	text-decoration: none;
+	color: #95C623;
+}
+
+.proj-btn {
+	border: solid 1px #95C623;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+	float: left;
 }
 
 #about-right img {
