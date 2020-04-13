@@ -1,3 +1,96 @@
+/*------------MOBILE-----------------*/
+#banner-container {
+  width: 100%;
+  position: absolute;
+  padding-bottom: 100px;
+}
+
+#proj-header img{
+  max-width: 100%;
+}
+
+
+
+.three-triangle {
+  width: 100%;
+
+}
+
+.three-left-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.three-right-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.interview-img {
+  width: 100%;
+}
+
+.interview-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle{
+  font-size: 10px;
+}
+
+.two-column{
+  width: 100%;
+}
+
+.left-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.right-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.sketch-img {
+  width: 100%;
+}
+
+.sketch-img img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.img img{
+  width: 100%;
+  height: 100%;
+}
+
+.proto-img{
+  width: 100%;
+}
+
+.proto-img img{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
 
@@ -215,4 +308,8 @@
   color: #071013;
 }
 
+.step-desc iframe{
+  width: 800px;
+  height: 600px;
+}
 }
