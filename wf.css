@@ -336,4 +336,8 @@ body{
   color: #071013;
 }
 
+.step-desc iframe{
+  width: 100%;
+  height: 500px;
+}
 }
