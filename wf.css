@@ -215,6 +215,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
   padding-bottom: 30px;
+  padding-top: 0;
 }
 
 .details-title{
