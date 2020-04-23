@@ -285,7 +285,7 @@ body{
   padding-top: 30px;
 }
 .proto-img img, .current-img img{
-  height: 500px;
+  height: 600px;
   width: 800px;
   object-fit: cover;
   padding-bottom: 25px;
@@ -311,7 +311,7 @@ body{
   line-height: 1.7em;
 }
 
-.two-column, .three-triangle{
+.two-column{
   max-width: 100%;
 }
 
@@ -326,26 +326,6 @@ body{
   margin-right: 10%;
 
 
-}
-
-.three-left-img, .three-right-img{
-  margin: 3%;
-}
-
-.three-left-img img{
-  width: 430px;
-  height: 250px;
-  object-fit: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.three-right-img img{
-  width: 430px;
-  height: 250px;
-  object-fit: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /** for when you want 3 images in a triangle shape
