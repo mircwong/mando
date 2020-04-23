@@ -171,6 +171,10 @@ body{
   width: 100%;
 }
 
+.step-desc a{
+  text-decoration: none;
+}
+
 
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
@@ -240,7 +244,9 @@ body{
   color: gray;
   padding-bottom: 20px;
   line-height: 1.5em;
+
 }
+
 
 .process-step{
   text-transform: uppercase;
