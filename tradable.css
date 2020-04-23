@@ -236,7 +236,7 @@ body{
   object-fit: cover;
 }
 */
-.img, .interview-img{
+.interview-img{
   max-width: 700px;
   margin-left: auto;
 	margin-right: auto;
@@ -284,8 +284,8 @@ body{
 .proto-img {
   padding-top: 30px;
 }
-.proto-img img, .current-img img{
-  height: 600px;
+.proto-img img{
+  height: 530px;
   width: 800px;
   object-fit: cover;
   padding-bottom: 25px;
