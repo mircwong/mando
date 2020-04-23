@@ -337,7 +337,6 @@ body{
 .cards{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 .cards img{
   height: 410px;
