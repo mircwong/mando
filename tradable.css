@@ -324,10 +324,25 @@ body{
   padding-bottom: 90px;
   line-height: 1.5em;
   margin-right: 10%;
-
-
 }
 
+.cards{
+  display: flex;
+  flex-direction: row;
+  position: center;
+}
+.cards img{
+  height: 410px;
+  width: 190px;
+  object-fit: cover;
+  margin-right: 3%;
+}
+
+.long-card img{
+    height: 800px;
+    width: 260px;
+    object-fit: cover;
+}
 /** for when you want 3 images in a triangle shape
  .three-middle-img{
    margin-left: auto;
