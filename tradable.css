@@ -147,6 +147,26 @@ body{
   padding-bottom: 10px;
 }
 
+.cards{
+  width: 400px;
+}
+
+.cards img{
+  height: 300px;
+  width: 140px;
+  object-fit: cover;
+}
+
+.long-card{
+  width: 100%;
+}
+
+.long-card img{
+  height: 900px;
+  width: 280px;
+  object-fit: cover;
+}
+
 .step-desc {
   width: 100%;
 }
