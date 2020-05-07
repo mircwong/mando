@@ -14,7 +14,7 @@ vertical-align: baseline;
 
 body{
   overflow-x: hidden;
-  font-family: "Karla", sans-serif;
+  font-family: "open sans", sans-serif;
 
 }
 
@@ -132,7 +132,7 @@ body{
 }
 
 .cards img{
-  height: 300px;
+  height: 400px;
   width: 140px;
   object-fit: cover;
 }
@@ -220,8 +220,8 @@ body{
 }
 
 .details-desc, .step-desc, .subtitle-span{
-  font-family: "Karla", sans-serif;
-  font-weight: 300;
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: gray;
   padding-bottom: 20px;
@@ -301,14 +301,14 @@ body{
 }
 
 .step-title, .subtitle{
-  font-family: "Karla", sans-serif;
+  font-family: "open sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 6px;
 }
 
 .question-title{
-  font-family: "Karla", sans-serif;
+  font-family: "open sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -325,8 +325,8 @@ body{
 
 .left-side, .right-side{
   max-width: 100%;
-  font-family: "Karla", sans-serif;
-  font-weight: 300;
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: gray;
   padding-bottom: 90px;
