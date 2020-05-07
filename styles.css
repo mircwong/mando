@@ -293,9 +293,14 @@ h2 {
 	font-family: 'Karla', sans-serif;
 	font-size: 18px;
 	padding-left: 90px;
-	padding-top: 50px;
-	padding-bottom: 100px;
 	color: gray;
+	line-height: 0.8em;
+
+}
+
+h2 a{
+		text-decoration: none;
+		color: #95C623;
 }
 
 h3 {
