@@ -237,8 +237,8 @@ li a {
 
 footer p {
 	text-align: center;
-	font-weight: 300;
-	font-size: 12px;
+	font-weight: 400;
+	font-size: 14px;
 }
 
 #footer {
@@ -248,9 +248,6 @@ footer p {
 	padding-left: 50px;
 }
 
-footer img {
-	height: 80px;
-}
 
 /*-------------DESKTOP----------------*/
 @media only screen and (min-width: 1000px)  {
@@ -519,12 +516,17 @@ h6 a{
 }
 
 /**👇----------------Footer-------------------👇**/
+/**
 footer img {
 	height: 100px;
 	transition-duration: 900ms;
 	transition-property: all;
 }
 
+footer img:hover {
+	transform: scale(.9);
+}
+**/
 footer {
 	float: right;
 	width: 59%;
@@ -534,9 +536,4 @@ footer {
 	display: flex;
 	align-items: center;
 }
-
-footer img:hover {
-	transform: scale(.9);
-}
-
 }
