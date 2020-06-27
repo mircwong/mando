@@ -41,6 +41,12 @@ body{
   font-size: 10px;
 }
 
+#details-container a{
+  color: #F5A623;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .process-step{
   font-size: 10px;
   color: #F5A623;
@@ -55,6 +61,12 @@ body{
 
 .step-desc{
   font-size: 10px;
+}
+
+
+.step-desc a{
+  font-weight: bold;
+  color: #F5A623;
 }
 
 .subtitle{
@@ -280,7 +292,7 @@ body{
 
 .sketch-img img{
   width: 800px;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   margin: 2%;
 }
@@ -339,10 +351,11 @@ body{
   flex-direction: row;
 }
 .cards img{
-  height: 410px;
-  width: 190px;
+  height: 360px;
+  width: 200px;
   object-fit: cover;
-  margin-right: 3%;
+  margin-right: 25%;
+  padding-top: 50px;
 }
 
 .long-card img{
