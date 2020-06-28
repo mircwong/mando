@@ -10,12 +10,12 @@ vertical-align: baseline;
 }
 
 #nav{
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body{
   overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -192,7 +192,7 @@ body{
 }
 /**
 .proj-title{
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 600;
   position: absolute;
@@ -219,19 +219,19 @@ body{
 }
 
 .details-title{
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 15px;
   color: #071013;
   background-color: white;
 }
 
 .details-desc, .step-desc, .subtitle-span{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
   padding-bottom: 20px;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .process-step{
@@ -295,14 +295,14 @@ body{
 }
 
 .step-title, .subtitle{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 6px;
 }
 
 .question-title{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -321,12 +321,12 @@ body{
 
 .left-side, .right-side{
   max-width: 400px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
   padding-bottom: 30px;
-  line-height: 1.5em;
+  line-height: 2em;
   margin-right: 10%;
 
 }

@@ -280,11 +280,20 @@ h1 {
 		color: #071013;
 }
 
+.landing-about{
+	padding-left: 130px;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.7em;
+
+}
+
 h2 {
 	font-size: 15px;
 	padding-left: 130px;
+	padding-top: 40px;
 	color: gray;
-	line-height: 1.8em;
+	line-height: 2em;
 
 }
 
@@ -310,7 +319,7 @@ h5{
 	font-weight: 400;
 	margin-top: 2%;
 	color: #071013;
-	line-height: 1.7em;
+	line-height: 2em;
 }
 
 
@@ -395,8 +404,8 @@ li a:hover{
 
 .proj-desc{
 float: right;
-width: 34%;
-padding: 30px 140px 0 0;
+width: 32%;
+padding: 30px 180px 0 0;
 }
 
 .proj-btn{
@@ -423,6 +432,7 @@ padding: 30px 140px 0 0;
 	margin-left: 1%;
 	float: right;
 	height: 400px;
+	width: 400px;
 	transition-duration: 950ms;
 	transition-property: all;
 }

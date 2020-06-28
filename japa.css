@@ -9,12 +9,13 @@ vertical-align: baseline;
 }
 
 #nav{
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 
 body{
   overflow-x: hidden;
-  font-family: "open sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -178,6 +179,7 @@ body{
   padding: 0;
 }
 
+
 #banner-container {
 		width: 100%;
 		position: absolute;
@@ -225,19 +227,19 @@ body{
 }
 
 .details-title{
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 15px;
   color: #071013;
   background-color: white;
 }
 
 .details-desc, .step-desc, .subtitle-span{
-  font-family: "open sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
   padding-bottom: 20px;
-  line-height: 1.5em;
+  line-height: 2em;
 
 }
 
@@ -313,14 +315,14 @@ body{
 }
 
 .step-title, .subtitle{
-  font-family: "open sans", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 6px;
 }
 
 .question-title{
-  font-family: "open sans", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -337,7 +339,7 @@ body{
 
 .left-side, .right-side{
   max-width: 100%;
-  font-family: "open sans", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: gray;
