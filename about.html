@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -37,10 +38,14 @@
   </div>
 		<header>
 
+		<div data-aos="fade-left">
 			<div id= "about-right">
 				<img src="images/Site/circle-cropped.png" alt="me-img">
 			</div>
+		</div>
 
+
+		<div data-aos="fade-up">
 		<div id= "about-me">
 			<div class="about-greeting">Pleased to meet you!😄</div>
 			<h6> I'm Miranda, a senior at the <a target=”_blank” href="https://www.ucdavis.edu/">University of California, Davis</a>
@@ -89,12 +94,18 @@
 
 
 		</div>
+	</div>
 
+
+
+	<div data-aos="fade-up">
 	<a target=”_blank”  href = "https://drive.google.com/file/d/1yW_a2wCs1ZvCOmKKk3WW-luds7mlF3RB/view?usp=sharing">
 		<div id="btn-container">
 			<p> View Resume</p>
 		</div>
 	</a>
+</div>
+
 		</header>
 
 
@@ -108,6 +119,15 @@
 	</footer>
 
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="aos.js"></script>
+	<script type="text/javascript">
+		AOS.init({
+				duration: 2000
+			});
+	</script>
+
 </body>
 
 </html>
