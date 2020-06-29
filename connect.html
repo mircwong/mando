@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -38,7 +39,8 @@
 		</nav>
   </div>
 
-     	<div id="connect-container">
+
+     	<div id="connect-container" data-aos="fade-up">
 				<div id="emoji">✌️</div>
      		<div id="connect-header">Let's chat.</div>
      		<div id="connect-subhead">Thanks for stopping by!</div>
@@ -62,6 +64,17 @@
  	    	</div>
      	</div>
 		</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="aos.js"></script>
+	<script type="text/javascript">
+		AOS.init({
+				duration: 2000
+			});
+	</script>
+
 </body>
 
 </html>
