@@ -258,7 +258,7 @@ body{
 }
 */
 
-.competitive-analysis-img{
+.competitive-analysis-img, .b2h-img, .user-task-img{
   max-width: 700px;
   margin-left: auto;
 	margin-right: auto;
@@ -275,6 +275,12 @@ body{
   width: 700px;
 }
 
+
+.b2h-img img{
+  object-fit: cover;
+  height: 500px;
+  width: 700px;
+}
 
 .left-img img{
   width: 300px;
@@ -293,23 +299,11 @@ body{
 }
 
 
-
-
-.user-task-img{
-  height: 100%;
-  max-width: 700px;
-  margin-left: auto;
-	margin-right: auto;
-  display: flex;
-	flex-direction: row;
-	justify-content: center;
-  padding-bottom: 30px;
-}
-
 .user-task-img img{
   object-fit: cover;
-  height: 400px;
-  width: 600px;
+  height: 250px;
+  width: 700px;
+  padding-bottom: 20px;
 }
 
 .personas{
@@ -403,6 +397,13 @@ body{
   padding-top: 25px;
 }
 
+.midfi-proto-img img{
+  height: 710px;
+  width: 790px;
+  object-fit: cover;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
 
 .step-title, .subtitle{
   font-family: "poppins", sans-serif;
