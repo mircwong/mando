@@ -292,20 +292,7 @@ body{
   margin-right: 3%;
 }
 
-.sketch-img{
-  max-width: 800px;
-  display: flex;
-	flex-direction: row;
-	justify-content: center;
-  padding-bottom: 40px;
-}
 
-.sketch-img img{
-  width: 800px;
-  height: 600px;
-  object-fit: cover;
-  margin: 2%;
-}
 
 
 .user-task-img{
@@ -370,8 +357,7 @@ body{
 .how-might-we img{
   object-fit: cover;
   height: 400px;
-  width: 390px;
-  margin: 2%;
+  width: 800px;
 }
 
 .affinity-map img{
@@ -381,14 +367,39 @@ body{
   padding: 20px 0 40px 0;
 }
 
+
+.sketch-img, .design-guide{
+  max-width: 800px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.sketch-img img{
+  width: 840px;
+  height: 280px;
+  object-fit: cover;
+  margin: 2%;
+}
+
+
 .proto-img {
   padding-top: 30px;
 }
+
 .proto-img img{
-  height: 530px;
+  height: 730px;
   width: 800px;
   object-fit: cover;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+
+.design-guide img{
+  height: 795px;
+  width: 900px;
+  object-fit: cover;
+  padding-bottom: 40px;
   padding-top: 25px;
 }
 
