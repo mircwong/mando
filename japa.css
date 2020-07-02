@@ -405,6 +405,15 @@ body{
   padding-top: 25px;
 }
 
+.gifs{
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 2%;
+}
+
+
 .step-title, .subtitle{
   font-family: "poppins", sans-serif;
   font-weight: 600;
