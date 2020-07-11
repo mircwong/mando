@@ -315,6 +315,7 @@ body{
   padding-bottom: 10px;
 }
 
+
 .personas img{
   object-fit: cover;
   height: 330px;
@@ -422,6 +423,19 @@ body{
   font-size: 13px;
 }
 
+.ab-testing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ab-testing img{
+  height: 280px;
+  width: 500px;
+  object-fit: cover;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
 
 .step-title, .subtitle{
   font-family: "poppins", sans-serif;
