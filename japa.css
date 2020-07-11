@@ -408,14 +408,12 @@ body{
 .gif-and-text{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .gifs{
   max-width: 900px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   margin: 1%;
 }
 
