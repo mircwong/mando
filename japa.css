@@ -405,12 +405,22 @@ body{
   padding-top: 25px;
 }
 
+.gif-and-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .gifs{
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin: 2%;
+  margin: 1%;
+}
+
+.gif-text{
+  margin: 1%;
 }
 
 
