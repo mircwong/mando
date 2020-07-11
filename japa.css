@@ -415,7 +415,6 @@ body{
   max-width: 900px;
   display: flex;
   flex-direction: row;
-  margin: 1%;
 }
 
 .gif-text{
@@ -440,7 +439,8 @@ body{
 
 
 .final-designs img{
-  margin: 2%;
+  padding-top: 35px;
+  margin: 1%;
 }
 
 
