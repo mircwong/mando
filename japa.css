@@ -411,7 +411,7 @@ body{
   flex-direction: row;
 }
 
-.gifs{
+.gifs, .final-designs{
   max-width: 900px;
   display: flex;
   flex-direction: row;
@@ -436,6 +436,14 @@ body{
   padding-bottom: 40px;
   padding-top: 25px;
 }
+
+
+
+.final-designs img{
+  margin: 2%;
+}
+
+
 
 .step-title, .subtitle{
   font-family: "poppins", sans-serif;
