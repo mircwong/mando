@@ -1,0 +1,77 @@
+/**👋----------------Mobile-------------------👋**/
+nav {
+	top: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	color: #071013;
+	font-size: 17px;
+	display: inline-block;
+	font-weight: 600;
+	position: relative;
+	margin: 10px;
+}
+
+li a {
+	text-decoration: none;
+	color: #071013;
+}
+
+.locationmarker {
+  background: transparent;
+}
+
+.locationmarker a {
+  color: #95C623;
+}
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+
+
+  nav {
+  	float: right;
+  	width: 45%;
+  }
+
+  #nav{
+  	width: 100%;
+  	position: fixed;
+  	z-index: 5;
+  	top: 0px;
+  }
+
+  nav a::before{
+  	content: "";
+  	display: block;
+  	height: 3px;
+  	width: 0%;
+  	top: 22px;
+  	background: #95C623;
+  	position: absolute;
+  	transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+  	width: 100%;
+  }
+
+  ul {
+  	margin: 30px;
+
+  }
+
+  li {
+  	font-size: 15px;
+  	margin-left: 50px;
+  }
+
+  li a:hover{
+  	color: #95C623;
+  }
+
+}

@@ -1,0 +1,252 @@
+/**👋----------------Mobile-------------------👋**/
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+
+  html{
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+/**🍎--------------Landing Page----------------🍎**/
+
+  .landing-page-intro{
+    position: absolute;
+    top: 250px;
+    left: 162.72px;
+  }
+
+  .big-header{
+    font-size: 6em;
+    font-weight: 700;
+  }
+
+  .landing-about{
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 1.7em;
+
+  }
+
+
+/**title underlines here!**/
+  .personal-title{
+    cursor: pointer;
+    border-style: solid;
+    border-color: #E2E2E2;
+    border-width: 3px;
+    border-bottom: 1;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    transition: all ease-in-out 230ms;
+  }
+
+  .personal-title:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color: #95C623;
+    border-width: 3px;
+    border-bottom: 1;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    transition-property: all;
+    transition-duration: 200ms;
+  }
+
+  .personal-title:hover div{
+    visibility: visible;
+  }
+
+  .pop-up-desc{
+    visibility: hidden;
+    cursor: pointer;
+
+    position: absolute;
+    width: 330.4px;
+    top: 10px;
+    left: 700px;
+
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 158.8%;
+
+  }
+
+  .emoji{
+    font-size: 3em;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .arrow-down-circle {
+    position: absolute;
+    left: 699px;
+    top: 650px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    -o-animation: bounce 2s infinite ease-in-out;
+    -ms-animation: bounce 2s infinite ease-in-out;
+    -moz-animation: bounce 2s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out;
+  }
+
+  .arrow-down-circle img{
+    height: 30px;
+
+  }
+
+  @-webkit-keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
+  }
+
+  @keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
+  }
+
+/**🍌-------------Selected Work----------------🍌**/
+
+
+
+
+
+/**🍦-------------Footer----------------🍦**/
+
+.footer-title{
+  position: absolute;
+  width: 482px;
+  height: 48px;
+  left: 161px;
+  top: 3502.21px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 158.8%;
+}
+
+  .footer-desc{
+  position: absolute;
+  width: 440px;
+  left: 161px;
+  top: 3554.34px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 158.8%;
+
+  padding-bottom: 100px;
+}
+
+.footer-email{
+  position: absolute;
+  width: 100%;
+  left: 660px;
+  top: 3513.21px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 158.8%;
+}
+
+.email-link{
+  position: absolute;
+  padding-top: 10px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 158.8%;
+}
+
+.email-link a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-width: 3px;
+  border-color: #E2E2E2;
+
+  transition-duration: 300ms;
+}
+
+.email-link a:hover{
+  border-color: #95C623;
+
+  transition-property: all;
+  transition: ease-in-out 250ms;
+}
+
+.footer-links{
+  position: absolute;
+  width: 200px;
+  left: 960px;
+  top: 3513.21px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 158.8%;
+}
+
+.footer-links a{
+  text-decoration: none;
+}
+
+.footer-link-img img{
+  	height: 32px;
+  	padding: 10px 15px 0 0;
+  	opacity: 25%;
+
+  	transition-property: all;
+  	transition-duration: 0.5s;
+  }
+
+  .footer-link-img img:hover{
+  	transform: scale(0.85);
+  	opacity: 90%;
+  	transition: all ease-in-out 0.25s
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
