@@ -17,8 +17,12 @@ body{
 
 
 
-
 /**🍎--------------Landing Page Intro----------------🍎**/
+
+    header{
+      height: 900px;
+    }
+
 
   .landing-page-intro{
     position: absolute;
@@ -67,12 +71,11 @@ body{
 
   .personal-title:hover div{
     visibility: visible;
+    opacity: 1;
   }
 
-  .pop-up-desc{
-    visibility: hidden;
-    cursor: pointer;
 
+  .pop-up-desc{
     position: absolute;
     width: 330.4px;
     top: 10px;
@@ -82,6 +85,11 @@ body{
     font-size: 0.8em;
     line-height: 158.8%;
 
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 1s, opacity 0.5s linear;
   }
 
   .emoji{
@@ -90,6 +98,13 @@ body{
     text-align: center;
     padding-bottom: 50px;
   }
+
+
+
+
+
+
+/**🌽--------------Landing Page Arrow----------------🌽**/
 
   .arrow-down-circle {
     position: absolute;
@@ -121,25 +136,67 @@ body{
 
 
 
-/**🍎--------------Landing Page About----------------🍎**/
-  .landing-about{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 
+
+
+
+
+/**🥑--------------Landing Page About----------------🥑**/
+
+/**this is to position your landing about section**/
+  .landing-about{
     width: 650px;
     height: 158px;
-    top: 1190px;
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
   }
 
+/**this is for styling your landing about title**/
   .landing-about-title{
-    visibility: hidden;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.8em;
-
   }
+
+  /**this is for styling your landing about description**/
+  .landing-about-desc{
+    padding-top: 30px;
+    line-height:1.8em;
+  }
+
+  /**this is for styling your read full story button**/
+
+  .read-story-btn{
+  	text-align: center;
+  	float: left;
+  	text-decoration: none;
+  	font-size: 15px;
+  	color:  #BCBCBC;
+  	letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 0;
+
+
+  	border: solid 3px #e2e2e2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  	transition: 0.5s;
+
+    padding-top: 30px;
+  }
+
+  .read-story-btn:hover{
+  	border-color: #95C623;
+  	color:#95C623;
+  }
+
+
 
 
 
@@ -147,6 +204,94 @@ body{
 
 
 /**🍌-------------Selected Work----------------🍌**/
+
+.selected-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 600px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+
+  line-height: 1.8em;
+}
+
+/**this styles the part before the projects where it says "Selected WorK" + description**/
+.selected-works-blurb{
+  padding-bottom: 50px;
+}
+
+.selected-works-title{
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.selected-works-desc{
+  width: 800px;
+}
+
+/**this is for ordering the project cards on the page aka in a row**/
+.work-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+/**this styles the drop shadow card that contains the project**/
+.work-container{
+  width: 400px;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: 34px;
+  padding: 20px 30px 40px 20px;
+
+  transition: 0.2s;
+}
+
+.work-container:hover{
+    box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
+}
+
+.work-container img{
+  height: 300px;
+}
+
+/**this styles the entire card containing the project bc it's a link**/
+.selected-works a{
+  padding-top: 12px;
+  text-decoration: none;
+  color: black;
+
+  margin: 2%;
+}
+
+
+.work-date{
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+/**this is the project title and description**/
+.work-title{
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.work-desc{
+  padding-left: 20px;
+}
+
+
 
 
 
@@ -163,7 +308,7 @@ body{
 
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 29px;
   line-height: 158.8%;
 }
 
@@ -181,6 +326,7 @@ body{
   padding-bottom: 100px;
 }
 
+/**this is for when you want a separate link for your email**
 .footer-email{
   position: absolute;
   width: 100%;
@@ -224,11 +370,13 @@ body{
   transition-property: all;
   transition: ease-in-out 250ms;
 }
+**/
 
+/**here are your social/contact links!**/
 .footer-links{
   position: absolute;
-  width: 200px;
-  left: 960px;
+  width: 300px;
+  left: 760px;
   top: 3513.21px;
 
   font-weight: 700;
