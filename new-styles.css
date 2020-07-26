@@ -109,7 +109,7 @@ body{
   .arrow-down-circle {
     position: absolute;
     left: 699px;
-    top: 650px;
+    top: 600px;
     -webkit-animation: bounce 2s infinite ease-in-out;
     -o-animation: bounce 2s infinite ease-in-out;
     -ms-animation: bounce 2s infinite ease-in-out;
@@ -363,8 +363,56 @@ body{
 
 
 
+/**🍦-------------My Journey----------------🍦**/
+.my-journey{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  height: 600px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 430px;
 
+  line-height: 1.8em;
+}
+.journey-container{
+  padding-top: 30px;
+}
+
+.my-journey-title{
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.journey-date{
+  color: #BCBCBC;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.journey-desc a{
+  text-decoration: none;
+  color: #1D1D1D;
+
+  border: solid 3px #95C623;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: 0.5s;
+
+  padding-top: 30px;
+
+  transition: 0.5s;
+}
+
+.journey-desc a:hover{
+  text-decoration: none;
+  color: #95C623;
+
+}
 
 
 /**🍦-------------Footer----------------🍦**/
