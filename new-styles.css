@@ -317,7 +317,7 @@ body{
   height: auto;
   background: #FFFFFF;
   border-radius: 34px;
-  padding: 20px 30px 40px 20px;
+  padding: 20px 20px 40px 20px;
 
   transition: 0.2s;
 }
@@ -358,6 +358,7 @@ body{
 
 .work-desc{
   padding-left: 20px;
+  width: 360px;
 }
 
 
