@@ -1,0 +1,48 @@
+/**👋----------------Mobile-------------------👋**/
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+
+  html{
+    font-size: 15px;
+    line-height: 1.8em;
+  }
+
+  #about-right img {
+    position: absolute;
+    width: 356.66px;
+    height: 356.66px;
+    left: 226.02px;
+    top: 192.67px;
+
+  	transition-duration: 950ms;
+  	transition-property: all;
+  }
+
+  #about-right img:hover {
+  	transform: scale(1.02);
+  	transition: all ease-in-out 950ms;
+  }
+
+  .about-right-title{
+    position: absolute;
+    width: 456.34px;
+    height: 88.68px;
+    left: 656.99px;
+    top: 238.23px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.8em;
+  }
+
+  .about-right-desc{
+    position: absolute;
+    width: 553.61px;
+    height: 180.62px;
+    left: 663.23px;
+    top: 348px;
+
+  }
+}
