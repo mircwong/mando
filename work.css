@@ -1,0 +1,50 @@
+/**👋----------------Mobile-------------------👋**/
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+  .works-title{
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+
+
+.more-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 600px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 600px;
+
+  line-height: 1.8em;
+}
+
+/**this styles the entire card containing the project bc it's a link**/
+.more-works a{
+  padding-top: 12px;
+  text-decoration: none;
+  color: black;
+
+  margin: 2%;
+  padding-bottom: 100px;
+}
+
+
+  .more-works-title{
+    padding-top: 60px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+
+
+  .more-works img{
+    padding-left: 20px;
+    transform:scale(1.1);
+  }
+}
