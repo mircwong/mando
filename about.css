@@ -87,13 +87,35 @@
     position: relative;
     margin: auto;
 
-    padding-left: 40px;
+    padding-right: 40px;
 
     font-size: 80px;
   }
 
 
 
+
+
+
+
+.outside-design{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  width: 960px;
+  left: 210px;
+  top: 1450px;
+
+  padding-bottom: 100px;
+
+}
+
+.outside-design img{
+  object-fit: cover;
+  width: 960px;
+}
 
 
 /**👋----------------Resume Button-------------------👋**/
