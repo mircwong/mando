@@ -7,13 +7,19 @@
   html{
     font-size: 15px;
     line-height: 1.8em;
+
+  }
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #about-right img {
     position: absolute;
     width: 356.66px;
     height: 356.66px;
-    left: 226.02px;
+    left: 190px;
     top: 192.67px;
 
   	transition-duration: 950ms;
@@ -27,9 +33,9 @@
 
   .about-right-title{
     position: absolute;
-    width: 510px;
+    width: 530px;
     height: 88.68px;
-    left: 656.99px;
+    left: 635px;
     top: 238.23px;
 
     font-size: 26px;
@@ -39,22 +45,84 @@
 
   .about-right-desc{
     position: absolute;
-    width: 510px;
+    width: 530px;
     height: 180.62px;
-    left: 663.23px;
+    left: 635px;
     top: 348px;
   }
 
 
-  .more-about-title{
-    position: absolute;
-    width: 990.82px;
-    height: 74.32px;
-    left: 226.02px;
-    top: 622.09px;
 
+
+
+
+.more-about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  width: 960px;
+  left: 210px;
+  top: 650px;
+
+}
+
+  .more-about-title{
     font-size: 20px;
     font-weight: 700;
     line-height: 1.8em;
   }
+
+  .more-about-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+
+    margin-right: 40px;
+  }
+
+  .about-emoji{
+    position: relative;
+    margin: auto;
+
+    padding-left: 40px;
+
+    font-size: 80px;
+  }
+
+
+
+
+
+/**👋----------------Resume Button-------------------👋**/
+
+
+#btn-container{
+	float: left;
+	font-weight: 500;
+  text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	color:  #95C623;
+	letter-spacing: 1px;
+  border: solid 2px #95C623;
+  line-height: 0;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 635px;
+    top: 510px;
+
+    transition: 0.5s;
+}
+
+#btn-container:hover{
+  background-color: #95C623;
+	color: white;
+}
 }
