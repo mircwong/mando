@@ -27,7 +27,7 @@
 
   .about-right-title{
     position: absolute;
-    width: 456.34px;
+    width: 510px;
     height: 88.68px;
     left: 656.99px;
     top: 238.23px;
@@ -39,10 +39,22 @@
 
   .about-right-desc{
     position: absolute;
-    width: 553.61px;
+    width: 510px;
     height: 180.62px;
     left: 663.23px;
     top: 348px;
+  }
 
+
+  .more-about-title{
+    position: absolute;
+    width: 990.82px;
+    height: 74.32px;
+    left: 226.02px;
+    top: 622.09px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.8em;
   }
 }
