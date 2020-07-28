@@ -1,0 +1,165 @@
+/**👋----------------Mobile-------------------👋**/
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+  body{
+    line-height: 1.8em;
+
+    background: none;
+    height: 3000px;
+
+    width: 100%;
+  }
+
+
+/**👋----------------Intro-------------------👋**/
+.intro-bg{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: white;
+  top: 0;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 165.21px;
+
+  line-height: 60px;
+}
+
+.bg-img{
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 20px;
+
+  z-index: -2;
+}
+
+.bg-img img{
+  width: 100%;
+}
+
+#project-date{
+  font-weight: 300;
+  font-size: 20px;
+
+  line-height: 1.8em;
+}
+
+#project-title{
+  font-weight: 700;
+  font-size: 50px;
+
+  margin-bottom: 2%;
+}
+
+#project-description{
+  font-weight: normal;
+  font-size: 20px;
+
+  line-height: 1.8em;
+}
+
+
+/**👋----------------Project Details-------------------👋**/
+.project-details-container{
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  width: 1148.53px;
+  height: 333.87px;
+  left: 145.73px;
+  top: 1010.96px;
+
+
+  z-index: 2;
+
+}
+
+
+.project-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  z-index: 2;
+  margin: 5%;
+
+}
+.details-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  width: 256.24px;
+  height: 333.87px;
+
+  vertical-align: middle;
+
+
+
+}
+
+.detail-title{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.emoji-img{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.details-description{
+  border: solid 2px #E2E2E2;
+  border-radius: 15px;
+  padding: 20px 30px 20px 30px;
+}
+
+/**👋----------------The Story-------------------👋**/
+.storyline-bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  top: 1000px;
+  bottom: 0;
+
+  z-index: 1;
+}
+
+.storyline{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  width: 700px;
+  height: 217.04px;
+
+  left: 25%;
+  top: 400px;
+}
+
+.storyline-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+}
+}
