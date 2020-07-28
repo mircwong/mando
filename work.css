@@ -3,6 +3,13 @@
 
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 1000px)  {
+
+
+
+  body{
+    background: none;
+  }
+  
   .works-title{
     font-size: 26px;
     font-weight: 700;
