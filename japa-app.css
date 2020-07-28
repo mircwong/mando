@@ -229,6 +229,7 @@
 
 .step-description img{
   position: absolute;
+  top: 20%;
   height: 300px;
 
 }
