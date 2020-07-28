@@ -187,4 +187,52 @@
   z-index: 2;
 
 }
+
+/**👋----------------Problem Space-------------------👋**/
+.color-bg{
+  position: absolute;
+  width: 1440px;
+  height: 649.86px;
+  top: 2150px;
+
+  background: #F5A623;
+  z-index: 2;
+
+}
+
+.process-container{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 625px;
+  height: 485.43px;
+
+  color: white;
+}
+
+.small-process-title{
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding-bottom: 40px;
+}
+
+.main-step-title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 158%;
+
+  padding-bottom: 20px;
+}
+
+.step-description{
+  display: flex;
+  flex-direction: row;
+}
+
+.step-description img{
+  position: absolute;
+  height: 300px;
+
+}
 }
