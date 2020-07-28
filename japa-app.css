@@ -10,6 +10,7 @@
     height: 3000px;
 
     width: 100%;
+
   }
 
 
@@ -44,7 +45,7 @@
   left: 0px;
   top: 0px;
 
-  z-index: -2;
+  z-index: -3;
 }
 
 .bg-img img{
@@ -164,5 +165,26 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 80px;
+}
+
+
+/**👋----------------Design Process-------------------👋**/
+.design-process{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+.design-process img{
+  position: absolute;
+  height: 380px;
+  object-fit: cover;
+
+  top: 1680px;
+
+  z-index: 2;
+
 }
 }
