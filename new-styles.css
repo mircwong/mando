@@ -13,15 +13,16 @@ body{
   overflow-x: hidden;
 
   position: absolute;
-  width: 1440px;
-  height: 3810.23px;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 0px;
 
+  margin-left: auto;
+  margin-right: auto;
+
   background: url(images/Site/bgimg.png);
 }
-
-/**🍎--------------Background img----------------🍎**/
 
 
 
@@ -116,8 +117,10 @@ body{
 
   .arrow-down-circle {
     position: absolute;
-    left: 699px;
+    left: 50%;
     top: 550px;
+
+
     -webkit-animation: bounce 2s infinite ease-in-out;
     -o-animation: bounce 2s infinite ease-in-out;
     -ms-animation: bounce 2s infinite ease-in-out;
@@ -154,14 +157,14 @@ body{
 /**this is to position your landing about section**/
   .landing-about{
     width: 650px;
-    height: 158px;
+    height: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+
   }
 
 /**this is for styling your landing about title**/
@@ -279,7 +282,7 @@ body{
 /**here is where you can edit the main project highlight**/
 
 .main-work-container{
-  width: 870px;
+  width: 840px;
   height: auto;
   background: #FFFFFF;
   border-radius: 34px;
@@ -296,7 +299,7 @@ body{
 .main-work-container img{
 
   border-radius: 34px;
-  width: 870px;
+  width: 840px;
   height: auto;
 
 }
@@ -316,6 +319,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 
