@@ -248,7 +248,6 @@
 /**👋----------------Current Experience------------------👋**/
 .current-experience-container{
   display: flex;
-  flex-direction: row;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -286,7 +285,7 @@
 }
 
 .current-experience-img img{
-  position: absolute;
+  position: relative;
   width: auto;
   height: 400px;
 
@@ -302,10 +301,12 @@
 
 /**👋----------------Problem------------------👋**/
 .problem-container{
-  position: absolute;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 1000px;
   height: 373.05px;
-  top: 3100px;
+  top: 1600px;
 
   z-index: 2;
 }
@@ -321,18 +322,22 @@
 /**👋----------------Opportunity------------------👋**/
 
 .opportunity-container{
-  position: absolute;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 1000px;
   height: 373.05px;
   z-index: 2;
-  top: 3450px
+  top: 1630px
 }
 
 /**👋----------------Solution------------------👋**/
 
 .solution-container{
   position: relative;
-  top: 3340px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 1160px;
 
   z-index: 2;
 
