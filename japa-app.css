@@ -7,7 +7,7 @@
     line-height: 1.8em;
 
     background: none;
-    height: 3000px;
+    height: 6000px;
 
     width: 100%;
   }
@@ -299,7 +299,7 @@
   width: 1000px;
   height: 373.05px;
   left: 12%;
-  top: 3100px;;
+  top: 3100px;
 
   z-index: 2;
 }
@@ -310,5 +310,46 @@
   line-height: 158%;
 
   padding-bottom: 15px;
+}
+
+/**👋----------------Opportunity------------------👋**/
+
+.opportunity-container{
+  position: absolute;
+  width: 1000px;
+  height: 373.05px;
+  left: 12%;
+  z-index: 2;
+  top: 3450px
+}
+
+/**👋----------------Solution------------------👋**/
+
+.solution-container{
+  position: relative;
+  top: 3340px;
+
+  z-index: 2;
+
+}
+
+.redesign-banner{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  top: 700px;
+
+  max-width: 100%;
+
+}
+
+.redesign-banner img{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 840px;
+
 }
 }
