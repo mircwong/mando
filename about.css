@@ -15,11 +15,22 @@
     margin-right: auto;
   }
 
+.about-container{
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  width: 1000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
   #about-right img {
-    position: absolute;
+    position: relative;
     width: 356.66px;
     height: 356.66px;
-    left: 190px;
     top: 192.67px;
 
   	transition-duration: 950ms;
@@ -31,12 +42,18 @@
   	transition: all ease-in-out 950ms;
   }
 
+.about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
   .about-right-title{
-    position: absolute;
-    width: 530px;
-    height: 88.68px;
-    left: 635px;
-    top: 238.23px;
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 50px;
+    top: 152px;
 
     font-size: 26px;
     font-weight: 700;
@@ -44,11 +61,11 @@
   }
 
   .about-right-desc{
-    position: absolute;
-    width: 535px;
-    height: 180.62px;
-    left: 635px;
-    top: 348px;
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 50px;
+    top: 170px;
   }
 
 
@@ -61,10 +78,11 @@
   flex-direction: column;
   justify-content: center;
 
-  position: absolute;
-  width: 960px;
-  left: 210px;
-  top: 650px;
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 300px;
 
 }
 
@@ -80,7 +98,8 @@
     justify-content: center;
     padding-top: 50px;
 
-    margin-right: 40px;
+    width: 850px;
+
   }
 
   .about-emoji{
@@ -103,10 +122,11 @@
   flex-direction: column;
   justify-content: center;
 
-  position: absolute;
-  width: 960px;
-  left: 210px;
-  top: 1450px;
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 450px;
 
   padding-bottom: 100px;
 
@@ -114,7 +134,7 @@
 
 .outside-design img{
   object-fit: cover;
-  width: 960px;
+  width: 1000px;
 }
 
 
@@ -134,11 +154,11 @@
   border: solid 2px #95C623;
   line-height: 0;
 
-    position: absolute;
+    position: relative;
     width: auto;
     height: auto;
-    left: 635px;
-    top: 510px;
+    left: 655px;
+    top: 130px;
 
     transition: 0.5s;
 }
