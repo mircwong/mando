@@ -206,6 +206,8 @@
   height: 485.43px;
 
   color: white;
+
+  z-index: 2;
 }
 
 .small-process-title{
@@ -260,11 +262,11 @@
 
 }
 
-.current-experience{
+.small-text-title{
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   color: #F5A623;
 }
 
@@ -288,4 +290,25 @@
   padding-left: 50px;
 }
 
+
+
+
+/**👋----------------Problem------------------👋**/
+.problem-container{
+  position: absolute;
+  width: 1000px;
+  height: 373.05px;
+  left: 12%;
+  top: 3100px;;
+
+  z-index: 2;
+}
+
+.problem-title{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 158%;
+
+  padding-bottom: 15px;
+}
 }
