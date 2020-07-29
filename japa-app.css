@@ -10,7 +10,6 @@
     height: 3000px;
 
     width: 100%;
-
   }
 
 
@@ -166,6 +165,7 @@
 
 
 /**👋----------------Design Process-------------------👋**/
+/**
 .design-process{
   display: flex;
   justify-content: center;
@@ -184,13 +184,14 @@
   z-index: 2;
 
 }
+**/
 
 /**👋----------------Problem Space-------------------👋**/
 .color-bg{
   position: absolute;
   width: 1440px;
   height: 649.86px;
-  top: 2150px;
+  top: 1750px;
 
   background: #F5A623;
   z-index: 2;
@@ -232,5 +233,59 @@
   top: 20%;
   height: 300px;
 
+
 }
+
+
+/**👋----------------Current Experience------------------👋**/
+.current-experience-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: absolute;
+  width: 800px;
+  left: 10%;
+  top: 2563.1px;
+
+  z-index: 2;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 470px;
+
+}
+
+.current-experience{
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  color: #F5A623;
+}
+
+.current-experience-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 158%;
+
+  padding-bottom: 15px;
+}
+
+.current-experience-img img{
+  position: absolute;
+  width: auto;
+  height: 400px;
+
+  filter: drop-shadow(3px 4px 20px rgba(0, 0, 0, 0.15));
+}
+
+.current-experience-img{
+  padding-left: 50px;
+}
+
 }
