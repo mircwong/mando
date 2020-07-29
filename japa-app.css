@@ -7,6 +7,7 @@
     line-height: 1.8em;
 
     background: none;
+    background-color: white;
     height: 6000px;
 
     width: 100%;
@@ -72,6 +73,7 @@
 
 
 /**👋----------------Project Details-------------------👋**/
+
 .project-details-container{
   display: flex;
   flex-direction: row;
@@ -195,7 +197,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  width: 100%;
   height: 649.86px;
   top: 1400px;
 
@@ -205,7 +207,7 @@
 }
 
 .process-container{
-  position: absolute;
+  position: relative;
   left: 10%;
   top: 10%;
   width: 625px;
@@ -246,6 +248,10 @@
 
 
 /**👋----------------Current Experience------------------👋**/
+.background{
+  background-color: white;
+  height: 8000px;
+}
 .current-experience-container{
   display: flex;
   justify-content: center;
