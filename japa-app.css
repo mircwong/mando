@@ -151,11 +151,13 @@
   flex-direction: column;
   justify-content: center;
 
-  position: absolute;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 700px;
   height: 217.04px;
 
-  left: 25%;
+
   top: 400px;
 }
 
@@ -190,10 +192,12 @@
 
 /**👋----------------Problem Space-------------------👋**/
 .color-bg{
-  position: absolute;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 1440px;
   height: 649.86px;
-  top: 1750px;
+  top: 1400px;
 
   background: #F5A623;
   z-index: 2;
@@ -246,11 +250,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: auto;
 
-  position: absolute;
-  width: 800px;
-  left: 10%;
-  top: 2563.1px;
+  top: 1500px;
 
   z-index: 2;
 }
