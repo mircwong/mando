@@ -87,12 +87,16 @@
 }
 
   .more-about-title{
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.8em;
   }
 
   .more-about-desc{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -142,7 +146,7 @@
 
 
 #btn-container{
-	float: left;
+  float: left;
 	font-weight: 500;
   text-align: center;
 	text-decoration: none;
@@ -157,8 +161,8 @@
     position: relative;
     width: auto;
     height: auto;
-    left: 655px;
-    top: 130px;
+    left: 50px;
+    top: 200px;
 
     transition: 0.5s;
 }
