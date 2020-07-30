@@ -477,6 +477,14 @@
   top: 1800px;
 }
 
+.process-container{
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+
+  position: relative;
+  top: 2000px;
+}
 .process-title{
   margin-left: auto;
   margin-right: auto;
