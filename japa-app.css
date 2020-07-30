@@ -361,12 +361,9 @@
 
 .redesign-banner{
   position: relative;
-  width: auto;
-  height: auto;
   top: 500px;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 
 }
 
@@ -376,6 +373,9 @@
   flex-direction: column;
   justify-content: center;
   height: 840px;
+
+  margin-right: auto;
+  margin-left: auto;
 
 }
 
