@@ -136,6 +136,12 @@
   height: 120px;
 }
 
+
+.details-description a{
+  text-decoration: none;
+  color: #F5A623;
+}
+
 /**👋----------------The Story-------------------👋**/
 .storyline-bg{
   position: absolute;
