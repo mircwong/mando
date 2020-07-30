@@ -250,7 +250,7 @@
 /**👋----------------Current Experience------------------👋**/
 .background{
   background-color: white;
-  height: 8000px;
+  height: 18000px;
 }
 .current-experience-container{
   display: flex;
@@ -441,6 +441,8 @@
 .break-down-text{
   margin-left: 2%;
   margin-right: 2%;
+
+  width: 400px;
 }
 
 .break-down-title{
