@@ -523,12 +523,13 @@
 .process-heading{
   font-size: 30px;
   font-weight: 700;
-  line-height: 1.8em;
+  line-height: 1.3em;
+  padding-bottom: 20px;
 }
 
 .process-text{
     width: 480px;
-    margin-left: 1%;
+    padding-left: 60px;
 }
 
 }
