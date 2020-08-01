@@ -563,4 +563,20 @@
   flex-direction: column;
   justify-content: center;
 }
+
+
+
+/**👋----------------Reflection------------------👋**/
+.reflection{
+  background-color: #F5A623;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+  height: 300px;
+  top: 90px;
+}
 }
