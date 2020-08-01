@@ -535,6 +535,9 @@
     padding-left: 60px;
 }
 
+
+
+/**👋----------------Personas------------------👋**/
 .persona-img img{
   height: 230px;
   margin: 5%;
@@ -542,4 +545,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+
+/**👋----------------Golden Path------------------👋**/
+.goldenpath-img img{
+  height: 170px;
+  margin: 2%;
+
+}
+
+
+
 }
