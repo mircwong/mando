@@ -10,12 +10,12 @@ vertical-align: baseline;
 }
 
 #nav{
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 body{
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
 
 }
 
@@ -192,7 +192,7 @@ body{
 }
 /**
 .proj-title{
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
   position: absolute;
@@ -226,7 +226,7 @@ body{
 }
 
 .details-desc, .step-desc, .subtitle-span{
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: gray;
@@ -295,14 +295,14 @@ body{
 }
 
 .step-title, .subtitle{
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 6px;
 }
 
 .question-title{
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -321,7 +321,7 @@ body{
 
 .left-side, .right-side{
   max-width: 400px;
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: gray;
