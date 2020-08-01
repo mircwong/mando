@@ -538,7 +538,7 @@
 
 
 /**👋----------------Personas------------------👋**/
-.persona-img img{
+.double-img img{
   height: 230px;
   margin: 5%;
   display: flex;
@@ -555,5 +555,12 @@
 }
 
 
-
+/**👋----------------How Might We's and Affinity Mapping------------------👋**/
+.double-img2 img{
+  height: 330px;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 }
