@@ -71,6 +71,12 @@
   line-height: 1.8em;
 }
 
+#project-description a{
+  font-weight: 700;
+  text-decoration: none;
+  color:#F5A623;
+}
+
 
 /**👋----------------Project Details-------------------👋**/
 
