@@ -560,12 +560,26 @@
 }
 
 
-/**👋----------------Golden Path------------------👋**/
-.goldenpath-img img{
-  height: 170px;
-  margin: 2%;
+/**👋---------------Iterations------------------👋**/
+.iteration-comments{
+  position: relative;
+  top: 10px;
+
+  margin: 0;
+}
+
+.iteration-comments img{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 440px;
+
+  margin-right: auto;
+  margin-left: auto;
 
 }
+
 
 
 /**👋----------------How Might We's and Affinity Mapping------------------👋**/
