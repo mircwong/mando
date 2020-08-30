@@ -11,7 +11,7 @@
   }
 
   .selected-works{
-    margin-top: 500px;
+    padding-top: 250px;
   }
 
   .works-title{
@@ -30,7 +30,7 @@
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 500px;
+  margin-top: 800px;
 
   line-height: 1.8em;
 }
