@@ -213,7 +213,7 @@ body{
   }
 
   .selected-works-desc{
-    width: 500px;
+    width: 386px;
   }
 
   .see-all-btn{
@@ -270,14 +270,14 @@ body{
   .main-work-container img{
 
     border-radius: 15px;
-    width: 840px;
+    width: 386px;
     height: auto;
 
   }
 
   .main-work-desc{
     padding-left: 20px;
-    width: 600px;
+    width: 386px;
   }
 
   .main-work-btn{
@@ -306,9 +306,6 @@ body{
     transition: 0.2s;
   }
 
-  .work-container:hover{
-      box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
-  }
 
   .work-container img{
     height: 300px;
@@ -423,7 +420,6 @@ body{
     position: absolute;
     width: 386px;
     height: 48px;
-    left: 161px;
     top: 5150px;
 
     font-style: normal;
@@ -435,7 +431,6 @@ body{
     .footer-desc{
     position: absolute;
     width: 386px;
-    left: 161px;
     top: 5300px;
 
     font-style: normal;
@@ -452,8 +447,7 @@ body{
   .footer-links{
     position: absolute;
     width: 300px;
-    left: 900px;
-    top: 3754px;
+    top: 5500px;
 
     font-weight: 700;
     font-size: 20px;
