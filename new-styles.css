@@ -89,8 +89,7 @@ body{
   .pop-up-desc{
     position: absolute;
     width: 330.4px;
-    top: 10px;
-    left: 700px;
+    top: 200px;
 
     font-style: italic;
     font-size: 0.8em;
