@@ -47,7 +47,7 @@
     margin-right: auto;
   }
 
-  .selected-works{
+  .selected-works, .my-journey{
     width: 80vw;
     max-width: 1400px;
     min-height: auto;
@@ -106,6 +106,11 @@
     min-height: 50px;
   }
 
+  .spacing-30{
+    max-height: 30px;
+    min-height: 30px;
+  }
+
   /**🍓----Text Styles----🍓**/
   /**this is for styling your index titles, descriptions, etc**/
 
@@ -123,7 +128,8 @@
     line-height: 1.5em;
 
   }
-  .index-about-title, .selected-works-title{
+  .index-about-title, .selected-works-title, .my-journey-title{
+    font-family: "Chivo", sans-serif;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 400;
@@ -131,7 +137,8 @@
   }
 
   /**this is for styling your index about description**/
-  .index-about-desc, .selected-works-desc{
+  .index-about-desc, .selected-works-desc, .journey-date{
+    font-family: "Inter", sans-serif;
     padding-top: 30px;
     line-height:1.8em;
     font-size: 1em;
@@ -145,6 +152,7 @@
   }
 
   .pop-up-desc{
+    font-family: "Inter", sans-serif;
     position: absolute;
     width: 670px;
     top: 200px;
@@ -156,6 +164,11 @@
     transition: visibility 1s, opacity 0.5s linear;
   }
 
+  .selected-works-blurb{
+    font-family: "Inter", sans-serif;
+    padding-bottom: 50px;
+  }
+
   .work-uppercase{
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -163,13 +176,25 @@
 
   .work-title{
     font-size: 1.5em;
+    font-weight: 700;
     padding-bottom: 10px;
   }
 
   .work-details{
+    font-family: "Inter", sans-serif;
     padding-bottom: 20px;
   }
 
+
+  .journey-date{
+    color: #BCBCBC;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .journey-desc{
+    font-family: "Inter", sans-serif;
+  }
 
 
   /**🍓----Line Breaks----🍓**/
@@ -186,6 +211,7 @@
 
   /**🍑----Buttons----🍑**/
   .read-story-btn, .see-all-btn{
+    font-family: "Chivo", sans-serif;
   	text-align: left;
   	float: left;
   	text-decoration: none;
@@ -220,9 +246,7 @@
   }
 
   /**this styles the part before the projects where it says "Selected WorK" + description**/
-  .selected-works-blurb{
-    padding-bottom: 50px;
-  }
+
 
   .see-all-btn a{
     text-decoration: none;
@@ -234,13 +258,7 @@
     border-color: #95C623;
   }
 
-/*******************Work*********************/
-
-
-
-
-
-  /**this styles the entire card containing the project bc it's a link**/
+  /**🍌----Links----🍌**/
   .selected-works a{
     padding-top: 12px;
     text-decoration: none;
@@ -248,64 +266,21 @@
     margin: 2%;
   }
 
-
-  /**🥞----My Journey----🥞**/
-  .my-journey{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 600px;
-    width: 386px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1200px;
-
-    line-height: 1.8em;
-  }
-  .journey-container{
-    padding-top: 30px;
-  }
-
-  .my-journey-title{
-    font-size: 26px;
-    font-weight: 700;
-    padding-bottom: 50px;
-  }
-
-  .journey-date{
-    color: #BCBCBC;
-    text-transform: uppercase;
-    font-size: 13px;
-  }
-
   .journey-desc a{
     text-decoration: none;
     color: #1D1D1D;
-
-    border: solid 3px #95C623;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    transition: 0.5s;
-
     padding-top: 30px;
-
     transition: 0.5s;
   }
 
   .journey-desc a:hover{
     text-decoration: none;
     color: #95C623;
-
   }
 
 
 
-
-
-
-  /**🍦-------------Footer----------------🍦**/
+  /**🍦----Footer----🍦**/
   footer{
     width: 386px;
 
