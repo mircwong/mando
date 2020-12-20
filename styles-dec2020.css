@@ -197,7 +197,7 @@
   }
 
 
-  /**🍓----Line Breaks----🍓**/
+  /**🍙----Line Breaks----🍙**/
   /**this is for styling your line breaks or borders**/
   .line-break{
     border-style: solid;
@@ -258,7 +258,7 @@
     border-color: #95C623;
   }
 
-  /**🍌----Links----🍌**/
+  /**🍰----Links----🍰**/
   .selected-works a{
     padding-top: 12px;
     text-decoration: none;
@@ -282,49 +282,34 @@
 
   /**🍦----Footer----🍦**/
   footer{
-    width: 386px;
-
+    width: 80vw;
+    max-width: 1400px;
+    height: 70vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: left;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .footer-title{
-    position: absolute;
-    width: 386px;
-    height: 48px;
-    top: 5150px;
-
     font-style: normal;
     font-weight: 700;
     font-size: 29px;
-    line-height: 158.8%;
+    line-height: 1;
   }
 
     .footer-desc{
-    position: absolute;
-    width: 386px;
-    top: 5300px;
-
-    font-style: normal;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 14px;
-    line-height: 158.8%;
-
-    padding-bottom: 100px;
+    line-height: 1.5;
   }
-
 
 
   /**here are your social/contact links!**/
   .footer-links{
-    position: absolute;
-    width: 300px;
-    top: 5500px;
-
     font-weight: 700;
     font-size: 20px;
     line-height: 158.8%;
@@ -340,13 +325,13 @@
     	opacity: 25%;
 
     	transition-property: all;
-    	transition-duration: 0.5s;
+    	transition-duration: 0.1s;
     }
 
     .footer-link-img img:hover{
     	transform: scale(0.85);
     	opacity: 90%;
-    	transition: all ease-in-out 0.25s
+    	transition: all ease-in-out 0.1s
     }
 
 
