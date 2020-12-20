@@ -27,7 +27,7 @@
     width: 150vw;
     max-width: 600px;
     height: 30vh;
-    min-height: 800px;
+    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,14 +39,14 @@
 
 
   .header-title{
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
     margin-left: auto;
     margin-right: auto;
   }
 
   .header-subtitle{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 1.5em;
 
@@ -78,10 +78,7 @@
     position: absolute;
     width: 670px;
     top: 200px;
-
-    font-style: italic;
     font-size: 0.8em;
-
     visibility: hidden;
     opacity: 0;
     cursor: pointer;
@@ -91,7 +88,7 @@
 
   .pop-up-title{
     font-size: .6em;
-    font-style: normal;
+    font-weight: 400;
     text-transform: uppercase;
     padding-bottom: 20px;
   }
@@ -112,8 +109,7 @@
 
   /**this is to position your index about section**/
     .index-about{
-      width: 150vw;
-      max-width: 600px;
+      max-width: 400px;
       height: 30vh;
       min-height: 600px;
       display: flex;
@@ -124,26 +120,28 @@
     }
 
   /**this is for styling your index about title**/
-    .index-about-title{
-      font-size: 20px;
-      font-weight: 700;
+    .index-about-title, .selected-works-title{
+      text-transform: uppercase;
+      font-size: 1.5em;
+      font-weight: 400;
       line-height: 1.8em;
     }
 
     /**this is for styling your index about description**/
-    .index-about-desc{
+    .index-about-desc, .selected-works-desc{
       padding-top: 30px;
       line-height:1.8em;
+      font-size: 1em;
     }
 
     /**this is for styling your read full story button**/
 
-    .read-story-btn{
+    .read-story-btn, .see-all-btn{
     	text-align: left;
     	float: left;
     	text-decoration: none;
-    	font-size: 15px;
-    	color:  #BCBCBC;
+    	font-size: 1em;
+    	color:  #CE796B;
     	letter-spacing: 1px;
       text-transform: uppercase;
       line-height: 0;
@@ -161,17 +159,20 @@
   /**🍌-------------Selected Work----------------🍌**/
 
   .selected-works{
+    max-width: 400px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    height: 600px;
-    width: 386px;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 950px;
 
-    line-height: 1.8em;
+    border-style: solid;
+    border-width: 0;
+    border-color: #121619;
+    border-bottom-width: 1px;
+    background-color: none;
+  	padding-bottom:10px;
   }
 
   /**this styles the part before the projects where it says "Selected WorK" + description**/
@@ -179,41 +180,8 @@
     padding-bottom: 50px;
   }
 
-  .selected-works-title{
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 20px;
-  }
-
-  .selected-works-desc{
-    width: 386px;
-  }
-
-  .see-all-btn{
-    text-align: center;
-    float: left;
-    text-decoration: none;
-    font-size: 15px;
-    color:  #BCBCBC;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 0;
-
-
-    border: solid 3px #e2e2e2;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    transition: 0.5s;
-
-    padding-top: 30px;
-
-    transition: 0.2s;
-  }
-
   .see-all-btn a{
     text-decoration: none;
-
   }
 
   .see-all-btn:hover{
@@ -222,67 +190,46 @@
     border-color: #95C623;
   }
 
-
-  /**here is where you can edit the main project highlight**/
-
-  .main-work-container{
-    width: 840px;
-    height: auto;
-    background: #FFFFFF;
-    border-radius: 15px;
-    padding: 30px 30px 40px 30px;
-
-    transition: 0.4s;
-  }
-
-  .main-work-container:hover{
-      box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
-
-  }
-
-  .main-work-container img{
-
-    border-radius: 15px;
-    width: 386px;
-    height: auto;
-
-  }
-
-  .main-work-desc{
-    padding-left: 20px;
-    width: 386px;
-  }
-
-  .main-work-btn{
-    position: absolute;
-    left: 73.8%;
-    top: 45.78%;
-  }
-  /**this is for ordering the rest of the project cards on the page aka in a row**/
-  .work-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-  }
-
+/*******************Work*********************/
 
 
   /**this styles the drop shadow card that contains the project**/
-  .work-container{
-    width: 386px;
-    height: auto;
-    background: #FFFFFF;
-    border-radius: 15px;
+  #work-container{
+    padding-top: 300px;
+  }
+
+  .work{
+    width: 60vw;
+    height: 15vh;
     padding: 20px 20px 40px 20px;
-
     transition: 0.2s;
+    line-height: 1.4;
+
+    border-style: solid;
+    border-width: 0;
+    border-color: #121619;
+    border-bottom-width: 1px;
+    background-color: none;
+    padding-bottom:10px;
+
+    margin-right: auto;
+    margin-left: auto;
   }
 
-
-  .work-container img{
-    height: 300px;
+  .work-uppercase{
+    text-transform: uppercase;
+    padding-bottom: 20px;
   }
+
+  .work-title{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+
+  .work-details{
+    padding-bottom: 20px;
+  }
+
 
   /**this styles the entire card containing the project bc it's a link**/
   .selected-works a{
@@ -292,32 +239,6 @@
 
     margin: 2%;
   }
-
-
-  .work-date{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    text-transform: uppercase;
-    font-size: 13px;
-  }
-
-  /**this is the project title and description**/
-  .work-title{
-    font-size: 23px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-
-  .work-desc{
-    padding-left: 20px;
-    width: 360px;
-  }
-
-
-
-
 
 
 
@@ -548,11 +469,8 @@ body{
     width: 330.4px;
     top: 10px;
     left: 700px;
-
-    font-style: italic;
     font-size: 0.8em;
     line-height: 158.8%;
-
     visibility: hidden;
     opacity: 0;
     cursor: pointer;
