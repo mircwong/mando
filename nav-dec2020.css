@@ -1,0 +1,49 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #F7F9F7;
+	position: fixed;
+  width: 100vw;
+  z-index: 15;
+	border-style: solid;
+  border-width: 0;
+  border-color: #121619;
+  border-bottom-width: 1px;
+  background-color: none;
+	padding-bottom:10px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #navlinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #121619;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+	text-align: left;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+/* Add an active class to highlight the current page */
+.topnav a:active {
+  color: #CE796B;
+  text-decoration: underline;
+}
+
+#navlinks .active{
+	color: #CE796B;
+}
