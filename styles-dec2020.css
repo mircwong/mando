@@ -14,6 +14,10 @@
     font-family: san-serif, "Chivo";
     color: #121619;
     overflow-x: hidden;
+    transition: background-color .2s, color 1s;
+  }
+
+  header{
   }
 
 /**🍎*****Containers*****🍎**/
@@ -187,6 +191,7 @@
 
 
   .journey-date{
+    font-family: "Chivo", sans-serif;
     color: #BCBCBC;
     text-transform: uppercase;
     font-size: 13px;
@@ -254,7 +259,7 @@
 
   .see-all-btn:hover{
     text-decoration: none;
-    color: #95C623;
+    color: #CE796B;
     border-color: #95C623;
   }
 
@@ -267,15 +272,15 @@
   }
 
   .journey-desc a{
+    color: #121619;
     text-decoration: none;
-    color: #1D1D1D;
     padding-top: 30px;
     transition: 0.5s;
   }
 
   .journey-desc a:hover{
     text-decoration: none;
-    color: #95C623;
+    color: #CE796B;
   }
 
 
@@ -319,20 +324,38 @@
     text-decoration: none;
   }
 
-  .footer-link-img img{
-    	height: 32px;
-    	padding: 10px 15px 0 0;
-    	opacity: 25%;
-
-    	transition-property: all;
-    	transition-duration: 0.1s;
+  .footer-link-icons i{
+    color: #121619;
+  	height: 32px;
+  	padding: 10px 15px 0 0;
+  	transition-property: all;
+  	transition-duration: 0.1s;
     }
 
-    .footer-link-img img:hover{
+    .footer-link-icons i:hover{
     	transform: scale(0.85);
-    	opacity: 90%;
     	transition: all ease-in-out 0.1s
     }
+
+/***----Dark Mode----***/
+.darkmode{
+  color: #F7F9F7;
+  background-color: #121619;
+}
+
+.darkmode a{
+  color: #F7F9F7;
+}
+
+.darkmode i{
+  color: #F7F9F7;
+
+}
+
+  #dark-mode-toggle i{
+  transform: scale(1.4);
+}
+
 
 
 }

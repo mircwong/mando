@@ -22,11 +22,12 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-171077534-1');
-</script>
+	</script>
 
-</head>
+	</head>
 
-<body>
+	<body>
+
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -48,34 +49,41 @@
 
 
 		<header>
+			<div class="spacing-150"></div>
 		<div id="top-container">
 			<div class="index-container">
 			<div class="header-intro">
-				<div data-aos="fade-up" class="header-title">Miranda Wong<sup style="color:#CE796B;">*</sup></div>
-				<div data-aos="fade-up" class="header-subtitle">
-        		<a class="personal-title">/product designer
-						<div class="pop-up-desc">
-						<div class="pop-up-title">
-						currently designing at OpenMeal
-						</div>
-						excited about exploring ways to improve public life through simple and gratifying experiences.
-						</div>
-						</a>
-						<br>
-						<a class="personal-title">/amateur baker
-						<div class="pop-up-desc">
-						<div class="pop-up-title">
-						currently practicing with my KitchenAid
-						</div>
-						building relationships and sharing stories over something sweet.
-						</div>
-						</a>
+				<div id="dark-mode-toggle">
+					<i class="fa fa-adjust"></i>
 				</div>
+			<div class="spacing-50"></div>
+			<div data-aos="fade-up" class="header-title">Miranda Wong<sup style="color:#CE796B;">*</sup></div>
+			<div data-aos="fade-up" class="header-subtitle">
+  		<a class="personal-title">/product designer
+			<div class="pop-up-desc">
+			<div class="pop-up-title">
+			currently designing at OpenMeal
+			</div>
+			excited about exploring ways to improve public life through simple and gratifying experiences.
+			</div>
+			</a>
+			<br>
+			<a class="personal-title">/amateur baker
+			<div class="pop-up-desc">
+			<div class="pop-up-title">
+			currently practicing with my KitchenAid
+			</div>
+			building relationships and sharing stories over something sweet.
+			</div>
+			</a>
+			</div>
 			</div>
 			<div class="spacing-150"></div>
 			<div data-aos="fade-up" class="arrow-down">&#8595;</div></div>
 		</div>
 		</header>
+
+		<div class="spacing-100"></div>
 
 		<div data-aos="fade-up" class="index-about">
 			<div class="index-about-title">Nice to meet you</div>
@@ -211,6 +219,7 @@
 
 	<div class="spacing-150"></div>
 	<div class="line-break"></div>
+	<div class="spacing-50"></div>
 
 
 	<footer>
@@ -235,18 +244,18 @@
 		<div class="footer-links">
 		Want to stay in touch?
 
-		<div class="footer-link-img">
+		<div class="footer-link-icons">
 
 			<a target=”_blank” href="mailto:mirandaawong11@gmail.com">
-  				<img src="images/Site/email.png" alt="email">
+  				<i class="fa fa-paper-plane"></i>
   			</a>
 
 			<a target=”_blank” href="https://www.linkedin.com/in/miranda-cwong/">
-  				<img src="images/Site/linkedin.png" alt="linkedin">
+  				<i class="fa fa-linkedin"></i>
   			</a>
 
 			<a target=”_blank” href="https://instagram.com/mirandaawong">
-  				<img src="images/Site/ig.png" alt="ig">
+  			<i class="fa fa-instagram"></i>
   			</a>
 
 		</div>
@@ -257,6 +266,7 @@
 
 
 	</footer>
+
 
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="aos.js"></script>
@@ -277,6 +287,32 @@
 	  }
 	}
 	</script>
+
+	<script>
+	let darkMode = localStorage.getItem("darkMode");
+
+	function enableDarkMode() {
+	document.body.classList.add("darkmode");
+	localStorage.setItem("darkMode", "enabled");
+	}
+
+	function disableDarkMode() {
+	document.body.classList.remove("darkmode");
+	localStorage.setItem("darkMode", null);
+	}
+
+	if (darkMode === "enabled") {
+	enableDarkMode();
+	}
+
+	// Listeners
+
+	const darkModeToggle = document.querySelector("#dark-mode-toggle");
+	darkModeToggle.addEventListener("click", () => {
+	darkMode = localStorage.getItem("darkMode");
+	darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
+	});
+</script>
 
 </body>
 
