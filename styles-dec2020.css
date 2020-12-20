@@ -16,17 +16,12 @@
     overflow-x: hidden;
   }
 
-/**🍎--------------index Page Intro----------------🍎**/
-
-    header{
-      height: 900px;
-    }
-
-    #top-container{
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-    }
+/**🍎*****Containers*****🍎**/
+  #top-container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
   .index-container{
@@ -42,23 +37,35 @@
     margin-right: auto;
   }
 
-
-
-  .header-title{
-    font-size: 2.5em;
-    font-weight: 700;
+  .index-about{
+    width: 80vw;
+    max-width: 1400px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
   }
 
-  .header-subtitle{
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5em;
-
+  .selected-works{
+    width: 80vw;
+    max-width: 1400px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  #work-container{
+    width: 80vw;
+    max-width: 1400px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /**title styles here!**/
 /*
@@ -81,6 +88,62 @@
   }
 */
 
+
+  /**🥑----Spacing----🥑**/
+
+  .spacing-150{
+    max-height: 150px;
+    min-height: 150px;
+  }
+
+  .spacing-100{
+    max-height: 100px;
+    min-height: 100px;
+  }
+
+  .spacing-50{
+    max-height: 50px;
+    min-height: 50px;
+  }
+
+  /**🍓----Text Styles----🍓**/
+  /**this is for styling your index titles, descriptions, etc**/
+
+  .header-title{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .header-subtitle{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+
+  }
+  .index-about-title, .selected-works-title{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.8em;
+  }
+
+  /**this is for styling your index about description**/
+  .index-about-desc, .selected-works-desc{
+    padding-top: 30px;
+    line-height:1.8em;
+    font-size: 1em;
+  }
+
+  .pop-up-title{
+    font-size: .6em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+
   .pop-up-desc{
     position: absolute;
     width: 670px;
@@ -93,13 +156,47 @@
     transition: visibility 1s, opacity 0.5s linear;
   }
 
-  .pop-up-title{
-    font-size: .6em;
-    font-weight: 400;
+  .work-uppercase{
     text-transform: uppercase;
     padding-bottom: 20px;
   }
 
+  .work-title{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+
+  .work-details{
+    padding-bottom: 20px;
+  }
+
+
+
+  /**🍓----Line Breaks----🍓**/
+  /**this is for styling your line breaks or borders**/
+  .line-break{
+    border-style: solid;
+    border-width: 0;
+    border-color: #121619;
+    border-bottom-width: 1px;
+    background-color: none;
+    padding-bottom:10px;
+  }
+
+
+  /**🍑----Buttons----🍑**/
+  .read-story-btn, .see-all-btn{
+  	text-align: left;
+  	float: left;
+  	text-decoration: none;
+  	font-size: 1em;
+  	color:  #CE796B;
+  	letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 0;
+  	transition: 0.5s;
+    padding-top: 30px;
+  }
 
   .arrow-down{
     display: flex;
@@ -108,71 +205,12 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
-    padding-top: 80px;
   }
 
-
-  /**🥑--------------index Page About----------------🥑**/
-
-  /**this is to position your index about section**/
-    .index-about{
-      width: 80vw;
-      max-width: 1400px;
-      min-height: auto;
-      display: flex;
-      flex-direction: column;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-  /**this is for styling your index about title**/
-    .index-about-title, .selected-works-title{
-      text-transform: uppercase;
-      font-size: 1.5em;
-      font-weight: 400;
-      line-height: 1.8em;
-    }
-
-    /**this is for styling your index about description**/
-    .index-about-desc, .selected-works-desc{
-      padding-top: 30px;
-      line-height:1.8em;
-      font-size: 1em;
-    }
-
-    /**this is for styling your read full story button**/
-
-    .read-story-btn, .see-all-btn{
-    	text-align: left;
-    	float: left;
-    	text-decoration: none;
-    	font-size: 1em;
-    	color:  #CE796B;
-    	letter-spacing: 1px;
-      text-transform: uppercase;
-      line-height: 0;
-    	transition: 0.5s;
-      padding-top: 30px;
-    }
+  /**🍌----Selected Work----🍌**/
 
 
-
-
-
-
-
-
-  /**🍌-------------Selected Work----------------🍌**/
-
-  .selected-works{
-    width: 80vw;
-    max-width: 1400px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-
+  .line-break{
     border-style: solid;
     border-width: 0;
     border-color: #121619;
@@ -199,48 +237,7 @@
 /*******************Work*********************/
 
 
-  /**this styles the drop shadow card that contains the project**/
-  #work-container{
-    width: 80vw;
-    max-width: 1400px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .work{
-    width: 60vw;
-    height: 15vh;
-    padding: 20px 20px 40px 20px;
-    transition: 0.2s;
-    line-height: 1.4;
-
-    border-style: solid;
-    border-width: 0;
-    border-color: #121619;
-    border-bottom-width: 1px;
-    background-color: none;
-    padding-bottom:10px;
-
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .work-uppercase{
-    text-transform: uppercase;
-    padding-bottom: 20px;
-  }
-
-  .work-title{
-    font-size: 1.5em;
-    padding-bottom: 10px;
-  }
-
-  .work-details{
-    padding-bottom: 20px;
-  }
 
 
   /**this styles the entire card containing the project bc it's a link**/
@@ -248,13 +245,11 @@
     padding-top: 12px;
     text-decoration: none;
     color: black;
-
     margin: 2%;
   }
 
 
-
-  /**🥞-------------My Journey----------------🥞**/
+  /**🥞----My Journey----🥞**/
   .my-journey{
     display: flex;
     flex-direction: column;
@@ -378,542 +373,6 @@
     	opacity: 90%;
     	transition: all ease-in-out 0.25s
     }
-
-
-}
-
-/**👋----------------Desktop-------------------👋**/
-@media only screen and (min-width: 1000px)  {
-
-  html{
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0.5px;
-  }
-
-body{
-  overflow-x: hidden;
-
-  width: 100%;
-  height: auto;
-
-  background: url(images/Site/bgimg.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  margin-top:0;
-  margin-left: 0;
-  margin-right:0;
-}
-
-
-
-
-
-/**🍎--------------index Page Intro----------------🍎**/
-
-    header{
-      height: 900px;
-    }
-
-  .index-container{
-
-    width: 1000px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-
-    top: 200px;
-  }
-
-  .index-page-intro{
-
-    left: 15%;
-
-  }
-
-  .big-header{
-    font-size: 6em;
-    font-weight: 700;
-  }
-
-  .index-header{
-    font-size: 1.6em;
-    font-weight: 400;
-    line-height: 1.7em;
-
-  }
-
-
-/**title underlines here!**/
-  .personal-title{
-    cursor: pointer;
-    border-style: solid;
-    border-color: #E2E2E2;
-    border-width: 3px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    transition: all ease-in-out 230ms;
-  }
-
-  .personal-title:hover{
-    cursor: pointer;
-    border-style: solid;
-    border-color: #95C623;
-    border-width: 3px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    transition-property: all;
-    transition-duration: 200ms;
-  }
-
-  .personal-title:hover div{
-    visibility: visible;
-    opacity: 1;
-  }
-
-
-  .pop-up-desc{
-    position: absolute;
-    width: 330.4px;
-    top: 10px;
-    left: 700px;
-    font-size: 0.8em;
-    line-height: 158.8%;
-    visibility: hidden;
-    opacity: 0;
-    cursor: pointer;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 1s, opacity 0.5s linear;
-  }
-
-  .emoji{
-    font-size: 3em;
-    font-style: normal;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-
-
-
-
-
-
-/**🌽--------------index Page Arrow----------------🌽**/
-
-  .arrow-down-circle {
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    top: 100px;
-
-
-    -webkit-animation: bounce 2s infinite ease-in-out;
-    -o-animation: bounce 2s infinite ease-in-out;
-    -ms-animation: bounce 2s infinite ease-in-out;
-    -moz-animation: bounce 2s infinite ease-in-out;
-    animation: bounce 2s infinite ease-in-out;
-  }
-
-  .arrow-down-circle img{
-    height: 30px;
-
-  }
-
-  @-webkit-keyframes bounce {
-      0% { transform: translateY(-5px)  }
-      50% { transform: translateY(10px) }
-      100% { transform: translateY(-5px) }
-  }
-
-  @keyframes bounce {
-      0% { transform: translateY(-5px)  }
-      50% { transform: translateY(10px) }
-      100% { transform: translateY(-5px) }
-  }
-
-
-
-
-
-
-
-
-/**🥑--------------index Page About----------------🥑**/
-
-/**this is to position your index about section**/
-  .index-about{
-    width: 650px;
-    height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-
-/**this is for styling your index about title**/
-  .index-about-title{
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.8em;
-  }
-
-  /**this is for styling your index about description**/
-  .index-about-desc{
-    padding-top: 30px;
-    line-height:1.8em;
-  }
-
-  /**this is for styling your read full story button**/
-
-  .read-story-btn{
-  	text-align: center;
-  	float: left;
-  	text-decoration: none;
-  	font-size: 15px;
-  	color:  #BCBCBC;
-  	letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 0;
-
-
-  	border: solid 3px #e2e2e2;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-  	transition: 0.5s;
-
-    padding-top: 30px;
-  }
-
-  .read-story-btn:hover{
-  	border-color: #95C623;
-  	color:#95C623;
-  }
-
-
-
-
-
-
-
-
-/**🍌-------------Selected Work----------------🍌**/
-
-.selected-works{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height: 600px;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 600px;
-
-  line-height: 1.8em;
-}
-
-/**this styles the part before the projects where it says "Selected WorK" + description**/
-.selected-works-blurb{
-  padding-bottom: 50px;
-}
-
-.selected-works-title{
-  font-size: 26px;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-
-.selected-works-desc{
-  width: 870px;
-}
-
-.see-all-btn{
-  text-align: center;
-  float: left;
-  text-decoration: none;
-  font-size: 15px;
-  color:  #BCBCBC;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 0;
-
-
-  border: solid 3px #e2e2e2;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  transition: 0.5s;
-
-  padding-top: 30px;
-
-  transition: 0.2s;
-}
-
-.see-all-btn a{
-  text-decoration: none;
-
-}
-
-.see-all-btn:hover{
-  text-decoration: none;
-  color: #95C623;
-  border-color: #95C623;
-}
-
-
-/**here is where you can edit the main project highlight**/
-
-.main-work-container{
-  width: 840px;
-  height: auto;
-  background: #FFFFFF;
-  border-radius: 15px;
-  padding: 30px 30px 40px 30px;
-
-  transition: 0.4s;
-}
-
-.main-work-container:hover{
-    box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
-
-}
-
-.main-work-container img{
-
-  border-radius: 15px;
-  width: 840px;
-  height: auto;
-
-}
-
-.main-work-desc{
-  padding-left: 20px;
-  width: 600px;
-}
-
-.main-work-btn{
-  position: absolute;
-  left: 73.8%;
-  top: 45.78%;
-}
-/**this is for ordering the rest of the project cards on the page aka in a row**/
-.work-flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
-
-
-
-/**this styles the drop shadow card that contains the project**/
-.work-container{
-  width: 400px;
-  height: auto;
-  background: #FFFFFF;
-  border-radius: 15px;
-  padding: 20px 20px 40px 20px;
-
-  transition: 0.2s;
-}
-
-.work-container:hover{
-    box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
-}
-
-.work-container img{
-  height: 300px;
-}
-
-/**this styles the entire card containing the project bc it's a link**/
-.selected-works a{
-  padding-top: 12px;
-  text-decoration: none;
-  color: black;
-
-  margin: 2%;
-}
-
-
-.work-date{
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-/**this is the project title and description**/
-.work-title{
-  font-size: 23px;
-  font-weight: bold;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-
-.work-desc{
-  padding-left: 20px;
-  width: 360px;
-}
-
-
-
-
-
-
-
-/**🥞-------------My Journey----------------🥞**/
-.my-journey{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height: 600px;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 430px;
-
-  line-height: 1.8em;
-}
-.journey-container{
-  padding-top: 30px;
-}
-
-.my-journey-title{
-  font-size: 26px;
-  font-weight: 700;
-  padding-bottom: 50px;
-}
-
-.journey-date{
-  color: #BCBCBC;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-.journey-desc a{
-  text-decoration: none;
-  color: #1D1D1D;
-
-  border: solid 3px #95C623;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  transition: 0.5s;
-
-  padding-top: 30px;
-
-  transition: 0.5s;
-}
-
-.journey-desc a:hover{
-  text-decoration: none;
-  color: #95C623;
-
-}
-
-
-
-
-
-
-/**🍦-------------Footer----------------🍦**/
-footer{
-  width: 1000px;
-
-  display: flex;
-  justify-content: center;
-
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.footer-title{
-  position: absolute;
-  width: 680px;
-  height: 48px;
-  left: 161px;
-  top: 3700px;
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 29px;
-  line-height: 158.8%;
-}
-
-  .footer-desc{
-  position: absolute;
-  width: 660px;
-  left: 161px;
-  top: 3754px;
-
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 158.8%;
-
-  padding-bottom: 100px;
-}
-
-
-
-/**here are your social/contact links!**/
-.footer-links{
-  position: absolute;
-  width: 300px;
-  left: 900px;
-  top: 3754px;
-
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 158.8%;
-}
-
-.footer-links a{
-  text-decoration: none;
-}
-
-.footer-link-img img{
-  	height: 32px;
-  	padding: 10px 15px 0 0;
-  	opacity: 25%;
-
-  	transition-property: all;
-  	transition-duration: 0.5s;
-  }
-
-  .footer-link-img img:hover{
-  	transform: scale(0.85);
-  	opacity: 90%;
-  	transition: all ease-in-out 0.25s
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
