@@ -148,6 +148,11 @@
     font-size: 1em;
   }
 
+  .index-container p{
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+
   .pop-up-title{
     font-size: .6em;
     font-weight: 400;
@@ -350,6 +355,7 @@
     }
 
 /***🌛----Dark Mode----🌛***/
+/* all creds! https://codepen.io/vikramsoni/pen/xxOjvRP */
 .darkmode{
   color: #F7F9F7;
   background-color: #121619;
