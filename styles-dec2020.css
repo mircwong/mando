@@ -14,7 +14,7 @@
     font-family: san-serif, "Chivo";
     color: #121619;
     overflow-x: hidden;
-    transition: background-color .2s, color 1s;
+    transition: background-color .1s, color 1s;
   }
 
   header{
@@ -75,7 +75,7 @@
 /*
   .personal-title{
     cursor: pointer;
-    transition: all ease-in-out 230ms;
+    transition: all ease-in-out .1s;
   }
 
   .personal-title:active{
@@ -83,7 +83,7 @@
     background-color: ##CE796B;
     color: #E5E5E5;
     transition-property: all;
-    transition-duration: 200ms;
+    transition-duration: .1s;
   }
 
   .personal-title:active div{
@@ -169,8 +169,8 @@
     visibility: hidden;
     opacity: 0;
     cursor: pointer;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 1s, opacity 0.5s linear;
+    -webkit-transition: visibility 0s, opacity 0.1s linear;
+    transition: visibility .1s, opacity 0.1s linear;
   }
 
   .selected-works-blurb{
@@ -254,13 +254,11 @@
     font-weight: 700;
     line-height: 0;
     text-align: left;
-    text-decoration: none;
-    transition: 0.2s;
+    transition: 0.1s;
     color: #121719;
   }
 
   .read-story-btn a:hover{
-    text-decoration: none;
     color: #F7F9F7;
     background-color: #121719;
   }
@@ -281,7 +279,7 @@
 
   .work a{
     color: #121619;
-    transition: 0.2s;
+    transition: 0.1s;
   }
 
   .work a:hover{
@@ -291,7 +289,7 @@
 
   .journey-desc a{
     color: #121619;
-    transition: 0.2s;
+    transition: 0.1s;
   }
 
   .journey-desc a:hover{
@@ -355,9 +353,6 @@ a:hover{
     line-height: 158.8%;
   }
 
-  .footer-links a{
-    text-decoration: none;
-  }
 
   .footer-link-icons i{
     color: #121619;
