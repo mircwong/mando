@@ -127,7 +127,7 @@
   }
 
   .header-subtitle{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 1.5em;
 
@@ -203,13 +203,12 @@
 
 
   /**🍙----Line Breaks----🍙**/
-  /**this is for styling your line breaks or borders**/
+  /**this is for styling your line breaks**/
   .line-break{
     border-style: solid;
     border-width: 0;
     border-color: #121619;
     border-bottom-width: 1px;
-    background-color: none;
     padding-bottom:10px;
   }
 
@@ -236,22 +235,25 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
+
+    -webkit-animation: bounce 1s infinite ease-in-out;
+    -o-animation: bounce 1s infinite ease-in-out;
+    -ms-animation: bounce 1s infinite ease-in-out;
+    -moz-animation: bounce 1s infinite ease-in-out;
+    animation: bounce 1s infinite ease-in-out;
   }
 
-  /**🍌----Selected Work----🍌**/
-
-
-  .line-break{
-    border-style: solid;
-    border-width: 0;
-    border-color: #121619;
-    border-bottom-width: 1px;
-    background-color: none;
-  	padding-bottom:10px;
+  @-webkit-keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
   }
 
-  /**this styles the part before the projects where it says "Selected WorK" + description**/
-
+  @keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
+  }
 
   .see-all-btn a{
     text-decoration: none;
@@ -269,6 +271,16 @@
     text-decoration: none;
     color: black;
     margin: 2%;
+  }
+
+  .work a{
+    text-decoration: none;
+    color: #121619;
+    transition: 0.2s;
+  }
+
+  .work a:hover{
+    color: #CE796B;
   }
 
   .journey-desc a{
@@ -337,10 +349,13 @@
     	transition: all ease-in-out 0.1s
     }
 
-/***----Dark Mode----***/
+/***🌛----Dark Mode----🌛***/
 .darkmode{
   color: #F7F9F7;
   background-color: #121619;
+}
+
+.darkmode {
 }
 
 .darkmode a{
@@ -349,13 +364,10 @@
 
 .darkmode i{
   color: #F7F9F7;
-
 }
 
   #dark-mode-toggle i{
   transform: scale(1.4);
 }
-
-
 
 }
