@@ -49,8 +49,11 @@
 
 
 		<header>
+		<div class="spacing-100"></div>
+
+
 		<div id="top-container">
-			<div class="index-container">
+			<div data-aos="fade-up" class="index-container">
 			<div class="header-intro">
 				<div id="dark-mode-toggle">
 					<i class="fa fa-adjust"></i>
@@ -109,10 +112,8 @@
 			<div class="selected-works-desc">
 			These are projects that have most shaped my thinking and experiences as a designer.
 			</div>
-
-
-		</div>
-		<div class="line-break"></div>
+			</div>
+			<div class="line-break"></div>
 		</div>
 
 		<div class="spacing-50"></div>
@@ -153,6 +154,7 @@
 			<div class="line-break"></div>
 		</div>
 		</div>
+
 
 		<div class="spacing-150"></div>
 
@@ -283,7 +285,7 @@
 	<script src="aos.js"></script>
 	<script type="text/javascript">
 		AOS.init({
-				duration: 2000
+				duration: 400
 			});
 	</script>
 
@@ -327,6 +329,8 @@
 </script>
 
 <script>
+/*---Image Hover Effect---*/
+/* Credits for dark mode toggle in css*/
 $('.imagehover').mousemove(function(e){
   $(this).find('img').addClass('visible');
   $(this).find('img').css({
@@ -336,6 +340,9 @@ $('.imagehover').mousemove(function(e){
   $(this).find('img').removeClass('visible');
 });
 </script>
+
+
+
 
 </body>
 
