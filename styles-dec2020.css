@@ -191,7 +191,6 @@
 .imagehover{
   font-size: 1.5em;
   font-weight: 700;
-  padding-bottom: 10px;
 }
 
   .journey-date{
@@ -218,20 +217,6 @@
 
 
   /**🍑----Buttons----🍑**/
-  .read-story-btn, .see-all-btn{
-    font-family: "Chivo", sans-serif;
-  	text-align: left;
-  	float: left;
-  	text-decoration: none;
-  	font-size: 1em;
-  	color:  #CE796B;
-  	letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 0;
-  	transition: 0.5s;
-    padding-top: 30px;
-  }
-
   .arrow-down{
     display: flex;
     justify-content: center;
@@ -259,26 +244,42 @@
       100% { transform: translateY(-5px) }
   }
 
-  .see-all-btn a{
-    text-decoration: none;
+  .read-story-btn{
+  	float: left;
   }
 
-  .see-all-btn:hover{
+  .read-story-btn a{
+    font-family: "Chivo", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 0;
+    text-align: left;
     text-decoration: none;
-    color: #CE796B;
-    border-color: #95C623;
+    transition: 0.2s;
+    color: #121719;
   }
+
+  .read-story-btn a:hover{
+    text-decoration: none;
+    color: #F7F9F7;
+    background-color: #121719;
+  }
+
+
 
   /**🍰----Links----🍰**/
-  .selected-works a{
-    padding-top: 12px;
+
+  a{
     text-decoration: none;
-    color: black;
-    margin: 2%;
   }
 
+  .header-subtitle a:hover{
+    color: #F7F9F7;
+    background-color: #121619;
+  }
+
+
   .work a{
-    text-decoration: none;
     color: #121619;
     transition: 0.2s;
   }
@@ -290,14 +291,12 @@
 
   .journey-desc a{
     color: #121619;
-    text-decoration: none;
-    padding-top: 30px;
-    transition: 0.5s;
+    transition: 0.2s;
   }
 
   .journey-desc a:hover{
-    text-decoration: none;
-    color: #CE796B;
+    color: #F7F9F7;
+    background-color: #121619;
   }
 
 /*----Image hover effect----*/
@@ -363,14 +362,15 @@ a:hover{
   .footer-link-icons i{
     color: #121619;
   	height: 32px;
-  	padding: 10px 15px 0 0;
+  	padding: 10px;
   	transition-property: all;
   	transition-duration: 0.1s;
     }
 
   .footer-link-icons i:hover{
     	transform: scale(0.85);
-    	transition: all ease-in-out 0.1s
+    	transition: all ease-in-out 0.1;
+      color: #121719;
     }
 
 /***🌛----Dark Mode----🌛***/
@@ -386,20 +386,18 @@ a:hover{
   color: #F7F9F7;
 }
 
-/*
+
 .darkmode a:hover{
   color: #121619;
   background-color: #F7F9F7;
 }
-*/
-.darkmode .imagehover a{
-  color: #121619;
-  background-color: #F7F9F7;
-}
+
 
 .darkmode i{
+  background-color: none;
   color: #F7F9F7;
 }
+
 
 .darkmode img{
   border-color: #F7F9F7;
@@ -407,6 +405,7 @@ a:hover{
 }
 
   #dark-mode-toggle i{
+  background-color: none;
   transform: scale(1.4);
 }
 
