@@ -176,6 +176,10 @@
   font-weight: 700;
 }
 
+  .work, .my-journey, .footer-title, .footer-links{
+    font-style: normal;
+  }
+
   .journey-date{
     font-family: "Chivo", sans-serif;
     color: #BCBCBC;
@@ -186,6 +190,7 @@
   .journey-desc{
     font-family: "Inter", sans-serif;
   }
+
 
 
   /**🍙----Line Breaks----🍙**/
@@ -384,7 +389,6 @@ a:hover{
 }
 
   #dark-mode-toggle i{
-  background-color: none;
   transform: scale(1.4);
 }
 
@@ -465,6 +469,15 @@ a:hover{
    font-size: 1.3em;
  }
 
+.journey-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.journey-container{
+  width: 600px;
+  margin-right: 10%;
+}
 
 .darkmode .header-title a{
   color: #F7F9F7;
