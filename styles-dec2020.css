@@ -252,6 +252,43 @@
     font-style: italic;
   }
 
+/*Back to top on scroll button*/
+/*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
+  #button {
+    display: inline-block;
+    background-color: none;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: none .2s,
+      opacity .2s, visibility .2s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+
+  #button::after {
+    content: "\2191";
+    font-size: 2em;
+    line-height: 50px;
+    color: #121719;
+  }
+
+  #button:hover {
+    cursor: pointer;
+    background-color: none;
+  }
+  #button:active {
+    background-color: none;
+  }
+
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
 
 
   /**🍰----Links----🍰**/
@@ -365,8 +402,6 @@ a:hover{
 .darkmode{
   color: #F7F9F7;
   background-color: #121619;
-  border-style: solid;
-  border-color: #F7F9F7;
 }
 
 .darkmode a{
@@ -395,6 +430,12 @@ a:hover{
 .darkmode .line-break{
   border-color: #F7F9F7;
 }
+
+.darkmode #button::after{
+  color: #F7F9F7;
+}
+
+
 
 
 /**👋----------------Desktop-------------------👋**/
@@ -493,6 +534,9 @@ a:hover{
   color: #F7F9F7;
 }
 
-
+.darkmode #button.show{
+  color: #F7F9F7;
+  background-color: none;
+}
 
 }
