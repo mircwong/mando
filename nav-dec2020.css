@@ -1,3 +1,10 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
 /* Style the navigation menu */
 .topnav {
   background-color: white;

@@ -183,17 +183,16 @@
     padding-bottom: 20px;
   }
 
-  .work-title{
-    font-size: 1.5em;
-    font-weight: 700;
-    padding-bottom: 10px;
-  }
-
   .work-details{
     font-family: "Inter", sans-serif;
     padding-bottom: 20px;
   }
 
+.imagehover{
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
 
   .journey-date{
     font-family: "Chivo", sans-serif;
@@ -285,7 +284,8 @@
   }
 
   .work a:hover{
-    color: #CE796B;
+    color: #F7F9F7;
+    background-color: #121619;
   }
 
   .journey-desc a{
@@ -300,7 +300,26 @@
     color: #CE796B;
   }
 
+/*----Image hover effect----*/
+/*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
+a:hover{
+  cursor: pointer;
+}
 
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(5%)  translateY(5%);
+  pointer-events:none;
+  max-width: 280px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
+}
+
+.imagehover img.visible {
+  visibility: visible;
+}
 
   /**🍦----Footer----🍦**/
   footer{
@@ -349,7 +368,7 @@
   	transition-duration: 0.1s;
     }
 
-    .footer-link-icons i:hover{
+  .footer-link-icons i:hover{
     	transform: scale(0.85);
     	transition: all ease-in-out 0.1s
     }
@@ -359,17 +378,32 @@
 .darkmode{
   color: #F7F9F7;
   background-color: #121619;
-}
-
-.darkmode {
+  border-style: solid;
+  border-color: #F7F9F7;
 }
 
 .darkmode a{
   color: #F7F9F7;
 }
 
+/*
+.darkmode a:hover{
+  color: #121619;
+  background-color: #F7F9F7;
+}
+*/
+.darkmode .imagehover a{
+  color: #121619;
+  background-color: #F7F9F7;
+}
+
 .darkmode i{
   color: #F7F9F7;
+}
+
+.darkmode img{
+  border-color: #F7F9F7;
+  box-shadow: 10px 10px #F7F9F7;
 }
 
   #dark-mode-toggle i{

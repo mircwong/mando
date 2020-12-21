@@ -119,24 +119,38 @@
 
 		<div class="spacing-50"></div>
 
-		<div data-aos="fade-up" id="work-container">
+		<div id="work-container">
+
 		<div class="work">
 			<div class="work-uppercase">FreeBites</div>
-			<a target=”_blank” href="openmeal.html"><div class="work-title">Extending the food sharing experience to the larger community &nearr;</div></a>
+			<a class="imagehover" href="freebites.html">
+			Extending the food sharing experience to the larger community &nearr;
+			<img src="images/freebites.png" alt="FreeBites Project Mockup">
+			</a>
 			<div class="work-details">UI/UX Designer, 6 weeks</div>
-			<div class="line-break"></div>
+		<div class="line-break"></div>
 		</div>
+
 		<div class="spacing-50"></div>
+
 		<div class="work">
 			<div class="work-uppercase">OpenMeal</div>
-			<a target=”_blank” href="openmeal.html"><div class="work-title">Optimizing donor page to augment new & recurring donations &nearr;</div></a>
+			<a class="imagehover" href="openmeal.html">
+			Optimizing donor page to augment new & recurring donations &nearr;
+			<img src="images/Site/str.png" alt="OpenMeal Project Mockup">
+			</a>
 			<div class="work-details">UI/UX Designer, 1 month</div>
 			<div class="line-break"></div>
 		</div>
+
 		<div class="spacing-50"></div>
+
 		<div class="work">
 			<div class="work-uppercase">JAPA</div>
-			<a target=”_blank” href="openmeal.html"><div class="work-title">Streamlining the parking experience & optimizing for scalability &nearr;</div></a>
+			<a class="imagehover" href="openmeal.html">
+				Streamlining the parking experience and optimizing for scalability &nearr;
+			<img src="images/JAPA/japa-mockup.png" alt="JAPA Project Mockup">
+			</a>
 			<div class="work-details">UI/UX Designer, 6 weeks</div>
 			<div class="line-break"></div>
 		</div>
@@ -229,18 +243,9 @@
 		</div>
 
 <div class="spacing-30"></div>
-
 		<div class="footer-desc">
 			It takes a bit of warming up, but I’m a sucker for good conversation and making a new friend. Feel free to reach out!
-
-			<br>
-			<br>
-			<br>
-			&copy; 2020 Miranda Wong
-			<br>
-			Built and designed with ❤️ + limited 🚽 breaks.
 		</div>
-
 		<div class="spacing-30"></div>
 
 		<div class="footer-links">
@@ -259,8 +264,14 @@
 			<a target=”_blank” href="https://instagram.com/mirandaawong">
   			<i class="fa fa-instagram"></i>
   			</a>
-
 		</div>
+		<div class="spacing-30"></div>
+		<div class="footer-desc">
+			&copy; 2020 Miranda Wong
+			<br>
+			Built and designed with ❤️ + limited 🚽 breaks.
+		</div>
+
 		</div>
 
 
@@ -315,6 +326,17 @@
 	darkMode = localStorage.getItem("darkMode");
 	darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
 	});
+</script>
+
+<script>
+$('.imagehover').mousemove(function(e){
+  $(this).find('img').addClass('visible');
+  $(this).find('img').css({
+      left:e.pageX, top:e.pageY
+    });
+}).mouseleave(function(){
+  $(this).find('img').removeClass('visible');
+});
 </script>
 
 </body>
