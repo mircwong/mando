@@ -32,19 +32,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Top Navigation Menu -->
-	<div class="topnav">
-		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<div class="topnav" id="myTopnav">
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars" style="color: #121619;"></i>
+			<i class="fa fa-bars" style="color: #121719;"></i>
 		</a>
-	  <a href="#home"></a>
-	  <!-- Navigation links (hidden by default) -->
-	  <div id="navlinks">
-	    <a href="index-dec2020.html" class="active">Home</a>
-	    <a href="about-me.html">About</a>
-	    <a href="play.html">Play</a>
-			<a href="https://drive.google.com/file/d/1dKcLsswdPbHgXgHjscKPH62A_TUcOrMm/view">Resume</a>
-	  </div>
+	  <a href="#home">Resume</a>
+	  <a href="#news">Play</a>
+	  <a href="#contact">About</a>
+	  <a href="#about" class="active">Home</a>
 	</div>
 
 
@@ -290,19 +285,20 @@
 	</script>
 
 	<script>
-	/* Credits for dark mode toggle in css*/
-	/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 	function myFunction() {
-	  var x = document.getElementById("navlinks");
-	  if (x.style.display === "block") {
-	    x.style.display = "none";
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
 	  } else {
-	    x.style.display = "block";
+	    x.className = "topnav";
 	  }
 	}
 	</script>
 
+
 	<script>
+	/* Credits for dark mode toggle in css*/
+	/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 	let darkMode = localStorage.getItem("darkMode");
 
 	function enableDarkMode() {
