@@ -391,6 +391,20 @@ a:hover{
 
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 600px) {
+  .header-title{
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .header-subtitle{
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+
 
  .personal-title:hover div{
    visibility: visible;
@@ -404,11 +418,11 @@ a:hover{
 
  .pop-up-desc{
    position: absolute;
-   width: 500px;
+   width: 600px;
    top: 45vh;
-   left: 350px;
+   left: 500px;
 
-   font-size: .9em;
+   font-size: .7em;
    line-height: 1.5;
    color: #121719;
 
@@ -418,6 +432,24 @@ a:hover{
    -webkit-transition: visibility 0s, opacity 0.1s linear;
    transition: visibility .1s, opacity 0.1s linear;
  }
+
+
+ .index-about-title, .selected-works-title{
+   font-size: 1.2em;
+ }
+
+ .index-about-desc, .selected-works-desc{
+   font-size: 1.2em;
+ }
+
+ .work a{
+   font-size: 1.8em;
+ }
+
+ .read-story-btn{
+   font-size: 1.3em;
+ }
+
 
 .darkmode .pop-up-desc{
   color: #F7F9F7;
