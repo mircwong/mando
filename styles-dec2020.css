@@ -96,12 +96,12 @@
   /**🍓----Text Styles----🍓**/
   /**this is for styling your index titles, descriptions, etc**/
 
-  .header-title{
-    font-size: 2.5em;
+  .header-title a{
+    font-size: 3.1em;
     font-weight: 700;
+    color: #121719;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
   }
 
   .header-subtitle{
@@ -244,6 +244,7 @@
   .read-story-btn a:hover{
     color: #F7F9F7;
     background-color: #121719;
+    font-style: italic;
   }
 
 
@@ -257,6 +258,7 @@
   .header-subtitle a:hover{
     color: #F7F9F7;
     background-color: #121619;
+    font-style: italic;
   }
 
 
@@ -268,6 +270,7 @@
   .work a:hover{
     color: #F7F9F7;
     background-color: #121619;
+    font-style: italic;
   }
 
   .journey-desc a{
@@ -278,6 +281,7 @@
   .journey-desc a:hover{
     color: #F7F9F7;
     background-color: #121619;
+    font-style: italic;
   }
 
 /*----Image hover effect----*/
@@ -391,18 +395,29 @@ a:hover{
 
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 600px) {
-  .header-title{
+
+   .header-title a{
     font-size: 3.5em;
     font-weight: 700;
+    color: #121719;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+  }
+
+  .header-title a:hover{
+    color: #F7F9F7;
+    background-color: #121719;
+    font-style: italic;
   }
 
   .header-subtitle{
     font-size: 1.8em;
     font-weight: 400;
     line-height: 1.5em;
+  }
+
+  .header-title .imagehover img{
+    transform: translateX(-25%)  translateY(-25%);
   }
 
 
@@ -450,6 +465,16 @@ a:hover{
    font-size: 1.3em;
  }
 
+
+.darkmode .header-title a{
+  color: #F7F9F7;
+}
+
+.darkmode .header-title a:hover{
+  color: #121719;
+  background-color: #F7F9F7;
+  font-style: italic;
+}
 
 .darkmode .pop-up-desc{
   color: #F7F9F7;

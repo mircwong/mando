@@ -20,20 +20,23 @@ body{
 .topnav a {
   float: right;
   display: block;
-  color: #121719;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   font-size: 0.9em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #121719;
+  padding: 14px 16px;
 }
 
 .topnav a:hover {
   color: #CE796B;
   background-color: none;
+  font-style: italic;
 }
 
 .topnav a.active {
   color: #CE796B;
+  font-style: italic;
 }
 
 
