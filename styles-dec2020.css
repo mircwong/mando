@@ -68,29 +68,33 @@
   }
 
   /**🥑----Spacing----🥑**/
-  .spacing-300{
-    max-height: 300px;
-    min-height: 300px;
+  .spacing-320{
+    max-height: 320px;
+    min-height: 320px;
   }
 
-  .spacing-150{
-    max-height: 150px;
-    min-height: 150px;
+  .spacing-160{
+    max-height: 160px;
+    min-height: 160px;
   }
 
-  .spacing-100{
-    max-height: 100px;
-    min-height: 100px;
+  .spacing-96{
+    max-height: 96px;
+    min-height: 96px;
   }
 
-  .spacing-50{
-    max-height: 50px;
-    min-height: 50px;
+  .spacing-48{
+    max-height: 48px;
+    min-height: 48px;
   }
 
-  .spacing-30{
-    max-height: 30px;
-    min-height: 30px;
+  .spacing-32{
+    max-height: 32px;
+    min-height: 32px;
+  }
+
+  .spacing-8{
+
   }
 
   /**🍓----Text Styles----🍓**/
@@ -108,8 +112,13 @@
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.5em;
-
   }
+
+  .personal-title .imagehover{
+    font-size: 1em;
+    font-weight: 400;
+  }
+
   .index-about-title, .selected-works-title, .my-journey-title{
     font-family: "Chivo", sans-serif;
     text-transform: uppercase;
@@ -151,7 +160,7 @@
     font-size: 0.8em;
     visibility: hidden;
     opacity: 0;
-    cursor: pointer;
+    cursor: crosshair;
     -webkit-transition: visibility 0s, opacity 0.1s linear;
     transition: visibility .1s, opacity 0.1s linear;
   }
@@ -278,7 +287,7 @@
   }
 
   #button:hover {
-    cursor: pointer;
+    cursor: crosshair;
     background-color: none;
   }
   #button:active {
@@ -329,7 +338,7 @@
 /*----Image hover effect----*/
 /*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
 a:hover{
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .imagehover img {
@@ -427,6 +436,10 @@ a:hover{
   transform: scale(1.4);
 }
 
+#dark-mode-toggle i:hover{
+  cursor: crosshair;
+}
+
 .darkmode .line-break{
   border-color: #F7F9F7;
 }
@@ -462,9 +475,12 @@ a:hover{
   }
 
   .header-title .imagehover img{
-    transform: translateX(-25%)  translateY(-25%);
+    transform: translateX(-35%)  translateY(-25%);
   }
 
+  .personal-title .imagehover img{
+    transform: translateX(-35%)  translateY(-65%);
+  }
 
  .personal-title:hover div{
    visibility: visible;
@@ -488,7 +504,7 @@ a:hover{
 
    visibility: hidden;
    opacity: 0;
-   cursor: pointer;
+   cursor: crosshair;
    -webkit-transition: visibility 0s, opacity 0.1s linear;
    transition: visibility .1s, opacity 0.1s linear;
  }
