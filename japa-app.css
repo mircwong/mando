@@ -79,6 +79,26 @@
 
 
 /**👋----------------Project Details-------------------👋**/
+/* 2 column split */
+ .proj-content {
+   display: flex;
+   flex-direction: row;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   color: #606060;
+   font-family: "Inter", sans-serif;
+ }
+
+ #left-split {
+   width: 200px;
+   margin-right: 50px;
+ }
+
+ #right-split {
+   width: 650px;
+ }
 
 .project-details-container{
   display: flex;
@@ -89,11 +109,7 @@
   position: relative;
   width: auto;
   height: 333.87px;
-
-
   top: 1010.96px;
-
-
   z-index: 2;
 
 }
@@ -116,11 +132,7 @@
 
   position: relative;
   width: 200px;
-
   text-align: center;
-
-
-
 
 }
 
@@ -130,10 +142,6 @@
   line-height: 60px;
 }
 
-.emoji-img{
-  font-size: 35px;
-  padding-bottom: 25px;
-}
 
 .details-description{
   border: solid 2px #E2E2E2;
