@@ -101,6 +101,16 @@ section:nth-of-type(1) {
   color: #121719;
 }
 
+.content img{
+  max-width: 650px;
+}
+
+.small-side-title{
+  font-family: "Chivo", sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
 .side-title{
   font-family: "Chivo", sans-serif;
   font-size: 1.2em;
@@ -129,6 +139,14 @@ section:nth-of-type(1) {
 
 .details-description a:hover{
   background-color: #121719;
+}
+
+.callout{
+    border: solid 1px #121719;
+}
+
+.padding{
+  padding: 20px;
 }
 
 /**🌛---Dark Mode----🌛**/
@@ -163,6 +181,7 @@ section:nth-of-type(1) {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    font-weight: 300;
   }
 
   #left-side {
@@ -172,5 +191,15 @@ section:nth-of-type(1) {
 
   #right-side {
     width: 650px;
+  }
+
+  .final-gif{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .final-gif img{
+    width: 200px;
+    margin: 5%;
   }
 }
