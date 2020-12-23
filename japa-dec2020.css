@@ -40,12 +40,36 @@ section:nth-of-type(1) {
 }
 
 /**👋----Intro----👋**/
-.go-back a{
+.go-back a, .previous a, .next a{
   text-transform: uppercase;
 }
 
-.go-back a:hover{
+.go-back a:hover, .previous a:hover, .next a:hover{
   background-color: #121719;
+}
+
+.proj-end{
+  max-width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Chivo", sans-serif;
+}
+
+.previous{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  float: left;
+  z-index: 0;
+}
+
+.next{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  float: right;
+  z-index: 0;
 }
 
 
