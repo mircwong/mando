@@ -162,6 +162,14 @@ section:nth-of-type(1) {
   background-color: #F7F9F7;
 }
 
+.darkmode .callout{
+  border-color: #F7F9F7;
+}
+
+.darkmode img{
+  box-shadow: none;
+}
+
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 600px) {
   section{
