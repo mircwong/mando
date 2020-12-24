@@ -118,6 +118,19 @@
   font-family: "Inter", sans-serif;
 }
 
+.darkmode #button.show{
+  color: #F7F9F7;
+  background-color: none;
+}
+
+.darkmode .ac-sub .ac-label{
+  border-bottom: 1px solid #F7F9F7;
+}
+
+
+.darkmode .imagehover{
+  color: #F7F9F7;
+}
 
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 600px) {
@@ -161,23 +174,15 @@
     margin-left: 50px;
   }
 
-.darkmode .header-title a{
-  color: #F7F9F7;
-}
+  .accordian .ac-label:hover{
+    cursor: crosshair;
+  }
 
-.darkmode .header-title a:hover{
-  color: #121719;
-  background-color: #F7F9F7;
-  font-style: italic;
-}
 
 .darkmode .pop-up-desc{
   color: #F7F9F7;
 }
 
-.darkmode #button.show{
-  color: #F7F9F7;
-  background-color: none;
-}
+
 
 }
