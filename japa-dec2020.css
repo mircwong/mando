@@ -108,7 +108,10 @@ section:nth-of-type(1) {
   background-color: #121719;
 }
 
-
+#right-side img{
+  width: 80vw;
+  border: solid 1px #DADADA;
+}
 /**👋----Project Details----👋**/
 
 .wrap{
@@ -125,14 +128,11 @@ section:nth-of-type(1) {
   color: #121719;
 }
 
-.content img{
-  max-width: 650px;
-}
 
 .small-side-title{
   font-family: "Chivo", sans-serif;
   font-size: 1em;
-  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .side-title{
