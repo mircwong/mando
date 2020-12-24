@@ -19,6 +19,11 @@
     justify-content: center;
   }
 
+  .ac-sub-text a{
+    font-size: 1em;
+    color: #121719;
+  }
+
 /*----Accordian----**/
 
 @import "compass/css3";
@@ -35,52 +40,47 @@
   margin-bottom: .5em;
   display: block;
   cursor: pointer;
-  border-bottom: 1px solid #121719;
-  transition: background-color .2s;
+  background-color: whiteSmoke;
+  transition: .2s;
 }
 
 .ac-input:checked + label, .ac-label:hover {
   background-color: none;
 }
 
-.ac-label:after{
+.ac-label:after, .ac-input:checked + .ac-label:after {
   content: "\2193";
   position: absolute;
   display: block;
-  right: 0;
+  right: auto;
   top: 0;
   width: 2em;
   height: 100%;
   line-height: 2.25em;
   text-align: center;
-  transition: background-color .2s;
+  background-color: #e5e5e5;
+  transition: .2s;
 }
 
-.ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
-  content: none;
-  border-bottom: 0px;
+.ac-label:hover:after, .ac-input:checked + .ac-label:after {
+  background-color: #b5b5b5;
 }
 
 .ac-input:checked + .ac-label:after {
-    content: none;
-    position: absolute;
-    display: block;
-    right: 0;
-    top: 0;
-    width: 2em;
-    height: 100%;
-    line-height: 2.25em;
-    text-align: center;
+  content: "\2191";
 }
 
 .ac-input {
   display: none;
 }
 
-.ac-text{
+/*the magic*/
+
+.ac-text, .ac-sub-text {
   opacity: 0;
   height: 0;
   margin-bottom: .5em;
+  transition: .2s;
   overflow: hidden;
 }
 
@@ -89,12 +89,15 @@
   height: auto;
 }
 
+/*sub-level*/
 
 .ac-sub .ac-label {
   background: none;
-  font-weight: 300;
-  padding: .5em 2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: .5em 0 1em;
   margin-bottom: 0;
+  border-bottom: 1px solid #121719;
 }
 
 .ac-sub .ac-label:checked {
@@ -103,7 +106,7 @@
 }
 
 .ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
-  left: 0;
+  right: 0;
   background: none;
 }
 
@@ -111,6 +114,9 @@
   background: none;
 }
 
+.ac-sub-text{
+  font-family: "Inter", sans-serif;
+}
 
 
 /**👋----------------Desktop-------------------👋**/
@@ -124,6 +130,27 @@
     width: 80vw;
     align-items: flex-start;
   }
+
+.imagehover{
+  font-size: 2.2em;
+  line-height: 1.2;
+}
+
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(-35%)  translateY(-100%);
+  pointer-events:none;
+  max-width: 280px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
+}
+
+
+.imagehover img.visible {
+  visibility: visible;
+}
 
   .accordian{
     display: flex;
