@@ -222,7 +222,11 @@ section:nth-of-type(1) {
   }
 
   #right-side {
-    width: 650px;
+    width: 670px;
+  }
+
+  #right-side img{
+    width: 670px;
   }
 
   .final-gif{
