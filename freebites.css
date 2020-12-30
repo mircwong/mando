@@ -36,7 +36,7 @@ section:nth-of-type(even) {
 }
 
 section:nth-of-type(1) {
-  background-image: url(images/JAPA/japa-mockup-video2.gif);
+  background-image: url(images/FreeBites/freebites-mockup.png);
 }
 
 /**👋----Intro----👋**/
@@ -133,6 +133,7 @@ section:nth-of-type(1) {
   font-family: "Chivo", sans-serif;
   font-size: 1em;
   font-weight: 600;
+  line-height: 1.5;
 }
 
 .side-title{
@@ -161,12 +162,12 @@ section:nth-of-type(1) {
   font-weight: 700;
 }
 
-.details-description a:hover{
+.details-description a:hover, .padding a:hover{
   background-color: #121719;
 }
 
 .callout{
-    border: solid 1px #121719;
+    border: solid 1px #686868;
 }
 
 .padding{
