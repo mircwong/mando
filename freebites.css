@@ -126,7 +126,6 @@ section:nth-of-type(1) {
 
 #right-side img{
   width: 80vw;
-  border: solid 1px #DADADA;
 }
 /**👋----Project Details----👋**/
 
@@ -184,7 +183,7 @@ section:nth-of-type(1) {
 }
 
 .callout{
-    border: solid 1px #686868;
+    background-color: white;
 }
 
 .padding{
