@@ -204,8 +204,10 @@ section:nth-of-type(1) {
 }
 
 .darkmode .callout{
-  border-color: #F7F9F7;
+  background-color: #1D2023;
 }
+
+
 
 .darkmode img{
   box-shadow: none;
