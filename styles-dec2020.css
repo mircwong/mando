@@ -2,7 +2,7 @@
 @media only screen and (min-width: 300px)  {
 
   html{
-    background-color: #F7F9F7;
+    background-color: #fff;
     scroll-behavior: smooth;
   }
 
@@ -11,7 +11,7 @@
     padding: 0;
     font-size: 1em;
     line-height: 2em;
-    font-family: san-serif, "Chivo";
+    font-family: "Space Grotesk", sans-serif;
     color: #121619;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -127,12 +127,12 @@
   }
 
   .index-about-title, .selected-works-title, .my-journey-title{
-    font-family: "Chivo", sans-serif;
-    text-transform: uppercase;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.8em;
   }
+
 
   /**this is for styling your index about description**/
   .index-about-desc, .selected-works-desc, .journey-date{
@@ -148,14 +148,12 @@
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    text-transform: uppercase;
     font-size: 0.8em;
   }
 
   .pop-up-title{
     font-size: .6em;
     font-weight: 400;
-    text-transform: uppercase;
     padding-bottom: 20px;
   }
 
@@ -178,7 +176,6 @@
   }
 
   .work-uppercase{
-    text-transform: uppercase;
     padding-bottom: 20px;
   }
 
@@ -197,9 +194,8 @@
   }
 
   .journey-date{
-    font-family: "Chivo", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color: #BCBCBC;
-    text-transform: uppercase;
     font-size: 13px;
   }
 
@@ -252,7 +248,7 @@
   }
 
   .read-story-btn a{
-    font-family: "Chivo", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1em;
     font-weight: 700;
     line-height: 0;
@@ -264,7 +260,6 @@
   .read-story-btn a:hover{
     color: #F7F9F7;
     background-color: #121719;
-    font-style: italic;
   }
 
 /*Back to top on scroll button*/
@@ -315,7 +310,6 @@
   .header-subtitle a:hover{
     color: #F7F9F7;
     background-color: #121619;
-    font-style: italic;
   }
 
 
@@ -327,7 +321,6 @@
   .work a:hover{
     color: #F7F9F7;
     background-color: #121619;
-    font-style: italic;
   }
 
   .journey-desc a{
@@ -338,7 +331,6 @@
   .journey-desc a:hover{
     color: #F7F9F7;
     background-color: #121619;
-    font-style: italic;
   }
 
 /*----Image hover effect----*/
@@ -353,7 +345,7 @@ a:hover{
   visibility: hidden;
   transform: translateX(5%)  translateY(5%);
   pointer-events:none;
-  max-width: 280px;
+  max-width: 350px;
   border: solid 2px #121619;
   box-shadow:10px 10px #121619;
 }
@@ -471,7 +463,6 @@ a:hover{
   .header-title a:hover{
     color: #F7F9F7;
     background-color: #121719;
-    font-style: italic;
   }
 
   .header-subtitle{
@@ -494,7 +485,7 @@ a:hover{
  }
 
 .pop-up-title{
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: .7em;
 }
 
@@ -525,7 +516,8 @@ a:hover{
  }
 
  .work a{
-   font-size: 1.8em;
+   font-size: 2.3em;
+   line-height: 1.3;
  }
 
  .read-story-btn{
@@ -549,7 +541,6 @@ a:hover{
 .darkmode .header-title a:hover{
   color: #121719;
   background-color: #F7F9F7;
-  font-style: italic;
 }
 
 .darkmode .pop-up-desc{

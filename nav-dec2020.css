@@ -9,7 +9,7 @@ body{
 .topnav {
   top: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
   position: fixed;
   width: 100vw;
