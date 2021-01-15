@@ -2,7 +2,7 @@
 @media only screen and (min-width: 300px)  {
 body{
   background-color: #F7F9F9;
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 a{
@@ -11,7 +11,6 @@ a{
 }
 
 a:hover{
-  font-style: italic;
   color: #F7F9F7;
 }
 
@@ -56,9 +55,6 @@ section:nth-of-type(1) {
 }
 
 /**👋----Intro----👋**/
-.go-back a, .previous a, .next a{
-  text-transform: uppercase;
-}
 
 .go-back a:hover, .previous a:hover, .next a:hover{
   background-color: #121719;
@@ -69,7 +65,7 @@ section:nth-of-type(1) {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .previous{
@@ -100,7 +96,6 @@ section:nth-of-type(1) {
 }
 
 #project-date{
-  text-transform: uppercase;
   font-size: .8em;
 }
 
@@ -145,7 +140,7 @@ section:nth-of-type(1) {
 
 
 .small-side-title{
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1.5;
@@ -153,7 +148,7 @@ section:nth-of-type(1) {
 }
 
 .side-title{
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.2em;
   line-height: 1.2;
   font-weight: 700;
@@ -163,9 +158,8 @@ section:nth-of-type(1) {
 
 
 .detail-title, .right-title{
-  font-family: "Chivo", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .detail-title{
