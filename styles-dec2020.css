@@ -51,7 +51,7 @@
 
   .selected-works, .my-journey{
     width: 80vw;
-    max-width: 1400px;
+    max-width: 1000px;
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
 
   #work-container{
     width: 80vw;
-    max-width: 1400px;
+    max-width: 1000px;
     min-height: auto;
     display: flex;
     flex-direction: column;
