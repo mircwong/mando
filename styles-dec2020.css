@@ -200,7 +200,7 @@
   }
 
   .journey-desc{
-    font-family: "Inter", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
 
 
@@ -324,7 +324,6 @@
   }
 
   .journey-desc a{
-    font-family: "Space Grotesk", sans-serif;
     color: #121619;
     transition: 0.1s;
   }
