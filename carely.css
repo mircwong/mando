@@ -61,28 +61,24 @@ section:nth-of-type(1) {
 }
 
 .proj-end{
-  max-width: 100%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Space Grotesk", sans-serif;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .previous{
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
   float: left;
   z-index: 0;
 }
 
 .next{
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
   float: right;
   z-index: 0;
 }
+
 
 
 .intro{
