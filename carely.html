@@ -183,47 +183,45 @@
 		<div class="side-title">Solution Demos</div>
 	</div>
 		<div id="right-side">
-			<div class="right-title">Home feed</div>
+			<div class="right-title">Scan ID to check in</div>
 <div class="spacing-16"></div>
-			After opening the app, new users a presented with a pop-up identifying the main
-			actions they can take on the app. Upon closure, they can view the home feed
-			with listings made nearby or search and filter for a more specific food opportunity.
-<div class="spacing-16"></div>
-			<img src="images/FreeBites/home-feed.gif" alt="home feed gif">
+			The scan ID check in function quickly identifies the patient's information and matches
+			it to their patient medical records on EMR.
+<div class="spacing-8"></div>
+			This eliminates the need for manual patient data entry.
 <div class="spacing-32"></div>
-			<div class="right-title">Reply to a comment</div>
+			<img src="images/Carely/scan-id.gif" alt="home feed gif">
+<div class="spacing-48"></div>
+			<div class="right-title">Symptoms and illnesses assessment</div>
 <div class="spacing-16"></div>
-			Users can quickly reply to a comment by typing into the pre-set "Write a reply" bubble.
-<div class="spacing-16"></div>
-			<img src="images/FreeBites/reply.gif" alt="replying to a comment gif">
+			To complete the patient's profile and registration, the nurse is prompted to identify and select the patient’s
+			current symptoms and any underlying illnesses they have.
 <div class="spacing-32"></div>
-			<div class="right-title">Add a resource to the food map</div>
+			<img src="images/Carely/assessment.gif" alt="symptoms and illness assessment gif">
+<div class="spacing-48"></div>
+			<div class="right-title">Patient profile</div>
 <div class="spacing-16"></div>
-			To optimize the FreeBites experience for non profits and encourage engagement, users with a non profit account
-			can add a resource (e.g. food map, food event, food stand, freedge, etc.) onto the food map. The food map displays all
-			the food resources in your area.
-<div class="spacing-16"></div>
-			<img src="images/FreeBites/food-map.gif" alt="adding a resource to food map gif">
+			Nurses and doctors can easily access a patient's medical history from EMR. This page allows
+			them to see their COVID-19 status, personal information, symptoms and illnesses, active medications,
+			and medical history.
+<div class="spacing-8"></div>
+			All of the patient's information can be found here, keeping nurses and doctors from digging through piles of paperwork.
 <div class="spacing-32"></div>
-<div class="right-title">Create a post</div>
+			<img src="images/Carely/patient-profile.gif" alt="patient profile gif">
+<div class="spacing-48"></div>
+<div class="right-title">Room assignments</div>
 <div class="spacing-16"></div>
-			Users can create a post and customize it to make for more accurate search results. We added many options
-			to help avoid having users manually type in any specific details.
-<div class="spacing-16"></div>
-<img src="images/FreeBites/create-post.gif" alt="creating a post gif">
+			When it's time for a patient to be assigned to a room, the nurse is shown the floors designated for the appropriate COVID results. In this case, the patient is COVID positive, thus the floors displayed are designated for patients with COVID.
+			They can also see what rooms are available, the equipment present, and current occupants.
 <div class="spacing-32"></div>
-			<div class="right-title">Edit a post</div>
+<img src="images/Carely/assign-rooms.gif" alt="room assignment gif">
+<div class="spacing-48"></div>
+			<div class="right-title">Message doctors, nurses, and patients</div>
 <div class="spacing-16"></div>
-			Users can update the status of their food surplus by editing a post. Once it's been edited, food seekers that
-			have saved the post will be notified of its availability status change.
-<div class="spacing-16"></div>
-			<img src="images/FreeBites/edit-post.gif" alt="editing a post gif">
+			Doctors and nurses can easily communicate between each other and their patients. This quickens
+			communication especially for any emergencies or important updates.
 <div class="spacing-32"></div>
-			<div class="right-title">Send a message</div>
-<div class="spacing-16"></div>
-			Users can quickly message other users about food acquisition details or ask any questions.
-<div class="spacing-16"></div>
-			<img src="images/FreeBites/message.gif" alt="sending a message gif">
+			<img src="images/Carely/messages.gif" alt="messages gif">
 		</div>
 </div>
 </div>
@@ -242,15 +240,9 @@
 			<div class="side-title">UX Research Plan</div>
 		</div>
 		<div id="right-side">
-			As a group, we fleshed out our UX research plan, which included a competitive
-			audit and user interviews with usability testing.
-			<div class="spacing-16"></div>
-			<div class="callout">
-				<div class="padding">
-			<b>Our main research goals were to understand the food sharing process and identify the
-			different types of users that might use the app and their pain points, goals, and needs.</b>
-		</div>
-	</div>
+			Given our time constraint and the limited availability of healthcare workers, we relied on secondary research to understand our problem space.
+			We conducted a thorough literature review by consulting journals published by the CDC, reports from the U.S. Department of Health and Human Services,
+			and videos of what the current system looks like.
 		</div>
 </div>
 </div>
@@ -261,122 +253,50 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="small-side-title">Competitive Audit</div>
+			<div class="small-side-title">Literature review</div>
 		</div>
 		<div id="right-side">
-			We conducted a competitive audit to familiarize ourselves with the food sharing process.
-<div class="spacing-8"></div>
-			We identified multiple ways in which these competitors provide a better user experience than FreeBites:
-<div class="spacing-8"></div>
-			1. More customizability and control to users
-<div class="spacing-8"></div>
-			2. Ability to see live food availability updates
-<div class="spacing-8"></div>
-			3. Clear linking between pages
-<div class="spacing-8"></div>
-			4. Connects people with free food opportunities quickly and efficiently
-<div class="spacing-8"></div>
-			5. Builds higher credibility between food sharers and seekers
+			After reading a handful of journals and reports, we were able to learn about what the current state of our hospital care system was like.
+<div class="spacing-16"></div>
+			With the novel coronavirus pandemic, hospitals are facing a rapid influx of patients coming in
+			to be identified, isolated, tested, or admitted for COVID-19. This has led cities and hospitals
+			to create external testing setups and temporary hospital-like camps to accommodate for this massive
+			influx of patients.
+<div class="spacing-16"></div>
+			Due to this overflow, front-line workers (doctors, nurses, assistants, etc.), are inevitably
+			spending more time on paperwork which is costing them an unnecessary amount
+			of time and hindering them from providing enough care to their patients.
 		</div>
 	</div>
 </div>
 
+<div class="spacing-48"></div>
+
+<div class="wrap">
+	<div class="content">
+		<div id="left-side">
+			<div class="small-side-title">Main issues</div>
+		</div>
+		<div id="right-side">
+			We wanted to specify what the main problems were within this umbrella problem space so that we could
+			turn our insights into actionable ideas.
 <div class="spacing-32"></div>
-
-<div class="img-container">
-	<img src="images/FreeBites/user-research.png" alt="sending a message gif">
-</div>
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">A week of user interviews</div>
-		</div>
-		<div id="right-side">
-			We conducted a total of 6 interviews with active users, consisting
-			of students, educators, and community leaders. Those interviews were broken down into 2 parts:
+		<div class="callout">
+			<div class="padding">
+			1. Hospitals are segregated by COVID and non-COVID floors.
 <div class="spacing-16"></div>
-			<b>Part 1:</b> Questions to learn about their current user flows and overall app experience
-<div class="spacing-8"></div>
-			<b>Part 2:</b> Light usability test of the current design to observe how they find or post about food surplus in the current ecosystem
+			2. Communication is mainly done through phone calls.
 <div class="spacing-16"></div>
-		<div class="callout">
-			<div class="padding">
-			<b>Our goal was to identify patterns and pain points in the current experience and discover how each
-			user type can more efficiently and easily operate through their user flows.</b>
-		</div>
-	</div>
-		</div>
-	</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="img-container">
-	<img src="images/FreeBites/interviews.png" alt="interviews">
-</div>
-
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Classifying Users</div>
-		</div>
-		<div id="right-side">
-			We discovered FreeBites' 3 main user types:
+			3. Hospitals reported that severe shortages of testing supplies and extended waits for test results
+			limited hospitals' ability to monitor the health of patients and staff.
 <div class="spacing-16"></div>
-			1. Food insecure (surplus seeker)
-<div class="spacing-8"></div>
-			2. Food secure (surplus sharer)
-<div class="spacing-8"></div>
-			3. Non-profit
+			4. Hospital administrators expressed concerns that fear and uncertainty were taking an emotional
+			toll on staff, both professionally and personally.
+		</div>
+	</div>
 		</div>
 	</div>
 </div>
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">What we heard</div>
-		</div>
-		<div id="right-side">
-		<div class="callout">
-			<div class="padding">
-		"I love Freebites. <b>I wish I was using it more. I wish I was on campus more.</b>"
-		<br> <i>— Student, Surplus Seeker</I>
-		</div>
-		</div>
-		<div class="spacing-32"></div>
-		<div class="callout">
-			<div class="padding">
-		"<b>The app can feel limiting</b>, one photo could not provide an accurate visual of what was available."
-		<br> <i>— Community Leader, Surplus Sharer</i>
-			</div>
-		</div>
-		<div class="spacing-32"></div>
-		<div class="callout">
-			<div class="padding">
-		"I felt bad when <b>students came too late and the food was no longer there</b>."
-		<br> <i>— Community Leader, Surplus Sharer</i>
-			</div>
-		</div>
-		<div class="spacing-32"></div>
-		<div class="callout">
-			<div class="padding">
-		"<b>I want to give people a set time</b> for when food distribution begins."
-		<br> <i>— Community Leader, Non-profit</i>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="spacing-48"></div>
 
@@ -389,57 +309,126 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="side-title">Research Synthesis</div>
+			<div class="small-side-title">Putting a face to our insights</div>
 		</div>
 		<div id="right-side">
-				We collected a lot of data on our 3 user types and needed
-				to streamline our findings and prioritize the main focus areas that aligned with
-				our overall research goals.
+			From our research, we identified the most common concerns and goals doctors and nurses had.
+			We noticed immediately that there was overlap between goals and pain points for both, which
+		 	led us to design our final product to fit both personas' needs and goals.
+<div class="spacing-16"></div>
+			<img src="images/Carely/doctorPersona.png" alt="doctor persona image">
+<div class="spacing-8"></div>
+			<img src="images/Carely/nursePersona.png" alt="nurse persona image">
+		</div>
+	</div>
+</div>
+
+<div class="spacing-32"></div>
+
+<div class="wrap">
+	<div class="content">
+		<div id="left-side">
+			<div class="small-side-title">Asking questions</div>
+		</div>
+		<div id="right-side">
+			From there we started brainstorming more high-level research questions through How Might We's.
+			<img src="images/Carely/HMW.png" alt="how might we's image">
+		</div>
+	</div>
+</div>
+
+
+<div class="wrap">
+<div class="line-break"></div>
+</div>
+
+<div class="spacing-48"></div>
+
+<div class="wrap">
+	<div class="content">
+		<div id="left-side">
+			<div class="side-title">Discovering Opportunities</div>
+		</div>
+		<div id="right-side">
+			Mapping out these How Might We's made space for opportunity. By pinpointing the overarching
+			problems as specific categories, we were able to build off each other's ideas and got us thinking
+			about what features might be the most useful.
+<div class="spacing-16"></div>
+			<img src="images/Carely/affinityMap.png" alt="affinity mapping solutions image">
 			</div>
 		</div>
 	</div>
-<div class="spacing-32"></div>
+
+<div class="spacing-16"></div>
 
 <div class="wrap">
 	<div class="content">
 	<div id="left-side">
-		<div class="small-side-title">Empathy Mapping</div>
+		<div class="small-side-title">How might we design around fear and uncertainty?</div>
 	</div>
 		<div id="right-side">
-			To highlight key research findings across all user types and aid in our decision-making,
-			we utilized empathy mapping. This helped us make inferences about our users based on their
-			 behavior, prioritize where our focus laid, and determine what the most important takeaways were.
+			We used a journey map to capture a lot of the sentiments outlined in our main insights. The current experience
+			of checking in patients can be broken down into these 5 steps: arrival, check-in, online input, check room availability, and repeat.
+			<img src="images/Carely/user-journey-map.png" alt="user journey map image">
 		</div>
 </div>
 </div>
 
+
+<div class="wrap">
+<div class="line-break"></div>
+</div>
+
 <div class="spacing-48"></div>
 
-<div class="img-container">
-	<img src="images/FreeBites/empathy-map.png" alt="empathy map image">
+<div class="wrap">
+	<div class="content">
+		<div id="left-side">
+			<div class="side-title">A lot of iterating</div>
+		</div>
+		<div id="right-side">
+			We went through tons of sketches and wireframes before arriving at anything in the high fidelity range.
+		</div>
+</div>
 </div>
 
 <div class="spacing-32"></div>
+
+<div class="img-container">
+	<img src="images/Carely/iterations.png" alt="iterations">
+</div>
+
+<div class="spacing-32"></div>
+
+<div class="img-container">
+	<img src="images/Carely/iterations2.png" alt="iterations 2">
+</div>
+
+<div class="spacing-32"></div>
+
+<div class="img-container">
+	<img src="images/Carely/iterations3.png" alt="iterations 3">
+</div>
+
+
+<div class="spacing-48"></div>
+
+<div class="wrap">
+<div class="line-break"></div>
+</div>
+
+<div class="spacing-48"></div>
 
 <div class="wrap">
 	<div class="content">
 	<div id="left-side">
-		<div class="small-side-title">Top takeaways</div>
+		<div class="side-title">What we ended up submitting</div>
 	</div>
 		<div id="right-side">
-			<div class="callout">
-				<div class="padding">
-			<b>While each user type had a variety of needs and pain points, across all user types, it was
-			clear to us that the most important takeaways were:</b>
-<div class="spacing-8"></div>
-			1. Users only find themselves using the app on campus
-<div class="spacing-8"></div>
-			2. Expectations are disconnected between each user type
-<div class="spacing-8"></div>
-			3. Limited customizability and autonomy keeps people from engaging with the app
-		 </div>
-	 </div>
-	</div>
+			When those 36 hours were up, this is what we ended up submitting.
+<div class="spacing-32"></div>
+			<img src="images/Carely/submitted.gif" alt="submitted project gif">
+		</div>
 </div>
 </div>
 
@@ -454,111 +443,26 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="side-title">Illustrating experiences</div>
+			<div class="side-title">Revisiting our project</div>
 		</div>
 		<div id="right-side">
-				We each diverged and created our own storyboards to visualize the full weight
-				of the issues and present potential solutions that might solve them.
-		</div>
-</div>
-</div>
-
+			We wanted to revisit this project and improve areas we weren't satisfied with when we submitted it.
+<div class="spacing-16"></div>
+			We conducted usability testing to find out where we could make revisions. Here's what we found out:
 <div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-	<div id="left-side">
-		<div class="small-side-title">Storyboarding</div>
-	</div>
-		<div id="right-side">
-			In the storyboard I created, the task flow illustrates the interaction between surplus sharers and
-			surplus seekers: from how a surplus sharer decides to post on FreeBites and what they must do
-			to post successfully to when the seekers arrive with different expectations.
-		</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="img-container">
-	<img src="images/FreeBites/storyboarding.png" alt="storyboards">
-</div>
-
-<div class="spacing-32"></div>
-
-
-<div class="wrap">
-	<div class="content">
-	<div id="left-side">
-		<div class="small-side-title">Top Solutions</div>
-	</div>
-		<div id="right-side">
-			<div class="callout">
-				<div class="padding">
-			Storyboarding revealed that the main issues with the current experience were
-			misaligned expectations and limited customizability/autonomy for all user types.
-			At this stage, we were able to establish our top solutions for our redesign that would
-			remedy these issues:
+	<div class="callout">
+		<div class="padding">
+			1. Some icons were misleading
+<div class="spacing-16"></div>
+			2. Users were presented with too much information
+<div class="spacing-16"></div>
+			3. Too many color indicators
+<div class="spacing-16"></div>
+			4. Too many screens to go through
 		</div>
 	</div>
-<div class="spacing-32"></div>
-		<b>1. Real-time updates</b>
-<div class="spacing-8"></div>
-		Allowing surplus sharers to assign and change the food availability status on their post and
-		notifying seekers of updates would help align expectations between them.
-<div class="spacing-32"></div>
-		<b>2. Post customization</b>
-<div class="spacing-8"></div>
-		Adding more options to allow for post customization would minimize frustration, anxiety,
-		and confusion during food acquisition. It would also present more accurate search results.
-<div class="spacing-32"></div>
-		<b>3. Non-profit experience optimization</b>
-<div class="spacing-8"></div>
-		Building out a more comprehensive food map based on resource type would optimize the non-profit
-		experience to increase their engagement. Because non-profits are more connected to members of the
-		community, their engagement would expand FreeBites' community usage beyond campus.
-<div class="spacing-32"></div>
-		<b>4. Social media model</b>
-<div class="spacing-8"></div>
-		Modeling our design layout and iconography after social media platforms like Instagram and Facebook,
-		further asserts that sense of community that FreeBites is aiming for. Adding in a liking feature,
-		comments section, and profile acts as encouragement and proof to other users that people in their
-		community are also engaging with the app.
 		</div>
 </div>
-</div>
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-<div class="line-break"></div>
-</div>
-
-<div class="spacing-48"></div>
-
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="side-title">Low-fidelity concepts</div>
-		</div>
-		<div id="right-side">
-			We split up to create our own low-fidelity concepts to generate as many unique ideas as
-			possible and disregarded constraints to explore the most creative solutions.
-<div class="spacing-32"></div>
-			We also used this as an opportunity to visualize and decide on the most efficient user flows.
-<div class="spacing-32"></div>
-			<img src="images/FreeBites/lo-fi.png" alt="low-fidelity mockup 1">
-<div class="spacing-32"></div>
-			<img src="images/FreeBites/lo-fi2.png" alt="low-fidelity mockup 2">
-</div>
-</div>
-</div>
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-<div class="line-break"></div>
 </div>
 
 <div class="spacing-48"></div>
@@ -566,23 +470,10 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="side-title">UI refinement</div>
+			<div class="side-title">Edits based on usability testing</div>
 		</div>
 <div id="right-side">
-	We presented our low-fidelity concepts in our first design review with our client and
-	were able to confirm development feasibility and approval of each of our solutions.
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Building a moodboard</div>
-		</div>
-<div id="right-side">
-	We put together a moodboard for inspiration before creating our own design system.
+		We pointed our the areas where users had the most difficulty or confusion and used these insights to guide our revisions.
 </div>
 </div>
 </div>
@@ -590,29 +481,14 @@
 <div class="spacing-32"></div>
 
 <div class="img-container">
-	<img src="images/FreeBites/moodboard.png" alt="moodboards">
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Establishing a design system</div>
-		</div>
-<div id="right-side">
-		Once we felt we were in agreement with the visual feel, we decided on a design system to ensure consistency across all screens and ease the development process.
-</div>
-</div>
+	<img src="images/Carely/edits.png" alt="edits">
 </div>
 
 <div class="spacing-32"></div>
 
 <div class="img-container">
-	<img src="images/FreeBites/design-system.png" alt="design system">
+	<img src="images/Carely/edits2.png" alt="edits2">
 </div>
-
-
 
 <div class="spacing-48"></div>
 
@@ -625,32 +501,10 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="side-title">Part 1: Gathering feedback</div>
-		</div>
-		<div id="right-side">
-			As a team we polished up the screens that would be used in user testing and established our main user testing goals.
-		</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Questions to answer</div>
+			<div class="side-title">So what did we change?</div>
 		</div>
 <div id="right-side">
-		1. How effortless is it to complete tasks pertaining to each of the 3 user types?
-<div class="spacing-8"></div>
-		2. How well does our assumed user flow align with our users' approach?
-<div class="spacing-32"></div>
-		<div class="callout">
-			<div class="padding">
-				Because I worked on the designs and user flows from the perspective of a food secure person(surplus sharer),
-				I will be highlighting the information pertaining to my individual contributions from here on out.
-			</div>
-		</div>
+		These are our final solutions that were driven by research, user feedback, and user testing.
 </div>
 </div>
 </div>
@@ -660,118 +514,17 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="small-side-title">Home feed and individual post</div>
+			<div class="small-side-title">Color indicators, statuses, and assign room button</div>
 		</div>
 <div id="right-side">
-		<img src="images/FreeBites/home-post-feedback.png" alt="feedback on home and post designs">
-</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Creating a post</div>
-		</div>
-<div id="right-side">
-			<img src="images/FreeBites/create-post-feedback.png" alt="feedback on post creation designs">
-</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Notifications</div>
-		</div>
-<div id="right-side">
-			<img src="images/FreeBites/notifications-feedback.png" alt="feedback on notifications designs">
-</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="side-title">Part 2: Gathering feedback</div>
-		</div>
-		<div id="right-side">
-			After iterating on the feedback I gathered, I tested again to see if these changes improved usability.
-		</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Home feed</div>
-		</div>
-<div id="right-side">
-			<img src="images/FreeBites/home-post-iterations.png" alt="feedback on home feed and posts designs">
-</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Editing a post</div>
-		</div>
-<div id="right-side">
-			<img src="images/FreeBites/edit-post-iteration.png" alt="feedback on editing post designs">
-</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Notifications</div>
-		</div>
-<div id="right-side">
-			<img src="images/FreeBites/notifications-iteration.png" alt="feedback on notifications designs">
-</div>
-</div>
-</div>
-
-
-<div class="spacing-48"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="side-title">Final prototypes</div>
-		</div>
-		<div id="right-side">
-			The demo gifs here demonstrate the features I designed and presented in our final handoff
-			client meeting. Each feature below was driven by research, user stories, client feedback, and user testing.
-		</div>
-</div>
-</div>
-
-<div class="spacing-32"></div>
-
-<div class="wrap">
-	<div class="content">
-		<div id="left-side">
-			<div class="small-side-title">Home feed</div>
-		</div>
-<div id="right-side">
-	<img src="images/FreeBites/home-feed.gif" alt="home feed final gif">
+		We realized their were way too many colors that indicated different statuses that weren't exactly
+		relevant. We determined that the most important ones to note were if a patient was COVID positive or negative.
+		Based on those two statuses, nurses and doctors could keep track of their patients more easily because there weren't
+		as many options to get distracted with.
 <div class="spacing-16"></div>
+		As for the Assign Room button, we swapped out the original door icon for a simple text button.
+		This direct labeling allows for more immediate understanding and clarity of its function.
+		<img src="images/Carely/change1.png" alt="color indicators, status, and assign room changes">
 </div>
 </div>
 </div>
@@ -781,11 +534,13 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="small-side-title">Reply to a comment</div>
+			<div class="small-side-title">Patient profile</div>
 		</div>
 <div id="right-side">
-	<img src="images/FreeBites/reply.gif" alt="replying to a comment final gif">
-<div class="spacing-16"></div>
+		For the patient profile, we scrapped the original layout and displayed all relevant information
+		on a single screen. Doctors and nurses can view and edit everything without having to click
+		through multiple screens.
+<img src="images/Carely/change2.png" alt="patient profile changes">
 </div>
 </div>
 </div>
@@ -795,11 +550,12 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="small-side-title">Create a post</div>
+			<div class="small-side-title">Messages</div>
 		</div>
 <div id="right-side">
-	<img src="images/FreeBites/create-post.gif" alt="creating a post final gif">
-<div class="spacing-16"></div>
+		We wanted to limit the number of clicks nurses and doctors needed to make in order to
+		complete a task, so we integrated the messaging pop up into the Messages page itself.
+<img src="images/Carely/change3.png" alt="messages changes">
 </div>
 </div>
 </div>
@@ -809,11 +565,13 @@
 <div class="wrap">
 	<div class="content">
 		<div id="left-side">
-			<div class="small-side-title">Edit a post</div>
+			<div class="small-side-title">Equipment addition</div>
 		</div>
 <div id="right-side">
-	<img src="images/FreeBites/edit-post.gif" alt="editing a post final gif">
-<div class="spacing-16"></div>
+		Users expressed it would be helpful to know what equipment was present in the rooms
+		so that nurses and doctors could assign patients based on the equipment necessary to
+		treat their level of illness.
+<img src="images/Carely/change4.png" alt="equipment changes">
 </div>
 </div>
 </div>
@@ -822,12 +580,6 @@
 
 <div class="wrap">
 <div class="line-break"></div>
-</div>
-
-<div class="spacing-48"></div>
-
-<div class="img-container">
-	<img src="images/FreeBites/final-design.png" alt="final designs">
 </div>
 
 <div class="spacing-48"></div>
@@ -838,9 +590,21 @@
 			<div class="side-title">My learnings</div>
 		</div>
 		<div id="right-side">
-		<div class="right-title">Coming soon!</div>
+		<div class="right-title">Designing for a real-world issue</div>
 <div class="spacing-16"></div>
-		Still working on this part of the process!
+		Most of the projects I've worked on are focused more on augmenting social good, so this
+		project gave me a small taste of what it meant to design for impact. This concept was something
+		that was extremely relevant and because it was a real-world issue, I felt more inclined to think
+		deeply about the stakeholders involved and how this product could improve their current system.
+<div class="spacing-32"></div>
+		<div class="right-title">Designing for experiences I've never related to</div>
+<div class="spacing-16"></div>
+		I loved being able to think through this problem because its something I have never related to. It was
+		a challenge because I couldn't refer to my own experience or people in my immediate network, but it made
+		this project all the more exciting. I enjoyed thinking through this tough problem in such a short time and
+		its made me realize how important it is to talk to those who are involved. The research done during this
+		project was all secondary and I definitely wish I could've talked to a real person directly involved. That
+	 	would have provided much richer insights and helped me understand the goals and needs more holistically.
 		</div>
 </div>
 </div>
