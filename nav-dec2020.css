@@ -28,13 +28,13 @@ body{
 }
 
 .topnav a:hover {
-  color: #CE796B;
+  color: #EE6F5A;
   background-color: none;
   font-style: italic;
 }
 
 .topnav a.active {
-  color: #CE796B;
+  color: #EE6F5A;
   font-style: italic;
 }
 
