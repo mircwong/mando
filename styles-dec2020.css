@@ -161,7 +161,7 @@
   .pop-up-desc{
     font-family: "Inter", sans-serif;
     position: absolute;
-    width: 670px;
+    width: 600px;
     top: 200px;
     font-size: 0.8em;
     visibility: hidden;
@@ -183,6 +183,9 @@
   .work-details{
     font-family: "Inter", sans-serif;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
   }
 
 .imagehover{
@@ -193,6 +196,15 @@
   .work, .my-journey, footer{
     font-style: normal;
   }
+
+  .tag{
+    color: #121719;
+    background: rgb(0,0,0,.05);
+    padding: 0.3px 12px 0.3px 12px;
+    border-radius: 2px;
+    margin-right: 2%;
+  }
+
 
   .journey-date{
     font-family: "Space Grotesk", sans-serif;
@@ -447,6 +459,10 @@ a:hover{
   color: #F7F9F7;
 }
 
+.darkmode .tag{
+  color: rgb(255,255,255,.8);
+  background-color: rgb(255,255,255,0.05);
+}
 
 
 
@@ -492,7 +508,7 @@ a:hover{
 
  .pop-up-desc{
    position: absolute;
-   width: 600px;
+   width: 500px;
    top: 45vh;
    left: 500px;
 
@@ -524,6 +540,15 @@ a:hover{
  .read-story-btn{
    font-size: 1.3em;
  }
+
+.work-details{
+  font-size: 1em;
+}
+
+.tag{
+  padding: 0.8px 18px 0.8px 18px;
+  border-radius: 2px;
+}
 
 .journey-wrapper{
   display: flex;
