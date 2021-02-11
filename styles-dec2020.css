@@ -346,6 +346,11 @@
     background-color: #121619;
   }
 
+  .ac-sub a:hover{
+    background-color: #121719;
+    color: #F7F9F7;
+  }
+
 /*----Image hover effect----*/
 /*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
 a:hover{
@@ -462,6 +467,15 @@ a:hover{
 .darkmode .tag{
   color: rgb(255,255,255,.8);
   background-color: rgb(255,255,255,0.05);
+}
+
+.darkmode .ac-sub a{
+  color: #F7F9F7;
+}
+
+.darkmode .ac-sub a:hover{
+  color: #121719;
+  background-color: #F7F9F7;
 }
 
 
