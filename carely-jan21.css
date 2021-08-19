@@ -24,6 +24,16 @@
 
 }
 
+.go-back {
+  width: 80vw;
+  max-width: 900px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .intro{
   display: flex;
   flex-direction: column;

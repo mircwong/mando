@@ -80,6 +80,16 @@ section:nth-of-type(1) {
   background-color: #121719;
 }
 
+.go-back {
+  width: 80vw;
+  max-width: 900px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .proj-end{
   max-width: 900px;
   display: flex;
