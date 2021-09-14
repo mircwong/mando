@@ -1,0 +1,137 @@
+html{
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.topnav {
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 4px 7px 45px -12px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+
+  transition: top 0.3s;
+
+}
+
+.topnav .logo{
+margin-left: 30px;
+}
+
+.topnav .logo img{
+  height: 30px;
+  animation: rotation 2s linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.topnav .logo img:hover{
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.topnav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav ul li{
+  list-style: none;
+  margin-right: 90px;
+}
+
+
+.topnav a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #121719;
+}
+
+
+.topnav a:hover {
+  color: #FF5924;
+  background-color: none;
+}
+
+.topnav a.active {
+  color: #FF5924;
+  font-style: italic;
+}
+
+
+.topnav .menu-btn i{
+  color: #111;
+  font-size: 22px;
+  display: none;
+}
+
+#click{
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+  .topnav .menu-btn i{
+    display: block;
+    margin-right: 100px;
+    color: #000000;
+  }
+
+  #clicked:checked ~ .menu-btn i:before{
+    content: "\f0c9";
+  }
+
+  .topnav{
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .topnav ul{
+    position: fixed;
+    top: 70px;
+    left: -200%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+    transition: all 0.6s ease;
+  }
+
+  #click:checked ~ ul{
+    left: 0%;
+  }
+
+  .topnav ul li{
+    margin: 100px 0;
+  }
+
+  .topnav ul li a{
+    font-size: 2em;
+    display: block;
+  }
+}

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Miranda Wong — Product Designer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles-sep2021.css">
+	<link rel="stylesheet" type="text/css" href="nav-sep2021.css">
+	<link rel="stylesheet" type="text/css" href="aos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://use.typekit.net/pdo7iyq.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<meta property="og:image" content="images/FreeBites/freebites-preview2.png" />
+  <link rel="shortcut icon" type="img/png" href="images/Site/str.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<script src="https://kit.fontawesome.com/b38b72265d.js" crossorigin="anonymous"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171077534-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-171077534-1');
+	</script>
+</head>
+
+<body>
+
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" class="logo"><img src="images/Site/orange-star-logo.png" alt="orange star logo"></a>
+		<input type="checkbox" id="click">
+		<label for ="click" class="menu-btn">
+				<i class="fas fa-align-left"></i>	
+		</label>
+		<ul>
+	    <li><a href="index.html" class="active">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+	    <li><a target="_blank" href="https://www.behance.net/miranda-wong">A bit of fun &nearr;</a></li>
+		  <li><a target="_blank" href="https://drive.google.com/file/d/1RWNbelJf9UQXk6HDr_fRMC9xMhj0GKf_/view?usp=sharing">Resume</a></li>
+		</ul>
+	</div>
+
+
+<!-- Header Welcome Message -->
+	<div class="header-welcome-message">
+		Very nice to meet you, I'm Miranda.
+	</div>
+
+
+
+<!-- All scripts below -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="aos.js"></script>
+<script type="text/javascript">
+	AOS.init({
+			duration: 400
+		});
+</script>
+
+<!-- Navbar mobile -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Navbar hide on scroll down -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myTopnav").style.top = "0";
+  } else {
+    document.getElementById("myTopnav").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<!-- Back to top on scroll -->
+<script>
+/* Credits in css*/
+var btn = $('#button');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 320) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '320');
+});
+</script>
+
+<!-- Dark mode toggle -->
+<script>
+/* Credits in css*/
+let darkMode = localStorage.getItem("darkMode");
+function enableDarkMode() {
+document.body.classList.add("darkmode");
+localStorage.setItem("darkMode", "enabled");
+}
+function disableDarkMode() {
+document.body.classList.remove("darkmode");
+localStorage.setItem("darkMode", null);
+}
+if (darkMode === "enabled") {
+enableDarkMode();
+}
+// Listeners
+const darkModeToggle = document.querySelector("#dark-mode-toggle");
+darkModeToggle.addEventListener("click", () => {
+darkMode = localStorage.getItem("darkMode");
+darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
+});
+</script>
+
+<!-- Image hover effect -->
+<script>
+/* Credits in css*/
+$('.imagehover').mousemove(function(e){
+  $(this).find('img').addClass('visible');
+  $(this).find('img').css({
+      left:e.pageX, top:e.pageY
+    });
+}).mouseleave(function(){
+  $(this).find('img').removeClass('visible');
+});
+</script>
+
+
+
+
+</body>
+
+</html>
