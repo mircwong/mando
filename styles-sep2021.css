@@ -1,5 +1,5 @@
 /**👋----------------Mobile-------------------👋**/
-@media only screen and (min-width: 900px)  {
+@media only screen and (min-width: 300px)  {
 
   html{
     background-color: #fff;
@@ -18,55 +18,10 @@
     overflow-y: hidden;
   }
 
-/**🍎*****Containers*****🍎**/
-  #top-container{
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/**🍎*****Colors*****🍎**/
+--yellow-color: #FFE926;
+--orange-color: #FF5924;
 
-
-  .index-container{
-    width: 80vw;
-    max-width: 1000px;
-    height: 100vh;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .index-about{
-    width: 80vw;
-    max-width: 1000px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .selected-works, .my-journey{
-    width: 80vw;
-    max-width: 1000px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #work-container{
-    width: 80vw;
-    max-width: 1000px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   /**🥑----Spacing----🥑**/
   .spacing-320{
@@ -104,9 +59,160 @@
     min-height: 8px;
   }
 
-  /**🍓----Text Styles----🍓**/
-  /**this is for styling your index titles, descriptions, etc**/
+  /**🍎*****Background Blurs*****🍎**/
+  .header-bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
 
+    .bg-shape{
+      position: relative;
+      width:800px;
+      height: 800px;
+      border-radius: 9999px;
+      z-index: -2;
+    }
+
+    .bg-blur{
+      filter:blur(300px);
+    }
+
+    .opacity-50{
+      opacity: 0.5;
+    }
+
+    .bg-yellow{
+      background-color: #FFE926;
+      margin: 0 0 0 25em;
+    }
+
+    .bg-orange{
+      background-color: #FF5924;
+    }
+
+    .opacity-30{
+      opacity: 0.3;
+    }
+
+
+  /**🍎*****Header*****🍎**/
+
+  .header{
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+
+  .header-welcome-message{
+    position: relative;
+    top: -1330px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+    font-family: "IvyPresto Display", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.2em;
+  }
+
+  .black-star{
+    position: relative;
+    top: -10px;
+    left: -150px;
+  }
+
+  .black-star img{
+    height: 20px;
+    animation: spin 10s linear infinite;
+  }
+
+  .orange-star{
+    position: relative;
+    top: -50px;
+    left: 120px;
+  }
+
+  .orange-star img{
+    height: 50px;
+    animation: spin 10s linear infinite;
+  }
+
+  @keyframes spin{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  .oval {
+    position: relative;
+    top: -75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    transform: rotate(-26deg);
+  }
+
+  /**🍎*****Header roles*****🍎**/
+  .header-roles{
+    position: relative;
+    top: -1300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .header-subtitle{
+    position: relative;
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  /*----Text hover effect----*/
+  .personal-title:hover div{
+   visibility: hidden;
+   opacity: 0;
+  }
+
+  .pop-up-title{
+    font-family: "IvyPresto Display", serif;
+    font-size: 1em;
+    font-weight: 100;
+    padding-bottom: 20px;
+    letter-spacing: normal;
+    font-style: italic;
+  }
+
+  .pop-up-desc{
+    position: absolute;
+    width: 450px;
+    left: 400px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.3;
+    color: #121719;
+    letter-spacing: normal;
+
+    visibility: hidden;
+    opacity: 0;
+    cursor: crosshair;
+  }
 
   /**🍙----Line Breaks----🍙**/
   /**this is for styling your line breaks**/
@@ -186,7 +292,6 @@
   }
 
 
-  /**🍰----Links----🍰**/
 /*----Image hover effect----*/
 /*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
 a:hover{
@@ -205,7 +310,7 @@ a:hover{
 }
 
 .imagehover img.visible {
-  visibility: visible;
+  visibility: hidden;
 }
 
 /**🍦----Footer----🍦**/
@@ -272,7 +377,201 @@ a:hover{
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 900px) {
 
-  
+/**🍎*****Background Blurs*****🍎**/
+.header-bg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+  .bg-shape{
+    position: relative;
+    width:800px;
+    height: 800px;
+    border-radius: 9999px;
+    z-index: -2;
+  }
+
+  .bg-blur{
+    filter:blur(300px);
+  }
+
+  .opacity-50{
+    opacity: 0.5;
+  }
+
+  .bg-yellow{
+    background-color: #FFE926;
+    margin: 0 0 0 70em;
+  }
+
+  .bg-orange{
+    background-color: #FF5924;
+    margin: 0 0 0 20em;
+  }
+
+  .opacity-30{
+    opacity: 0.3;
+  }
+
+
+/**🍎*****Header*****🍎**/
+
+.header{
+  position: relative;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.header-welcome-message{
+  position: relative;
+  top: -1330px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+
+  font-family: "IvyPresto Display", serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 4em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.black-star{
+  position: relative;
+  top: -10px;
+  left: -360px;
+}
+
+.black-star img{
+  height: 35px;
+  animation: spin 10s linear infinite;
+}
+
+.orange-star{
+  position: relative;
+  top: -50px;
+  left: 320px;
+}
+
+.orange-star img{
+  height: 50px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.oval {
+  position: relative;
+  top: -110px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 80px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  transform: rotate(-26deg);
+}
+
+/**🍎*****Header roles*****🍎**/
+.header-roles{
+  position: relative;
+  top: -1300px;
+  left: 170px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  z-index: 2;
+}
+
+.header-subtitle{
+  position: relative;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/*----Image hover effect----*/
+/*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
+a:hover{
+  cursor: crosshair;
+}
+
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(5%)  translateY(5%);
+  pointer-events:none;
+  max-width: 450px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
+}
+
+.imagehover img.visible {
+  visibility: visible;
+}
+
+.personal-title{
+  content: "\2192";
+  transition: all 0.4s ease;
+}
+
+.personal-title:hover{
+  color: #FF5924;
+  letter-spacing: 0.05em;
+}
+
+.personal-title .imagehover img{
+  transform: translateX(-45%)  translateY(-430%);
+}
+
+/*----Text hover effect----*/
+.personal-title:hover div{
+ visibility: visible;
+ opacity: 1;
+}
+
+.pop-up-title{
+  font-family: "IvyPresto Display", serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-bottom: 20px;
+  letter-spacing: normal;
+  font-style: italic;
+}
+
+.pop-up-desc{
+  position: absolute;
+  width: 450px;
+  left: 400px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  color: #121719;
+  letter-spacing: normal;
+
+  visibility: hidden;
+  opacity: 0;
+  cursor: crosshair;
+  -webkit-transition: visibility 0s, opacity 0.1s linear;
+  transition: visibility .1s, opacity 0.1s linear;
+}
+
+/**🍎*****Dark Mode*****🍎**/
 .darkmode .header-title a{
   color: #F7F9F7;
 }
