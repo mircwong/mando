@@ -1,0 +1,294 @@
+/**👋----------------Mobile-------------------👋**/
+@media only screen and (min-width: 900px)  {
+
+  html{
+    background-color: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 2em;
+    font-family: "Inter", sans-serif;
+    color: #121619;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+/**🍎*****Containers*****🍎**/
+  #top-container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .index-container{
+    width: 80vw;
+    max-width: 1000px;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .index-about{
+    width: 80vw;
+    max-width: 1000px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .selected-works, .my-journey{
+    width: 80vw;
+    max-width: 1000px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #work-container{
+    width: 80vw;
+    max-width: 1000px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /**🥑----Spacing----🥑**/
+  .spacing-320{
+    max-height: 320px;
+    min-height: 320px;
+  }
+
+  .spacing-160{
+    max-height: 160px;
+    min-height: 160px;
+  }
+
+  .spacing-96{
+    max-height: 96px;
+    min-height: 96px;
+  }
+
+  .spacing-48{
+    max-height: 48px;
+    min-height: 48px;
+  }
+
+  .spacing-32{
+    max-height: 32px;
+    min-height: 32px;
+  }
+
+  .spacing-16{
+    max-height: 16px;
+    min-height: 16px;
+  }
+
+  .spacing-8{
+    max-height: 8px;
+    min-height: 8px;
+  }
+
+  /**🍓----Text Styles----🍓**/
+  /**this is for styling your index titles, descriptions, etc**/
+
+
+  /**🍙----Line Breaks----🍙**/
+  /**this is for styling your line breaks**/
+  .line-break{
+    border-style: solid;
+    border-width: 0;
+    border-color: #D4D4D4;
+    border-bottom-width: 1px;
+  }
+
+
+  /**🍑----Buttons----🍑**/
+  .arrow-down{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2em;
+
+    -webkit-animation: bounce 1s infinite ease-in-out;
+    -o-animation: bounce 1s infinite ease-in-out;
+    -ms-animation: bounce 1s infinite ease-in-out;
+    -moz-animation: bounce 1s infinite ease-in-out;
+    animation: bounce 1s infinite ease-in-out;
+  }
+
+  @-webkit-keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
+  }
+
+  @keyframes bounce {
+      0% { transform: translateY(-5px)  }
+      50% { transform: translateY(10px) }
+      100% { transform: translateY(-5px) }
+  }
+
+
+/*Back to top on scroll button*/
+/*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
+  #button {
+    display: inline-block;
+    background-color: none;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: none .2s,
+      opacity .2s, visibility .2s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+
+  #button::after {
+    content: "\2191";
+    font-size: 2em;
+    line-height: 50px;
+    color: #121719;
+  }
+
+  #button:hover {
+    cursor: crosshair;
+    background-color: none;
+  }
+  #button:active {
+    background-color: none;
+  }
+
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /**🍰----Links----🍰**/
+/*----Image hover effect----*/
+/*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
+a:hover{
+  cursor: crosshair;
+}
+
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(5%)  translateY(5%);
+  pointer-events:none;
+  max-width: 450px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
+}
+
+.imagehover img.visible {
+  visibility: visible;
+}
+
+/**🍦----Footer----🍦**/
+
+
+/**🌛----Dark Mode----🌛**/
+/* all creds! https://codepen.io/vikramsoni/pen/xxOjvRP */
+.darkmode{
+  color: #F7F9F7;
+  background-color: #121619;
+}
+
+.darkmode a{
+  color: #F7F9F7;
+}
+
+.darkmode a:hover{
+  color: #121619;
+  background-color: #F7F9F7;
+}
+
+.darkmode i{
+  background-color: none;
+  color: #F7F9F7;
+}
+
+.darkmode img{
+  border-color: #F7F9F7;
+  box-shadow: 10px 10px #F7F9F7;
+}
+
+  #dark-mode-toggle i{
+  transform: scale(1.4);
+}
+
+#dark-mode-toggle i:hover{
+  cursor: crosshair;
+}
+
+.darkmode .line-break{
+  border-color: #F7F9F7;
+}
+
+.darkmode #button::after{
+  color: #F7F9F7;
+}
+
+.darkmode .tag{
+  color: rgb(255,255,255,.8);
+  background-color: rgb(255,255,255,0.05);
+}
+
+.darkmode .ac-sub a{
+  color: #F7F9F7;
+}
+
+.darkmode .ac-sub a:hover{
+  color: #121719;
+  background-color: #F7F9F7;
+}
+
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 900px) {
+
+  
+.darkmode .header-title a{
+  color: #F7F9F7;
+}
+
+.darkmode .header-title a:hover{
+  color: #121719;
+  background-color: #F7F9F7;
+}
+
+.darkmode .pop-up-desc{
+  color: #F7F9F7;
+}
+
+.darkmode #button.show{
+  color: #F7F9F7;
+  background-color: none;
+}
+
+}
