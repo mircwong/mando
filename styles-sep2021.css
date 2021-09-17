@@ -245,13 +245,7 @@
   }
 
   .work-text-right{
-    width: 200px;
-  }
-
-  .work-text{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 300px;
   }
 
   .work-title{
@@ -279,10 +273,7 @@
     transition: all 200ms ease-in-out;
   }
 
-  .work-image img:hover{
-    box-shadow:10px 10px #121619;
-    transform: translateY(-5px)
-  }
+
 
 
 
@@ -291,7 +282,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 300px;
   }
 
   .mini-about-title{
@@ -316,6 +307,9 @@
     border-width: 0;
     border-color: #D4D4D4;
     border-bottom-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
   }
 
 
@@ -759,6 +753,13 @@ a:hover{
 footer{
   background-color: black;
   height: 300px;
+}
+
+
+/**🍙----Line Breaks----🍙**/
+/**this is for styling your line breaks**/
+.line-break{
+  width: 900px;
 }
 
 /**🍎*****Dark Mode*****🍎**/
