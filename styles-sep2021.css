@@ -131,7 +131,6 @@
 
   .black-star img{
     height: 20px;
-    animation: spin 10s linear infinite;
   }
 
   .orange-star{
@@ -142,17 +141,8 @@
 
   .orange-star img{
     height: 50px;
-    animation: spin 10s linear infinite;
   }
 
-  @keyframes spin{
-    0%{
-      transform: rotate(0deg);
-    }
-    100%{
-      transform: rotate(360deg);
-    }
-  }
 
   .oval {
     position: relative;
@@ -685,7 +675,9 @@ a:hover{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  width: 800px;
+  border: solid 0.5px black;
+  padding: 30px;
 }
 
 .mini-about-title{
