@@ -641,7 +641,7 @@ a:hover{
 }
 
 .personal-title .imagehover img{
-  transform: translateX(-45%)  translateY(-455%);
+  transform: translateX(-45%)  translateY(-410%);
 }
 
 /*----Text hover effect----*/
