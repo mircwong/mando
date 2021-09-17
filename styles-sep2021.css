@@ -411,6 +411,7 @@ footer .footer-icons a{
   padding: 10px;
 }
 
+
 footer .footer-credit{
   padding-top: 30px;
   font-size: 0.8em;
@@ -842,6 +843,8 @@ footer .footer-credit{
 }
 
 /**🍎*****Dark Mode*****🍎**/
+
+
 .darkmode .header-title a{
   color: #F7F9F7;
 }
