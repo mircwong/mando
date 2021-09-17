@@ -274,6 +274,7 @@
   }
 
   .work-image img{
+    height: 150px;
     border: 0.5px solid black;
     transition: all 200ms ease-in-out;
   }
@@ -351,30 +352,34 @@
 /*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
   #button {
     display: inline-block;
-    background-color: none;
+    background-color: white;
     width: 30px;
     height:30px;
     text-align: center;
     position: fixed;
     bottom: 30px;
     right: 30px;
+    border-radius: 900px;
+    padding: 10px;
+    border: solid 0.5px black;
     transition: none .2s,
       opacity .2s, visibility .2s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    transition: all 200ms ease-in-out;
   }
 
   #button::after {
     content: "\2191";
-    font-size: 2em;
-    line-height: 50px;
+    font-size: 1.3em;
     color: #121719;
   }
 
   #button:hover {
     cursor: crosshair;
-    background-color: none;
+    box-shadow:5px 5px #121619;
+    transform: translate(2px);
   }
   #button:active {
     background-color: none;
