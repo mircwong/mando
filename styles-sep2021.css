@@ -350,7 +350,6 @@
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-    transition: all 200ms ease-in-out;
   }
 
   #button::after {
@@ -359,11 +358,6 @@
     color: #121719;
   }
 
-  #button:hover {
-    cursor: crosshair;
-    box-shadow:5px 5px #121619;
-    transform: translate(2px);
-  }
   #button:active {
     background-color: none;
   }
@@ -376,19 +370,11 @@
 
 /*----Image hover effect----*/
 /*all creds! https://codepen.io/jbidoret/pen/wYjvKQ*/
-a:hover{
-  cursor: crosshair;
-}
 
 .imagehover img {
   position: absolute;
-  z-index: 10;
+  z-index: -10;
   visibility: hidden;
-  transform: translateX(5%)  translateY(5%);
-  pointer-events:none;
-  max-width: 450px;
-  border: solid 2px #121619;
-  box-shadow:10px 10px #121619;
 }
 
 .imagehover img.visible {
@@ -457,11 +443,53 @@ a:hover{
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 900px) {
 
+  /*Back to top on scroll button*/
+  /*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
+    #button {
+      display: inline-block;
+      background-color: white;
+      width: 30px;
+      height:30px;
+      text-align: center;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      border-radius: 900px;
+      padding: 10px;
+      border: solid 0.5px black;
+      transition: none .2s,
+        opacity .2s, visibility .2s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      transition: all 200ms ease-in-out;
+    }
+
+    #button::after {
+      content: "\2191";
+      font-size: 1.3em;
+      color: #121719;
+    }
+
+    #button:hover {
+      cursor: crosshair;
+      box-shadow:5px 5px #121619;
+      transform: translate(2px);
+    }
+    #button:active {
+      background-color: none;
+    }
+
+    #button.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
 /**🍎*****Background Blurs*****🍎**/
 .header-bg{
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 600px;
   z-index: -2;
 }
 
@@ -593,8 +621,6 @@ a:hover{
   position: absolute;
   z-index: 10;
   visibility: hidden;
-  transform: translateX(5%)  translateY(5%);
-  pointer-events:none;
   max-width: 450px;
   border: solid 2px #121619;
   box-shadow:10px 10px #121619;
@@ -615,7 +641,7 @@ a:hover{
 }
 
 .personal-title .imagehover img{
-  transform: translateX(-45%)  translateY(-430%);
+  transform: translateX(-45%)  translateY(-455%);
 }
 
 /*----Text hover effect----*/
