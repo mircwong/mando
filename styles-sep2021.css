@@ -274,7 +274,6 @@
   }
 
   .work-image img{
-    height: 180px;
     border: 0.5px solid black;
     transition: all 200ms ease-in-out;
   }

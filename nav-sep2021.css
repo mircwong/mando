@@ -1,3 +1,4 @@
+@media only screen and (min-width: 900px){
 html{
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
@@ -95,7 +96,9 @@ margin-left: 30px;
   display: none;
 }
 
-@media (max-width: 900px) {
+}
+
+@media only screen and (min-width: 300px) {
 
   .topnav .menu-btn i{
     display: block;
