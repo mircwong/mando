@@ -803,7 +803,7 @@ a:hover{
 /**🍎*****Footer*****🍎**/
 footer{
   background-color: black;
-  height: 230px;
+  height: 270px;
   color: white;
 }
 
@@ -832,7 +832,7 @@ footer .footer-icons a{
 
 footer .footer-credit{
   text-align: center;
-
+  font-size: 1em;
 }
 
 /**🍙----Line Breaks----🍙**/
