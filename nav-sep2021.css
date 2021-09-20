@@ -20,6 +20,9 @@ body{
   position: fixed;
   width: 100%;
   z-index: 15;
+
+  transition: top 0.3s;
+
 }
 
 .topnav .logo{
@@ -82,28 +85,11 @@ margin-left: 30px;
 }
 
 
-.topnav .menu-btn i{
-  color: #111;
-  font-size: 22px;
-  display: none;
-}
-
-#click{
-  display: none;
-}
-
 @media (max-width: 900px) {
   .topnav .logo img{
     height: 30px;
     animation: none;
   }
-
-  .topnav .menu-btn i{
-    display: block;
-    margin-right: 100px;
-    color: #000000;
-  }
-
 
   .topnav{
     padding: 30px;
@@ -111,29 +97,5 @@ margin-left: 30px;
     margin-right: 30px;
   }
 
-  .topnav ul{
-    position: fixed;
-    top: 70px;
-    left: -100%;
-    background: #fff;
-    height: 100vh;
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding-inline-start: 0px;
-    transition: all 0.6s ease;
-  }
 
-  #click:checked ~ ul{
-    left: 0%;
-  }
-
-  .topnav ul li{
-    margin: 60px 0;
-  }
-
-  .topnav ul li a{
-    font-size: 1.2em;
-    display: block;
-  }
 }

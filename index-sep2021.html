@@ -14,7 +14,6 @@
 	<meta property="og:image" content="images/FreeBites/freebites-preview2.png" />
   <link rel="shortcut icon" type="img/png" href="images/Site/orange-star-logo.png">
 
-
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<script src="https://kit.fontawesome.com/b38b72265d.js" crossorigin="anonymous"></script>
 
@@ -27,10 +26,6 @@
 	<!-- Top Navigation Menu -->
 	<div class="topnav" id="myTopnav">
 		<a href="index.html" class="logo"><img src="images/Site/orange-star-logo.png" alt="orange star logo"></a>
-		<input type="checkbox" id="click">
-		<label for ="click" class="menu-btn">
-				<i class="fas fa-bars"></i>
-		</label>
 		<ul>
 	    <li><a href="index.html" class="active">Home</a></li>
 		  <li><a href="about.html">About</a></li>
@@ -207,7 +202,6 @@
 
 
 <!-- All scripts below -->
-
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="aos.js"></script>
 <script type="text/javascript">
@@ -217,6 +211,19 @@
 </script>
 
 
+<!-- Navbar hide on scroll down -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myTopnav").style.top = "0";
+  } else {
+    document.getElementById("myTopnav").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
 <!-- Back to top on scroll -->
 <script>
@@ -234,7 +241,6 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '320');
 });
 </script>
-
 
 <!-- Image hover effect -->
 <script>
