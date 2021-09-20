@@ -209,7 +209,6 @@
 
 <!-- All scripts below -->
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="aos.js"></script>
 <script type="text/javascript">
@@ -237,28 +236,6 @@ btn.on('click', function(e) {
 });
 </script>
 
-<!-- Dark mode toggle -->
-<script>
-/* Credits in css*/
-let darkMode = localStorage.getItem("darkMode");
-function enableDarkMode() {
-document.body.classList.add("darkmode");
-localStorage.setItem("darkMode", "enabled");
-}
-function disableDarkMode() {
-document.body.classList.remove("darkmode");
-localStorage.setItem("darkMode", null);
-}
-if (darkMode === "enabled") {
-enableDarkMode();
-}
-// Listeners
-const darkModeToggle = document.querySelector("#dark-mode-toggle");
-darkModeToggle.addEventListener("click", () => {
-darkMode = localStorage.getItem("darkMode");
-darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
-});
-</script>
 
 <!-- Image hover effect -->
 <script>
