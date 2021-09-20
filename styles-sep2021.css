@@ -417,63 +417,6 @@ footer .footer-credit{
   font-size: 0.8em;
 }
 
-/**🌛----Dark Mode----🌛**/
-/* all creds! https://codepen.io/vikramsoni/pen/xxOjvRP */
-.darkmode{
-  color: #F7F9F7;
-  background-color: #121619;
-}
-
-.darkmode a{
-  color: #F7F9F7;
-}
-
-.darkmode a:hover{
-  color: #121619;
-  background-color: #F7F9F7;
-}
-
-.darkmode i{
-  background-color: none;
-  color: #F7F9F7;
-}
-
-.darkmode img{
-  border-color: #F7F9F7;
-  box-shadow: 10px 10px #F7F9F7;
-}
-
-  #dark-mode-toggle i{
-  transform: scale(1.4);
-}
-
-#dark-mode-toggle i:hover{
-  cursor: crosshair;
-}
-
-.darkmode .line-break{
-  border-color: #F7F9F7;
-}
-
-.darkmode #button::after{
-  color: #F7F9F7;
-}
-
-.darkmode .tag{
-  color: rgb(255,255,255,.8);
-  background-color: rgb(255,255,255,0.05);
-}
-
-.darkmode .ac-sub a{
-  color: #F7F9F7;
-}
-
-.darkmode .ac-sub a:hover{
-  color: #121719;
-  background-color: #F7F9F7;
-}
-
-
 
 /**👋----------------Desktop-------------------👋**/
 @media only screen and (min-width: 900px) {
@@ -840,27 +783,6 @@ footer .footer-credit{
 /**this is for styling your line breaks**/
 .line-break{
   width: 900px;
-}
-
-/**🍎*****Dark Mode*****🍎**/
-
-
-.darkmode .header-title a{
-  color: #F7F9F7;
-}
-
-.darkmode .header-title a:hover{
-  color: #121719;
-  background-color: #F7F9F7;
-}
-
-.darkmode .pop-up-desc{
-  color: #F7F9F7;
-}
-
-.darkmode #button.show{
-  color: #F7F9F7;
-  background-color: none;
 }
 
 }

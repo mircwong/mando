@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -185,7 +186,7 @@
 			<div class="footer-title">But it doesn't end here.</div>
 <div class="spacing-48"></div>
 			<div class="footer-icons">
-				<a target=”_blank” href="mailto:mirandaawong11@gmail.com">
+				<a target=”_blank” href="/cdn-cgi/l/email-protection#462b2f34272822272731292821777706212b272f2a6825292b">
 						<i class="fa fa-paper-plane"></i>
 				</a>
 
@@ -209,8 +210,6 @@
 
 
 <!-- All scripts below -->
-
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="aos.js"></script>
 <script type="text/javascript">
 	AOS.init({
@@ -218,17 +217,6 @@
 		});
 </script>
 
-<!-- Navbar mobile -->
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 
 <!-- Navbar hide on scroll down -->
 <script>
@@ -261,28 +249,6 @@ btn.on('click', function(e) {
 });
 </script>
 
-<!-- Dark mode toggle -->
-<script>
-/* Credits in css*/
-let darkMode = localStorage.getItem("darkMode");
-function enableDarkMode() {
-document.body.classList.add("darkmode");
-localStorage.setItem("darkMode", "enabled");
-}
-function disableDarkMode() {
-document.body.classList.remove("darkmode");
-localStorage.setItem("darkMode", null);
-}
-if (darkMode === "enabled") {
-enableDarkMode();
-}
-// Listeners
-const darkModeToggle = document.querySelector("#dark-mode-toggle");
-darkModeToggle.addEventListener("click", () => {
-darkMode = localStorage.getItem("darkMode");
-darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
-});
-</script>
 
 <!-- Image hover effect -->
 <script>
