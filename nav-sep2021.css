@@ -145,6 +145,14 @@ margin-left: 30px;
      right: 20px;
    }
 
+   .openMenu img{
+     height: 30px;
+   }
+
+   .closeMenu img{
+     height: 30px;
+   }
+
   .topnav ul li {
     margin-top: 30px;
     margin-right: 0;
