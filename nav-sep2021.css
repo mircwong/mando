@@ -84,18 +84,72 @@ margin-left: 30px;
   font-style: italic;
 }
 
+.topnav .openMenu {
+    font-size: 2em;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.topnav .mainMenu .closeMenu{
+    font-size: 2em;
+    display: none;
+    cursor: pointer;
+}
 
 @media (max-width: 900px) {
+.topnav{
+  height: 60px;
+}
+
   .topnav .logo img{
-    height: 30px;
+    height: 40px;
     animation: none;
   }
 
-  .topnav{
-    padding: 30px;
-    justify-content: space-between;
-    margin-right: 30px;
+  .topnav .logo{
+    margin-left: 10px;
   }
+
+  .topnav .mainMenu{
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    transition: top 1s ease;
+    display: none;
+    padding-left: 0px;
+    margin-top: 0;
+    }
+
+
+  .topnav a{
+    font-size: 1.5em;
+  }
+
+  .topnav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    }
+
+  .topnav .openMenu {
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 20px;
+   }
+
+  .topnav ul li {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+
 
 
 }
