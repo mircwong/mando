@@ -1,7 +1,8 @@
 html{
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-family: "termina", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 body{
@@ -120,7 +121,7 @@ margin-left: 30px;
     flex-direction: column;
     align-items: center;
     background: white;
-    transition: top 1s ease;
+    transition: top 1.5s ease-in-out;
     display: none;
     padding-left: 0px;
     margin-top: 0;

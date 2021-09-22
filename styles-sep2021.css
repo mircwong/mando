@@ -12,8 +12,7 @@
     padding: 0;
     font-size: 1em;
     line-height: 2em;
-    font-family: "Inter", sans-serif;
-    color: #121619;
+    color: #1F271B;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -24,6 +23,7 @@
 /**🍎*****Colors*****🍎**/
 --yellow-color: #FFE926;
 --orange-color: #FF5924;
+--black-color: #1F271B;
 
 
   /**🥑----Spacing----🥑**/
@@ -63,45 +63,6 @@
   }
 
 
-  /**🍎*****Background Blurs*****🍎**/
-  /*
-  .header-bg{
-    position: relative;
-    width: 100%;
-    height: 600px;
-    z-index: -2;
-  }
-
-    .bg-shape{
-      position: relative;
-      width:800px;
-      height: 800px;
-      border-radius: 9999px;
-      z-index: -2;
-    }
-
-    .bg-blur{
-      filter:blur(300px);
-    }
-
-    .opacity-50{
-      opacity: 0.5;
-    }
-
-    .bg-yellow{
-      background-color: #FFE926;
-      margin: 0 0 0 20em;
-    }
-
-    .bg-orange{
-      background-color: #FF5924;
-    }
-
-    .opacity-20{
-      opacity: 0.2;
-    }
-
-*/
   /**🍎*****Header*****🍎**/
 
   .header{
@@ -117,11 +78,11 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 400px;
 
-    font-family: "IvyPresto Display", serif;
-    font-weight: 100;
-    font-style: italic;
+    font-family: new-spirit, serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2em;
     text-align: center;
     line-height: 1.2em;
@@ -129,12 +90,13 @@
 
   .black-star{
     position: relative;
-    top: -10px;
-    left: -150px;
+    top: -30px;
+    left: -100px;
   }
 
   .black-star img{
     height: 20px;
+    animation: spin 10s linear infinite;
   }
 
   .orange-star{
@@ -144,9 +106,19 @@
   }
 
   .orange-star img{
-    height: 50px;
+    height: 100px;
+    animation: spin 10s linear infinite;
   }
 
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 
   .oval {
     position: relative;
@@ -173,7 +145,7 @@
   .header-subtitle{
     position: relative;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   /*----Text hover effect----*/
@@ -183,12 +155,11 @@
   }
 
   .pop-up-title{
-    font-family: "IvyPresto Display", serif;
+    font-family: new spirit, serif;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 400;
     padding-bottom: 20px;
     letter-spacing: normal;
-    font-style: italic;
   }
 
   .pop-up-desc{
@@ -214,9 +185,8 @@
     top: 50px;
     height: 200px;
 
-    font-family: "IvyPresto Display", serif;
-    font-weight: 100;
-    font-style: italic;
+    font-family: new spirit, serif;
+    font-weight: 400;
   }
 
   .welcome-arrow a{
@@ -242,16 +212,14 @@
   }
 
   .work-title{
-    font-family: "IvyPresto Display", serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 1.5em;
+    font-family: new spirit, serif;
+    font-weight: 400;
+    font-size: 2em;
   }
 
   .work-date, .work-tags{
-    font-family: "IvyPresto Display", serif;
-    font-style: italic;
-    font-weight: 100;
+    font-family: new spirit, serif;
+    font-weight: 400;
     font-size: 0.8em;
   }
 
@@ -279,12 +247,30 @@
   }
 
   .mini-about-title{
-    font-family: "IvyPresto Display", serif;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 1.5em;
+    font-family: new spirit, serif;
+    font-weight: 400;
+    font-size: 2em;
   }
 
+  .button-section{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 300px;
+    z-index: 20;
+  }
+
+  .more-button{
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    border: solid 0.5px black;
+  }
+
+  .more-button a{
+    text-decoration: none;
+    color: black;
+  }
 
   /**🍎*****Footer*****🍎**/
   footer{
@@ -400,19 +386,15 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: "IvyPresto Display", serif;
-  font-weight: 100;
-  font-style: italic;
+  font-family: new spirit, serif;
+  font-weight: 400;
   font-size: 1.5em;
 }
 
 footer .footer-icons a{
   margin-right: 20px;
   text-decoration: none;
-  color: black;
-  background-color: white;
-  border-radius: 9000px;
-  padding: 10px;
+  color: white;
 }
 
 
@@ -484,6 +466,7 @@ footer .footer-credit{
     z-index: -2;
   }
 
+
   .bg-blur{
     filter:blur(200px);
   }
@@ -494,16 +477,16 @@ footer .footer-credit{
 
   .bg-yellow{
     background-color: #FFE926;
-    margin: 0 0 0 30em;
+    margin: 0 0 0 20em;
   }
 
   .bg-orange{
     background-color: #FF5924;
-    margin: 20em 0 0 60em;
+    margin: 20em 0 0 0;
   }
 
   .opacity-50{
-    opacity: 0.5;
+    opacity: 0.9;
   }
 
 
@@ -521,11 +504,11 @@ footer .footer-credit{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 550px;
+  width: 740px;
   height: 400px;
-  font-family: "IvyPresto Display", serif;
-  font-weight: 100;
-  font-style: italic;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 4em;
   text-align: center;
   line-height: 1.2em;
@@ -535,7 +518,7 @@ footer .footer-credit{
 .black-star{
   position: relative;
   top: -10px;
-  left: -360px;
+  left: -400px;
 }
 
 .black-star img{
@@ -550,7 +533,7 @@ footer .footer-credit{
 }
 
 .orange-star img{
-  height: 50px;
+  height: 150px;
   animation: spin 10s linear infinite;
 }
 
@@ -616,6 +599,9 @@ a:hover{
 .personal-title{
   content: "\2192";
   transition: all 0.4s ease;
+  font-family: "termina", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .personal-title:hover{
@@ -624,7 +610,7 @@ a:hover{
 }
 
 .personal-title .imagehover img{
-  transform: translateX(-45%)  translateY(-410%);
+  transform: translateX(-45%)  translateY(-350%);
 }
 
 /*----Text hover effect----*/
@@ -634,12 +620,12 @@ a:hover{
 }
 
 .pop-up-title{
-  font-family: "IvyPresto Display", serif;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.5em;
-  font-weight: 100;
   padding-bottom: 20px;
   letter-spacing: normal;
-  font-style: italic;
 }
 
 .pop-up-desc{
@@ -649,6 +635,7 @@ a:hover{
 
   font-family: "Inter", sans-serif;
   font-size: 1em;
+  font-weight: 300;
   line-height: 1.5;
   color: #121719;
   letter-spacing: normal;
@@ -666,9 +653,9 @@ a:hover{
   margin-right: auto;
   height: 200px;
 
-  font-family: "IvyPresto Display", serif;
-  font-weight: 100;
-  font-style: italic;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .welcome-arrow a{
@@ -690,12 +677,37 @@ a:hover{
 }
 
 .mini-about-title{
-  font-family: "IvyPresto Display", serif;
-  font-weight: 100;
-  font-style: italic;
-  font-size: 1.5em;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
 }
 
+.button-section{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 890px;
+  z-index: 20;
+}
+
+.more-button{
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px black;
+  transition: all 200ms ease-in-out;
+  float: right;
+}
+
+.more-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.more-button:hover{
+  box-shadow:10px 10px #121619;
+  transform: translateY(-5px)
+}
 
 /**🍎*****Project Section*****🍎**/
 .work-section{
@@ -719,16 +731,16 @@ a:hover{
 }
 
 .work-title{
-  font-family: "IvyPresto Display", serif;
-  font-style: italic;
-  font-weight: 100;
-  font-size: 1.8em;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
 }
 
 .work-date, .work-tags{
-  font-family: "IvyPresto Display", serif;
-  font-style: italic;
-  font-weight: 100;
+  font-family: new-spirit, serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1em;
 }
 
@@ -764,19 +776,15 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: "IvyPresto Display", serif;
-  font-weight: 100;
-  font-style: italic;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2em;
 }
 
 footer .footer-icons a{
   margin-right: 20px;
   text-decoration: none;
-  color: black;
-  background-color: white;
-  border-radius: 9000px;
-  padding: 10px;
 }
 
 footer .footer-credit{
