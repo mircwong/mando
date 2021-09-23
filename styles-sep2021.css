@@ -80,12 +80,12 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 300px;
 
     font-family: swear-display, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     line-height: 1.2em;
   }
@@ -124,14 +124,14 @@
 
   .oval {
     position: relative;
-    top: -75px;
+    top: -120px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     height: 70px;
     border: 0.5px solid #1F271B;
     border-radius: 50%;
-    transform: rotate(-26deg);
+    transform: rotate(-40deg);
   }
 
   .spinning-text{
@@ -531,12 +531,12 @@ footer .footer-credit{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 790px;
+  width: 850px;
   height: 400px;
   font-family: swear-display, serif;
   font-weight:400;
   font-style: normal;
-  font-size: 4em;
+  font-size: 5em;
   text-align: center;
   line-height: 1.2em;
 
@@ -587,14 +587,14 @@ footer .footer-credit{
 
 .oval {
   position: relative;
-  top: -110px;
+  top: -125px;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 80px;
+  width: 500px;
+  height: 90px;
   border: 0.5px solid #1F271B;
   border-radius: 50%;
-  transform: rotate(-26deg);
+  transform: rotate(-30deg);
 }
 
 /**🍎*****Header roles*****🍎**/
