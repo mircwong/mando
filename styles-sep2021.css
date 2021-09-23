@@ -894,9 +894,13 @@ footer .footer-icons a{
   text-decoration: none;
 }
 
+.footer-icons a:hover{
+  color: #FF5924;
+}
+
 footer .footer-credit{
   text-align: center;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 /**🍙----Line Breaks----🍙**/
