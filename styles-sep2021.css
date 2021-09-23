@@ -22,7 +22,7 @@
 
 /**🍎*****Colors*****🍎**/
 --yellow-color: #FFE926;
---orange-color: #FF5924;
+--orange-color: #FB5607;
 --black-color: #1F271B;
 
 
@@ -80,8 +80,8 @@
     margin-right: auto;
     width: 400px;
 
-    font-family: new-spirit, serif;
-    font-weight: 400;
+    font-family: swear-display, serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 2em;
     text-align: center;
@@ -102,7 +102,7 @@
   .orange-star{
     position: relative;
     top: -50px;
-    left: 120px;
+    left: 100px;
   }
 
   .orange-star img{
@@ -127,10 +127,22 @@
     margin-right: auto;
     width: 300px;
     height: 70px;
-    border: 0.5px solid black;
+    border: 0.5px solid #1F271B;
     border-radius: 50%;
     transform: rotate(-26deg);
   }
+
+  .spinning-text{
+    position: relative;
+    top: -20px;
+    left: 120px;
+  }
+
+  .spinning-text img{
+    height: 100px;
+    animation: spin 10s linear infinite;
+  }
+
 
   /**🍎*****Header roles*****🍎**/
   .header-roles{
@@ -155,9 +167,9 @@
   }
 
   .pop-up-title{
-    font-family: new spirit, serif;
+    font-family: swear-display, serif;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 20px;
     letter-spacing: normal;
   }
@@ -185,8 +197,8 @@
     top: 50px;
     height: 200px;
 
-    font-family: new spirit, serif;
-    font-weight: 400;
+    font-family: swear-display, serif;
+    font-weight: 500;
   }
 
   .welcome-arrow a{
@@ -194,7 +206,7 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: black;
+    color: #1F271B;
   }
 
 
@@ -212,14 +224,14 @@
   }
 
   .work-title{
-    font-family: new spirit, serif;
-    font-weight: 400;
+    font-family: swear-display, serif;
+    font-weight: 700;
     font-size: 2em;
   }
 
   .work-date, .work-tags{
-    font-family: new spirit, serif;
-    font-weight: 400;
+    font-family: swear-display, serif;
+    font-weight: 500;
     font-size: 0.8em;
   }
 
@@ -230,12 +242,54 @@
 
   .work-image img{
     height: 150px;
-    border: 0.5px solid black;
+    border: 0.5px solid #1F271B;
     transition: all 200ms ease-in-out;
   }
 
+  /**🍎*****Other Work Section*****🍎**/
+  .other-work-section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
 
+  .other-work{
+    padding-top: 32px;
+  }
 
+  .other-work-title{
+    font-family: swear-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+  }
+
+  .other-work-date{
+    font-family: swear-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+  }
+
+  .other-work img{
+    height: 310px;
+    border: 0.5px solid #1F271B;
+    transition: all 200ms ease-in-out;
+  }
+
+  .other-work-one-liner{
+    line-height: 1.5em;
+  }
+
+  .other-work-tags{
+    font-family: swear-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+  }
 
 
   /**🍎*****Mini About Section*****🍎**/
@@ -247,8 +301,8 @@
   }
 
   .mini-about-title{
-    font-family: new spirit, serif;
-    font-weight: 400;
+    font-family: swear-display, serif;
+    font-weight: 700;
     font-size: 2em;
   }
 
@@ -264,17 +318,17 @@
   .more-button{
     display: inline-block;
     padding: 10px 30px 10px 30px;
-    border: solid 0.5px black;
+    border: solid 0.5px #1F271B;
   }
 
   .more-button a{
     text-decoration: none;
-    color: black;
+    color: #1F271B;
   }
 
   /**🍎*****Footer*****🍎**/
   footer{
-    background-color: black;
+    background-color: #1F271B;
     height: 300px;
   }
 
@@ -334,12 +388,13 @@
     right: 30px;
     border-radius: 900px;
     padding: 10px;
-    border: solid 0.5px black;
+    border: solid 0.5px #1F271B;
     transition: none .2s,
       opacity .2s, visibility .2s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    font-family: "inter", sans-serif;
   }
 
   #button::after {
@@ -373,7 +428,7 @@
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: black;
+  background-color: #1F271B;
   height: 330px;
   color: white;
 }
@@ -386,8 +441,8 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: new spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 500;
   font-size: 1.5em;
 }
 
@@ -419,7 +474,7 @@ footer .footer-credit{
       right: 30px;
       border-radius: 900px;
       padding: 10px;
-      border: solid 0.5px black;
+      border: solid 0.5px #1F271B;
       transition: none .2s,
         opacity .2s, visibility .2s;
       opacity: 0;
@@ -463,12 +518,12 @@ footer .footer-credit{
     width:200px;
     height: 200px;
     border-radius: 9999px;
-    z-index: -2;
+    z-index: -5;
   }
 
 
   .bg-blur{
-    filter:blur(200px);
+    filter:blur(180px);
   }
 
   .opacity-90{
@@ -477,18 +532,18 @@ footer .footer-credit{
 
   .bg-yellow{
     background-color: #FFE926;
-    margin: 0 0 0 20em;
+    margin: 0 0 0 15em;
   }
 
   .bg-orange{
-    background-color: #FF5924;
-    margin: 20em 0 0 0;
+    background-color: #FB5607;
+    margin: 25em 0 0 0;
   }
 
-  .opacity-50{
-    opacity: 0.9;
+  .bg-yellow2{
+    background-color: #FFE926;
+    margin: 0 0 0 70em;
   }
-
 
 /**🍎*****Header*****🍎**/
 
@@ -504,10 +559,10 @@ footer .footer-credit{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 740px;
+  width: 790px;
   height: 400px;
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight:400;
   font-style: normal;
   font-size: 4em;
   text-align: center;
@@ -528,14 +583,26 @@ footer .footer-credit{
 
 .orange-star{
   position: relative;
-  top: -50px;
+  top: -40px;
   left: 320px;
 }
 
 .orange-star img{
-  height: 150px;
+  height: 200px;
   animation: spin 10s linear infinite;
 }
+
+.spinning-text{
+  position: relative;
+  top: -20px;
+  left: 420px;
+}
+
+.spinning-text img{
+  height: 120px;
+  animation: spin 10s linear infinite;
+}
+
 
 @keyframes spin{
   0%{
@@ -553,7 +620,7 @@ footer .footer-credit{
   margin-right: auto;
   width: 400px;
   height: 80px;
-  border: 0.5px solid black;
+  border: 0.5px solid #1F271B;
   border-radius: 50%;
   transform: rotate(-26deg);
 }
@@ -574,7 +641,6 @@ footer .footer-credit{
 .header-subtitle{
   position: relative;
   font-size: 1.2em;
-  font-weight: 400;
 }
 
 /*----Image hover effect----*/
@@ -620,8 +686,8 @@ a:hover{
 }
 
 .pop-up-title{
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.5em;
   padding-bottom: 20px;
@@ -653,8 +719,8 @@ a:hover{
   margin-right: auto;
   height: 200px;
 
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -663,7 +729,7 @@ a:hover{
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: black;
+  color: #1F271B;
 }
 
 /**🍎*****Mini About Section*****🍎**/
@@ -671,14 +737,12 @@ a:hover{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 830px;
-  border: solid 0.5px black;
-  padding: 30px;
+  width: 900px;
 }
 
 .mini-about-title{
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 2em;
 }
@@ -694,14 +758,14 @@ a:hover{
 .more-button{
   display: inline-block;
   padding: 10px 30px 10px 30px;
-  border: solid 0.5px black;
+  border: solid 0.5px #1F271B;
   transition: all 200ms ease-in-out;
   float: right;
 }
 
 .more-button a{
   text-decoration: none;
-  color: black;
+  color: #1F271B;
 }
 
 .more-button:hover{
@@ -731,17 +795,17 @@ a:hover{
 }
 
 .work-title{
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 2.5em;
 }
 
 .work-date, .work-tags{
-  font-family: new-spirit, serif;
+  font-family: swear-display, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .work-one-liner{
@@ -751,7 +815,7 @@ a:hover{
 
 .work-image img{
   height: 450px;
-  border: 0.5px solid black;
+  border: 0.5px solid #1F271B;
   transition: all 200ms ease-in-out;
 }
 
@@ -760,10 +824,53 @@ a:hover{
   transform: translateY(-5px)
 }
 
+/**🍎*****Other Work Section*****🍎**/
+.other-work-section{
+  width: 80vw;
+  max-width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.other-work{
+  width: 400px;
+}
+
+.other-work-title{
+  font-family: swear-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.other-work-date, .other-work-tags{
+  font-family: swear-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+.other-work img{
+  height: 400px;
+  border: 0.5px solid #1F271B;
+  transition: all 200ms ease-in-out;
+}
+
+.other-work-image img:hover{
+  box-shadow:10px 10px #121619;
+  transform: translateY(-5px)
+}
+
+
+
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: black;
+  background-color: #1F271B;
   height: 270px;
   color: white;
 }
@@ -776,8 +883,8 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: new-spirit, serif;
-  font-weight: 400;
+  font-family: swear-display, serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 2em;
 }
