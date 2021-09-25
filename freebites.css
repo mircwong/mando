@@ -124,7 +124,7 @@ section:nth-of-type(1) {
 
 #project-description{
   font-family: "Inter", sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.8em;
 }
@@ -156,6 +156,8 @@ section:nth-of-type(1) {
   font-family: "Inter", sans-serif;
   color: #121719;
   line-height: 1.5;
+  font-weight: 300;
+
 }
 
 
@@ -194,6 +196,8 @@ section:nth-of-type(1) {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
   font-size: 1em;
+  font-weight: 300;
+
 }
 
 .details-description a{
