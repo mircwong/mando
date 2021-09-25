@@ -95,6 +95,8 @@ a.imagehover{
 .ac-sub-text a{
   font-size: 1em;
   color: #121719;
+  text-decoration: underline 0.2px solid black;
+  
 }
 
 @import "compass/css3";

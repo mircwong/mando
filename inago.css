@@ -11,12 +11,12 @@ a{
 }
 
 a:hover{
-  color: #F7F9F7;
+  color: #FB5607;
 }
 
 
 .img-container {
-  width: 80vw;
+  width: 300px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -28,31 +28,11 @@ a:hover{
   max-height: 100%;
 }
 
-.img-row, .img-row2 {
-  max-width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.img-row img{
-max-width: 100%;
- max-height: 100%;
- margin: 5%;
-}
-
-.img-row2 img{
-max-width: 100%;
- max-height: 100%;
- margin: 5%;
-}
 
 /*https://codepen.io/dudleystorey/pen/lejFx*/
 section {
-  height: 100vh;
+  height: 300px;
   box-sizing: border-box;
   display: flex;
   align-items: left;
@@ -62,8 +42,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 2vw;
-  background-position: -750px;
+
 }
 
 section:nth-of-type(even) {
@@ -71,23 +50,31 @@ section:nth-of-type(even) {
 }
 
 section:nth-of-type(1) {
-  background-image: url(images/Inago/inago-header.png);
+  background-image: url(images/Inago/inago-mobile-preview.png);
 }
 
 /**👋----Intro----👋**/
 
-.go-back a:hover, .previous a:hover, .next a:hover{
-  background-color: #121719;
+.button-section{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  z-index: 0;
 }
 
 .go-back {
-  width: 80vw;
-  max-width: 900px;
-  min-height: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px #1F271B;
+}
+
+.go-back a{
+  text-decoration: none;
+  color: #1F271B;
 }
 
 .proj-end{
@@ -97,23 +84,53 @@ section:nth-of-type(1) {
   align-items: center;
 }
 
-.previous{
+.previous-next-button-section{
   position: relative;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
   z-index: 0;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.next{
-  position: relative;
-  float: right;
-  z-index: 0;
+.previous {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px #1F271B;
+}
+
+.previous a{
+  text-decoration: none;
+  color: #1F271B;
+}
+
+.next {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px #1F271B;
+  transition: all 200ms ease-in-out;
+}
+
+.next a{
+  text-decoration: none;
+  color: #1F271B;
 }
 
 
 
 .intro{
-  width: 80vw;
-  max-width: 900px;
+  width: 300px;
   min-height: auto;
   display: flex;
   flex-direction: column;
@@ -122,12 +139,18 @@ section:nth-of-type(1) {
 }
 
 #project-date{
-  font-size: .8em;
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
 }
 
 #project-title{
-  font-weight: 700;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.5em;
+  line-height: 1.3;
 }
 
 #project-description{
@@ -139,20 +162,21 @@ section:nth-of-type(1) {
 
 #project-description a{
   font-weight: 700;
+  transition: all 1s ease-in-out;
 }
 
 #project-description a:hover{
-  background-color: #121719;
+  color: #FB5607;
+  letter-spacing: 1.1;
 }
 
 #right-side img{
-  width: 80vw;
+  width: 300px;
 }
 /**👋----Project Details----👋**/
 
 .wrap{
-  width: 80vw;
-  max-width: 900px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -162,30 +186,35 @@ section:nth-of-type(1) {
 .content{
   font-family: "Inter", sans-serif;
   color: #121719;
+  line-height: 1.5;
 }
 
 
 .small-side-title{
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1em;
-  font-weight: 600;
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
   line-height: 1.5;
   padding-bottom: 1em;
 }
 
 .side-title{
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1.2em;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
   line-height: 1.2;
-  font-weight: 700;
   min-width: 150px;
   margin-bottom: 20px;
 }
 
 
 .detail-title, .right-title{
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3em;
 }
 
 .detail-title{
@@ -204,7 +233,8 @@ section:nth-of-type(1) {
 }
 
 .details-description a:hover, .padding a:hover{
-  background-color: #121719;
+  color: #FB5607;
+
 }
 
 .callout{
@@ -215,40 +245,147 @@ section:nth-of-type(1) {
   padding: 40px 55px 40px;
 }
 
-/**🌛---Dark Mode----🌛**/
-.darkmode #project-description a:hover{
-  background-color: #F7F9F7;
+.img-row{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.darkmode .content{
-  color: #F7F9F7;
+.img-row img{
+  width: 300px;
+  margin-bottom: 40px;
 }
 
-.darkmode a:hover{
-  background-color: #F7F9F7;
+.previous-next-button-section{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  z-index: 0;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.darkmode .callout{
-  background-color: rgba(255,255,255,0.03);
-  color: #f7f9f7;
+.previous {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px #1F271B;
 }
 
-.darkmode .detail-title{
-  color: rgba(255,255,255,.5);
+.previous a{
+  text-decoration: none;
+  color: #1F271B;
 }
 
-.darkmode img{
-  box-shadow: none;
+.next {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  border: solid 0.5px #1F271B;
+  transition: all 200ms ease-in-out;
 }
+
+.next a{
+  text-decoration: none;
+  color: #1F271B;
+}
+
+
+
 
 /**👋----------------Desktop-------------------👋**/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
+
+
+  .button-section{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 890px;
+    z-index: 0;
+  }
+
+  .go-back {
+    font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    border: solid 0.5px #1F271B;
+    transition: all 200ms ease-in-out;
+  }
+
+  .go-back a{
+    text-decoration: none;
+    color: #1F271B;
+  }
+
+  .go-back:hover{
+    box-shadow:10px 10px #121619;
+    transform: translateY(-5px)
+  }
+
+  /*https://codepen.io/dudleystorey/pen/lejFx*/
+  section {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 2vw;
+    background-position: -750px;
+  }
+
+  section:nth-of-type(even) {
+    background: #F7F9F7;
+  }
+
+  section:nth-of-type(1) {
+    background-image: url(images/Inago/inago-big-preview.png);
+  }
+
   section{
     background-position: center;
   }
 
+  .wrap{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro{
+    width: 900px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #project-title{
-    font-weight: 700;
+    font-family: swear-display, serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 3em;
     line-height: 1.3;
   }
@@ -277,8 +414,7 @@ section:nth-of-type(1) {
   }
 
   .img-container {
-    max-width: 900px;
-    height: 80vh;
+    width: 900px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -287,42 +423,8 @@ section:nth-of-type(1) {
 
   .img-container img{
     max-width: 100%;
-   max-height: 100%;
-  }
-
-  .img-row {
-    max-width: 900px;
-    height: 65vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .img-row2 {
-    max-width: 900px;
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .img-row img{
-  max-width: 100%;
-   max-height: 100%;
-   margin: 2%;
-  }
-
-   .img-row2 img{
-   max-width: 100%;
     max-height: 100%;
-    margin: 2%;
-   }
+  }
 
   .final-gif{
     display: flex;
@@ -333,4 +435,56 @@ section:nth-of-type(1) {
     width: 200px;
     margin: 5%;
   }
+
+  .img-row{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img-row img{
+    width: 250px;
+    margin-bottom: 0;
+  }
+
+  .previous-next-button-section{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .previous {
+    transition: all 200ms ease-in-out;
+    margin-bottom: 0;
+  }
+
+  .previous a{
+    text-decoration: none;
+    color: #1F271B;
+  }
+
+  .next {
+    transition: all 200ms ease-in-out;
+  }
+
+  .next a{
+    text-decoration: none;
+    color: #1F271B;
+  }
+
+  .previous:hover, .next:hover{
+    box-shadow:10px 10px #121619;
+    transform: translateY(-5px)
+  }
+
 }

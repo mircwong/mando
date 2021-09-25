@@ -1,174 +1,546 @@
 /**👋----------------Mobile-------------------👋**/
+@media only screen and (min-width: 300px)  {
 
+  /**🍎*****About Intro*****🍎**/
+  .intro{
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /**🍎*****About One Liner*****🍎**/
+  .about-one-liner{
+    width: 300px;
+    height: 300px;
+    font-size: 2em;
+    line-height: 1.2em;
+
+  }
+
+  .line1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .line4{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .space{
+    width: 10px;
+  }
+
+  .sweardisplay-text{
+    font-family: swear-display, serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .sweardisplayitalic-text{
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .belydisplay-text{
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  /**🍎*****About Photo of Me*****🍎**/
+  .me-photo{
+    width: 350px
+    height: 350px;
+  }
+
+  .me-photo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    border: 1px solid #1F271B;
+    box-shadow:10px 10px #121619;
+}
+
+
+
+/*----Accordian----**/
+
+.accordian{
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+a.imagehover{
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 1.7em;
+  padding-top: 30px;
+}
+
+.ac-sub-text a{
+  font-size: 1em;
+  color: #121719;
+  text-decoration: underline 0.2px solid black;
+
+}
+
+@import "compass/css3";
+/*all creds! https://codepen.io/nathanlong/pen/mBrvn*/
+.container {
+  width: 40em;
+  margin: 10px auto;
+}
+
+.ac-label {
+  position: relative;
+  padding: .5em 1em;
+  margin-bottom: .5em;
+  display: block;
+  cursor: pointer;
+  background-color: whiteSmoke;
+  transition: .2s;
+
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+
+.ac-input:checked + label, .ac-label:hover {
+  background-color: none;
+}
+
+.ac-label:after, .ac-input:checked + .ac-label:after {
+  content: "\2193";
+  position: absolute;
+  display: block;
+  right: auto;
+  top: 0;
+  width: 2em;
+  height: 100%;
+  line-height: 2.25em;
+  text-align: center;
+  background-color: #e5e5e5;
+  transition: .2s;
+}
+
+.ac-label:hover:after, .ac-input:checked + .ac-label:after {
+  background-color: #b5b5b5;
+}
+
+.ac-input:checked + .ac-label:after {
+  content: "\2191";
+}
+
+.ac-input {
+  display: none;
+}
+
+/*the magic*/
+
+.ac-text, .ac-sub-text {
+  opacity: 0;
+  height: 0;
+  margin-bottom: .5em;
+  transition: .2s;
+  overflow: hidden;
+}
+
+.ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text {
+  opacity: 1;
+  height: auto;
+}
+
+/*sub-level*/
+
+.ac-sub .ac-label {
+  background: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: .5em 0 1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #121719;
+}
+
+.ac-sub .ac-label:checked {
+  background: none;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
+  right: 0;
+  background: none;
+}
+
+.ac-sub .ac-input:checked + label, .ac-sub .ac-label:hover {
+  background: none;
+}
+
+.ac-sub-text{
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.5em;
+
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column-title{
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.column1, .column2, .column3{
+  width: 300px;
+}
+
+/*Back to top on scroll button*/
+/*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
+  #button {
+    display: inline-block;
+    background-color: white;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 900px;
+    padding: 10px;
+    border: solid 0.5px #1F271B;
+    transition: none .2s,
+      opacity .2s, visibility .2s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    font-family: "inter", sans-serif;
+  }
+
+  #button::after {
+    content: "\2191";
+    font-size: 1.3em;
+    color: #121719;
+  }
+
+  #button:active {
+    background-color: none;
+  }
+
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /**🍎*****Footer*****🍎**/
+  footer{
+    background-color: #1F271B;
+    height: 330px;
+    color: white;
+  }
+
+  footer .footer-text{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+  }
+
+  footer .footer-title{
+    font-family: swear-display, serif;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+
+  footer .footer-icons a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  footer .footer-credit{
+    padding-top: 30px;
+    font-size: 0.8em;
+  }
 
 /**👋----------------Desktop-------------------👋**/
-@media only screen and (min-width: 1000px)  {
+@media only screen and (min-width: 900px) {
 
-  html{
-    font-size: 15px;
-    line-height: 1.8em;
+  /**🍎*****Background Blurs*****🍎**/
 
-  }
-
-  body{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.about-container{
-  margin-left: auto;
-  margin-right: auto;
-
-  position: relative;
-  width: 1000px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-  #about-right img {
+  .header-bg{
     position: relative;
-    width: 356.66px;
-    height: 356.66px;
-    top: 192.67px;
-
-  	transition-duration: 950ms;
-  	transition-property: all;
+    width: 100%;
+    height: 300px;
+    z-index: -2;
   }
 
-  #about-right img:hover {
-  	transform: scale(1.02);
-  	transition: all ease-in-out 950ms;
-  }
+    .bg-shape{
+      position: relative;
+      width:200px;
+      height: 200px;
+      border-radius: 9999px;
+      z-index: -5;
+    }
 
-.about-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-  .about-right-title{
+    .bg-blur{
+      filter:blur(180px);
+    }
+
+    .opacity-90{
+      opacity: 0.9;
+    }
+
+    .bg-yellow{
+      background-color: #FFE926;
+      margin: 0 0 0 15em;
+    }
+
+    .bg-orange{
+      background-color: #FB5607;
+      margin: 25em 0 0 0;
+    }
+
+    .bg-yellow2{
+      background-color: #FFE926;
+      margin: 0 0 0 70em;
+    }
+
+  /**🍎*****About Intro*****🍎**/
+  .intro{
     position: relative;
-    width: 500px;
-    height: auto;
-    left: 50px;
-    top: 152px;
-
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.8em;
-  }
-
-  .about-right-desc{
-    position: relative;
-    width: 500px;
-    height: auto;
-    left: 50px;
-    top: 170px;
-  }
-
-
-
-
-
-
-.more-about-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  position: relative;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 300px;
-
-}
-
-  .more-about-title{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.8em;
-  }
-
-  .more-about-desc{
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  /**🍎*****About One Liner*****🍎**/
+  .about-one-liner{
+    width: 500px;
+    height: 400px;
+    font-size: 3em;
+    line-height: 1.2em;
+
+  }
+
+  .line1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .line4{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  /**🍎*****About Photo of Me*****🍎**/
+  .me-photo{
+    width: 400px
+    height: 400px;
+  }
+
+  .me-photo img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+
+    border: 1px solid #1F271B;
+    box-shadow:10px 10px #121619;
+}
+
+
+/**🍎*****Image Hover Effect*****🍎**/
+
+a.imagehover{
+  font-size: 2.2em;
+  font-weight: 400;
+}
+
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(-65%)  translateY(-500%);
+  pointer-events:none;
+  max-width: 280px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
+}
+
+a.imagehover:hover{
+  font-style: italic;
+}
+
+
+.imagehover img.visible {
+  visibility: visible;
+}
+
+
+/**🍎*****Accordian*****🍎**/
+
+  .accordian{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-    padding-top: 50px;
 
-    width: 850px;
-
-  }
-
-  .about-emoji{
-    position: relative;
-    margin: auto;
-
-    padding-right: 40px;
-
-    font-size: 80px;
+    font-family: swear-display, serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
 
+  .accordian .ac-label:hover{
+    cursor: crosshair;
+  }
 
+  .ac-sub-text{
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    width: 900px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .column1, .column2, .column3{
+    width: 250px;
+  }
 
+  /*Back to top on scroll button*/
+  /*all creds! https://codepen.io/matthewcain/pen/ZepbeR*/
+    #button {
+      display: inline-block;
+      background-color: white;
+      width: 30px;
+      height:30px;
+      text-align: center;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      border-radius: 900px;
+      padding: 10px;
+      border: solid 0.5px #1F271B;
+      transition: none .2s,
+        opacity .2s, visibility .2s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      transition: all 200ms ease-in-out;
 
-.outside-design{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+      font-family: "Inter", sans-serif;
+    }
 
-  position: relative;
-  width: 1000px;
+    #button::after {
+      content: "\2191";
+      font-size: 1.5em;
+      color: #121719;
+    }
+
+    #button:hover {
+      cursor: crosshair;
+      box-shadow:5px 5px #121619;
+      transform: translate(2px);
+    }
+    #button:active {
+      background-color: none;
+    }
+
+    #button.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+/**🍎*****Footer*****🍎**/
+footer{
+  background-color: #1F271B;
+  height: 270px;
+  color: white;
+}
+
+footer .footer-text{
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
-  top: 450px;
-
-  padding-bottom: 100px;
-
+  padding-top: 50px;
 }
 
-.outside-design img{
-  object-fit: cover;
-  width: 1000px;
+footer .footer-title{
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
 }
 
+footer .footer-icons a{
+  margin-right: 20px;
+  text-decoration: none;
+}
 
-/**👋----------------Resume Button-------------------👋**/
+.footer-icons a:hover{
+  color: #FF5924;
+}
 
-
-#btn-container{
-  float: left;
-	font-weight: 500;
+footer .footer-credit{
   text-align: center;
-	text-decoration: none;
-	border-radius: 30px;
-	padding: 10px 30px 10px 30px;
-	font-size: 15px;
-	color:  #95C623;
-	letter-spacing: 1px;
-  border: solid 2px #95C623;
-  line-height: 0;
-
-    position: relative;
-    width: auto;
-    height: auto;
-    left: 50px;
-    top: 200px;
-
-    transition: 0.5s;
+  font-size: 0.8em;
 }
 
-#btn-container:hover{
-  background-color: #95C623;
-	color: white;
+/**🍙----Line Breaks----🍙**/
+/**this is for styling your line breaks**/
+.line-break{
+  width: 900px;
+}
+
+}
+
+
+}
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1500px) {
+.imagehover img {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  transform: translateX(-160%)  translateY(-500%);
+  pointer-events:none;
+  max-width: 280px;
+  border: solid 2px #121619;
+  box-shadow:10px 10px #121619;
 }
 }

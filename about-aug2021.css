@@ -1,0 +1,174 @@
+/**👋----------------Mobile-------------------👋**/
+
+
+/**👋----------------Desktop-------------------👋**/
+@media only screen and (min-width: 1000px)  {
+
+  html{
+    font-size: 15px;
+    line-height: 1.8em;
+
+  }
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.about-container{
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  width: 1000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+  #about-right img {
+    position: relative;
+    width: 356.66px;
+    height: 356.66px;
+    top: 192.67px;
+
+  	transition-duration: 950ms;
+  	transition-property: all;
+  }
+
+  #about-right img:hover {
+  	transform: scale(1.02);
+  	transition: all ease-in-out 950ms;
+  }
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .about-right-title{
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 50px;
+    top: 152px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.8em;
+  }
+
+  .about-right-desc{
+    position: relative;
+    width: 500px;
+    height: auto;
+    left: 50px;
+    top: 170px;
+  }
+
+
+
+
+
+
+.more-about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 300px;
+
+}
+
+  .more-about-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.8em;
+  }
+
+  .more-about-desc{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+
+    width: 850px;
+
+  }
+
+  .about-emoji{
+    position: relative;
+    margin: auto;
+
+    padding-right: 40px;
+
+    font-size: 80px;
+  }
+
+
+
+
+
+
+
+.outside-design{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 450px;
+
+  padding-bottom: 100px;
+
+}
+
+.outside-design img{
+  object-fit: cover;
+  width: 1000px;
+}
+
+
+/**👋----------------Resume Button-------------------👋**/
+
+
+#btn-container{
+  float: left;
+	font-weight: 500;
+  text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	color:  #95C623;
+	letter-spacing: 1px;
+  border: solid 2px #95C623;
+  line-height: 0;
+
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: 200px;
+
+    transition: 0.5s;
+}
+
+#btn-container:hover{
+  background-color: #95C623;
+	color: white;
+}
+}

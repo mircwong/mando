@@ -40,6 +40,11 @@
     min-height: 96px;
   }
 
+  .spacing-72{
+    max-height: 72px;
+    min-height: 72px;
+  }
+
   .spacing-48{
     max-height: 48px;
     min-height: 48px;

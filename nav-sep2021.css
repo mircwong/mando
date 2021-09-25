@@ -66,6 +66,9 @@ margin-left: 30px;
 
 
 .topnav a {
+  font-family: termina, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 0.9em;
   text-decoration: none;
   color: #121719;

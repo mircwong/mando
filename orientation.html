@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Miranda Wong — UC Davis Orientation</title>
+	<title>Miranda Wong — Product Designer</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles-dec2020.css">
-	<link rel="stylesheet" type="text/css" href="nav-dec2020.css">
+	<link rel="stylesheet" type="text/css" href="styles-sep2021.css">
+	<link rel="stylesheet" type="text/css" href="nav-sep2021.css">
 	<link rel="stylesheet" type="text/css" href="orientation.css">
 	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<meta property="og:image" content="images/JAPA/japa-mockup.png" />
-	<link rel="shortcut icon" type="img/png" href="images/Site/str.png">
-	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="https://use.typekit.net/pdo7iyq.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<meta property="og:image" content="images/OpenMeal/donor-page/openmeal-thumbnail.png" />
+  <link rel="shortcut icon" type="img/png" href="images/Site/orange-star-logo.png">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171077534-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<script src="https://kit.fontawesome.com/b38b72265d.js" crossorigin="anonymous"></script>
 
-	gtag('config', 'UA-171077534-1');
-	</script>
+
 </head>
 
-<body>
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Top Navigation Menu -->
-<div class="topnav" id="myTopnav">
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars" style="color: #121719;"></i>
-	</a>
-	<a target="_blank" href="https://drive.google.com/file/d/1RWNbelJf9UQXk6HDr_fRMC9xMhj0GKf_/view?usp=sharing">Resume</a>
-	<a target="_blank" href="https://www.behance.net/miranda-wong">Playground &nearr;</a>
-	<a href="about.html">About</a>
-	<a href="index.html">Home</a>
-</div>
+<body>
+	<!-- Top Navigation Menu -->
+	<div class="topnav" id="myTopnav">
+		<div class="logo"><a href="index.html" class="logo"><img src="images/Site/orange-star-logo.png" alt="orange star logo"></a></div>
+		<div class="openMenu"><img src="https://img.icons8.com/ios/50/000000/menu--v4.png"/></div>
+			 <ul class="mainMenu">
+			    <li><a href="index.html">Home</a></li>
+				  <li><a href="about.html">About</a></li>
+			    <li><a target="_blank" href="https://www.behance.net/miranda-wong">After Hours &nearr;</a></li>
+				  <li><a target="_blank" href="https://drive.google.com/file/d/1RWNbelJf9UQXk6HDr_fRMC9xMhj0GKf_/view?usp=sharing">Resume</a></li>
+				<div class="closeMenu"><img src="https://img.icons8.com/fluency-systems-regular/50/000000/multiply.png"/></div>
+			</ul>
+	</div>
 
 <div id="button"></div>
+
 <header>
 <div class="spacing-96"></div>
 
-<div class="go-back"><a href="index.html">&larr; Go Back</a></div>
+<div class="button-section">
+	<div class="go-back"><a href="index.html">&larr; Go Back</a></div>
+</div>
 
 <div class="spacing-48"></div>
+
 
 <div class="intro-bg">
 <div class="intro">
 		<div id="project-date">2019</div>
 		<div class="spacing-16"></div>
 		<div id="project-title">Conceptualizing the creative vision for a campus-wide orientation recruitment campaign</div>
+		<div class="spacing-16"></div>
+		<div id="project-date">5 minute reading time</div>
 </div>
 </div>
 
@@ -455,35 +456,38 @@
 </div>
 
 <div class="spacing-96"></div>
-<div class="wrap">
-<div class="content">
-<div class="proj-end">
-	<div class="previous"><a href="inago.html">&larr; <b>Previous:</b> Inago</a></div>
-	<div class="next"><a href="carely.html"><b>Next:</b> Care.ly &rarr;</a></div>
+
+<div class="previous-next-button-section">
+	<div class="previous"><a href="inago.html">&larr; Previous: Inago</a></div>
 </div>
-</div>
-</div>
+
 <div class="spacing-96"></div>
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-	<script src="aos.js"></script>
-	<script type="text/javascript">
-		AOS.init({
-				duration: 2000
-			});
-	</script>
+<!-- All scripts below -->
+<script src="./app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="aos.js"></script>
+<script type="text/javascript">
+	AOS.init({
+			duration: 400
+		});
+</script>
 
-	<script>
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-	    x.className += " responsive";
-	  } else {
-	    x.className = "topnav";
-	  }
+
+<!-- Navbar hide on scroll down -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+	if (prevScrollpos > currentScrollPos) {
+		document.getElementById("myTopnav").style.top = "0";
+	} else {
+		document.getElementById("myTopnav").style.top = "-100px";
 	}
-	</script>
+	prevScrollpos = currentScrollPos;
+}
+</script>
 
 	<script>
 	/*---Back to top on scroll---*/
@@ -503,28 +507,6 @@
 	</script>
 
 
-	<script>
-	/*---Dark Mode---*/
-	/* Credits in css*/
-	let darkMode = localStorage.getItem("darkMode");
-	function enableDarkMode() {
-	document.body.classList.add("darkmode");
-	localStorage.setItem("darkMode", "enabled");
-	}
-	function disableDarkMode() {
-	document.body.classList.remove("darkmode");
-	localStorage.setItem("darkMode", null);
-	}
-	if (darkMode === "enabled") {
-	enableDarkMode();
-	}
-	// Listeners
-	const darkModeToggle = document.querySelector("#dark-mode-toggle");
-	darkModeToggle.addEventListener("click", () => {
-	darkMode = localStorage.getItem("darkMode");
-	darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
-	});
-	</script>
-
+	
 </body>
 </html>
