@@ -50,7 +50,7 @@ section:nth-of-type(even) {
 }
 
 section:nth-of-type(1) {
-  background-image: url(images/Inago/inago-mobile-preview.png);
+  background-image: url(images/Inago/process-manual-preview.png);
 }
 
 /**👋----Intro----👋**/
@@ -360,7 +360,7 @@ section:nth-of-type(1) {
   }
 
   section:nth-of-type(1) {
-    background-image: url(images/Inago/inago-big-preview.png);
+    background-image: url(images/Inago/process-manual-preview.png);
   }
 
   section{
