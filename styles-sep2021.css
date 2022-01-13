@@ -86,14 +86,36 @@
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-
     font-family: swear-display, serif;
     font-weight: 500;
     font-style: normal;
     font-size: 3em;
-    text-align: center;
+    text-align: left;
     line-height: 1.2em;
   }
+
+  .space{
+    width: 10px;
+  }
+
+  .sweardisplay-text{
+    font-family: swear-display, serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .sweardisplayitalic-text{
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .belydisplay-text{
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 
   .black-star{
     position: relative;
@@ -108,8 +130,7 @@
 
   .orange-star{
     position: relative;
-    top: -50px;
-    left: 100px;
+    left: 200px;
   }
 
   .orange-star img{
@@ -127,17 +148,6 @@
   }
 }
 
-  .oval {
-    position: relative;
-    top: -120px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 70px;
-    border: 0.5px solid #1F271B;
-    border-radius: 50%;
-    transform: rotate(-40deg);
-  }
 
   .spinning-text{
     position: relative;
@@ -311,7 +321,7 @@
 
   /**🍎*****Footer*****🍎**/
   footer{
-    background-color: #1F271B;
+    background-color: #282828;
     height: 300px;
   }
 
@@ -406,7 +416,7 @@
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: #1F271B;
+  background-color: #282828;
   height: 330px;
   color: white;
 }
@@ -537,21 +547,49 @@ footer .footer-credit{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 850px;
   height: 500px;
   font-family: swear-display, serif;
   font-weight:400;
   font-style: normal;
-  font-size: 5em;
-  text-align: center;
+  font-size: 3.5em;
+  text-align: left;
   line-height: 1.2em;
 
 }
 
+.line1, .line2, .line3{
+  display: flex;
+  flex-direction: row;
+}
+
+.space{
+  width: 10px;
+}
+
+.sweardisplay-text{
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sweardisplayitalic-text{
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.belydisplay-text{
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 .black-star{
   position: relative;
   top: -10px;
-  left: -400px;
 }
 
 .black-star img{
@@ -561,8 +599,8 @@ footer .footer-credit{
 
 .orange-star{
   position: relative;
-  top: -40px;
-  left: 320px;
+  top: -80px;
+  left: 620px;
 }
 
 .orange-star img{
@@ -591,17 +629,6 @@ footer .footer-credit{
   }
 }
 
-.oval {
-  position: relative;
-  top: -125px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 90px;
-  border: 0.5px solid #1F271B;
-  border-radius: 50%;
-  transform: rotate(-30deg);
-}
 
 /**🍎*****Header roles*****🍎**/
 .header-roles{
@@ -834,7 +861,7 @@ a:hover{
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: #1F271B;
+  background-color: #282828;
   height: 270px;
   color: white;
 }
