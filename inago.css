@@ -2,7 +2,6 @@
 @media only screen and (min-width: 300px)  {
 body{
   background-color: #F7F9F9;
-  font-family: "Space Grotesk", sans-serif;
 }
 
 a{
@@ -64,7 +63,7 @@ section:nth-of-type(1) {
 }
 
 .go-back {
-  font-family: termina, sans-serif;
+  font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -96,7 +95,7 @@ section:nth-of-type(1) {
 }
 
 .previous {
-  font-family: termina, sans-serif;
+  font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -112,7 +111,7 @@ section:nth-of-type(1) {
 }
 
 .next {
-  font-family: termina, sans-serif;
+  font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -273,7 +272,7 @@ section:nth-of-type(1) {
 }
 
 .previous {
-  font-family: termina, sans-serif;
+  font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -289,7 +288,7 @@ section:nth-of-type(1) {
 }
 
 .next {
-  font-family: termina, sans-serif;
+  font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -320,7 +319,7 @@ section:nth-of-type(1) {
   }
 
   .go-back {
-    font-family: termina, sans-serif;
+    font-family: swear-display, sans-serif;
     font-weight: 400;
     font-style: normal;
     display: inline-block;

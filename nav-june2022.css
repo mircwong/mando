@@ -1,0 +1,167 @@
+html{
+  overflow-x: hidden;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.topnav {
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #FFFBF3;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  border-bottom: 1px solid #232323;
+
+  transition: top 0.3s;
+
+}
+
+.topnav .logo{
+margin-left: 10px;
+}
+
+.topnav .logo img{
+  height: 20px;
+  animation: rotation 2s linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.topnav .logo img:hover{
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.topnav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav ul li{
+  list-style: none;
+  margin-right: 90px;
+}
+
+
+.topnav a {
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #121719;
+
+  transition: all 0.3s ease;
+}
+
+
+.topnav a:hover {
+  color: #FF5924;
+  font-style: italic;
+  background-color: none;
+}
+
+.topnav a.active {
+  color: #FF5924;
+  font-style: italic;
+}
+
+.topnav .openMenu {
+    font-size: 2em;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.topnav .mainMenu .closeMenu{
+    font-size: 2em;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+.topnav{
+  height: 60px;
+}
+
+  .topnav .logo img{
+    height: 40px;
+    animation: none;
+  }
+
+  .topnav .logo{
+    margin-left: 10px;
+  }
+
+  .topnav .mainMenu{
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFBF3;
+    transition: top 1.5s ease-in-out;
+    display: none;
+    padding-left: 0px;
+    margin-top: 0;
+    }
+
+
+  .topnav a{
+    font-size: 1.5em;
+  }
+
+  .topnav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    }
+
+  .topnav .openMenu {
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 20px;
+   }
+
+   .openMenu img{
+     height: 30px;
+   }
+
+   .closeMenu img{
+     height: 30px;
+   }
+
+  .topnav ul li {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+
+
+
+}
