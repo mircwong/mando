@@ -2,7 +2,7 @@
 @media only screen and (min-width: 300px)  {
 
   html{
-    background-color: #FFFBF3;
+    background-color: #F8F7F5;
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
@@ -86,7 +86,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2.5em;
@@ -105,11 +105,25 @@
   }
 
   .sweardisplayitalic-text{
+    display: inline-block;
     font-family: swear-display, sans-serif;
     font-weight: 400;
     font-style: italic;
 
   }
+
+  .instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 
 
 
@@ -122,17 +136,28 @@
     margin-right: auto;
     align-items: center;
 
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.2em;
   }
+
+  .subheaders a {
+    display: inline-block;
+    font-style: normal;
+    font-style: italic;
+    text-decoration: none;
+    color: #FF5924;
+  }
+
 
   .subheaders-columns{
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
+
+
 
   .column1, .column2, .column3{
     width: 300px;
@@ -186,8 +211,9 @@
     top: 50px;
     height: 200px;
 
-    font-family: swear-display, serif;
-    font-weight: 500;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 1.5em;
   }
 
   .welcome-arrow a{
@@ -213,7 +239,7 @@
   }
 
   .work-title{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-size: 2em;
   }
@@ -222,15 +248,15 @@
     font-family: swear-display, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .work-one-liner{
-    font-family: "inter", sans-serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 200;
     padding-top: 20px;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1.7em;
+    line-height: 1.2em;
   }
 
   .work-image img{
@@ -254,14 +280,14 @@
   }
 
   .other-work-title{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
   }
 
   .other-work-date, .other-work-tags{
-    font-family: swear-display, serif;
+    font-family:  swear-display, serif;
     font-weight: 400;
     font-style: italic;
     font-size: 1em;
@@ -274,11 +300,26 @@
   }
 
   .other-work-one-liner{
-    font-family: "inter", sans-serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 200;
-    line-height: 1.5em;
+    font-size: 1.4em;
+    line-height: 1.2em;
   }
 
+  /**🍎*****Art & Design Ethos Section*****🍎**/
+  .ethos-section{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .ethos-section-title{
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
 
 
   /**🍎*****Mini About Section*****🍎**/
@@ -295,7 +336,7 @@
   }
 
   .mini-about-title{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-size: 2em;
   }
@@ -313,6 +354,9 @@
     display: inline-block;
     padding: 10px 30px 10px 30px;
     border: solid 0.5px #1F271B;
+
+    font-family: "Instrument Serif", serif;
+    font-size: 1.1em;
   }
 
   .more-button a{
@@ -322,7 +366,7 @@
 
   /**🍎*****Footer*****🍎**/
   footer{
-    background-color: #282828;
+    background-color: #F04800;
     height: 300px;
   }
 
@@ -334,6 +378,16 @@
     border-width: 0;
     border-color: #D4D4D4;
     border-bottom-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .thick-line-break{
+    border-style: solid;
+    border-width: 0;
+    border-color: #D4D4D4;
+    border-bottom-width: 3px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -417,7 +471,7 @@
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: #282828;
+  background-color: #F04800;
   height: 330px;
   color: white;
 }
@@ -430,7 +484,7 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-size: 1.5em;
 }
@@ -443,6 +497,7 @@ footer .footer-icons a{
 
 
 footer .footer-credit{
+  font-family: "Inter", serif;
   padding-top: 30px;
   font-size: 0.8em;
 }
@@ -509,7 +564,7 @@ footer .footer-credit{
   margin-right: auto;
   width: 900px;
   height: auto;
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight:400;
   font-style: normal;
   font-size: 3.5em;
@@ -534,10 +589,23 @@ footer .footer-credit{
 }
 
 .sweardisplayitalic-text{
+  display: inline-block;
   font-family: swear-display, sans-serif;
   font-weight: 400;
   font-style: italic;
 
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 
@@ -586,7 +654,7 @@ footer .footer-credit{
   margin-right: auto;
   align-items: center;
 
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.2em;
@@ -598,8 +666,26 @@ footer .footer-credit{
   gap: 40px;
 }
 
+.subheaders a {
+  display: inline-block;
+
+  font-style: normal;
+  font-style: italic;
+  text-decoration: none;
+  color: #121719;
+
+  transition: all 0.3s ease;
+}
+
+
+.subheaders a:hover {
+  color: #FF5924;
+  font-style: italic;
+  background-color: none;
+}
+
 .column1, .column2, .column3{
-  width: 300px;
+  width: 400px;
 }
 
 .header-subtitle{
@@ -642,8 +728,8 @@ a:hover{
 }
 
 .pop-up-title{
-  font-family: swear-display, serif;
-  font-weight: 500;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
   padding-bottom: 20px;
@@ -670,9 +756,25 @@ a:hover{
 }
 
 .welcome-arrow{
-  font-family: swear-display, serif;
-  font-weight: 500;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
   font-style: normal;
+  font-size: 1.5em;
+}
+
+/**🍎*****Art & Design Ethos Section*****🍎**/
+.ethos-section{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.ethos-section-title{
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 /**🍎*****Mini About Section*****🍎**/
@@ -684,7 +786,7 @@ a:hover{
 }
 
 .mini-about-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -737,7 +839,7 @@ a:hover{
 }
 
 .work-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
@@ -751,10 +853,11 @@ a:hover{
 }
 
 .work-one-liner{
-  font-family: "Inter", sans-serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 200;
   padding-top: 0;
-  font-size: 1.2em;
+  font-size: 2em;
+  line-height: 1.2;
 }
 
 
@@ -785,7 +888,7 @@ a:hover{
 }
 
 .other-work-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -814,7 +917,7 @@ a:hover{
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: #232323;
+  background-color: #F04800;
   height: 270px;
   color: white;
 }
@@ -827,7 +930,7 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -839,7 +942,7 @@ footer .footer-icons a{
 }
 
 .footer-icons a:hover{
-  color: #FF5924;
+  color: #8A2900;
 }
 
 footer .footer-credit{
@@ -852,6 +955,10 @@ footer .footer-credit{
 /**🍙----Line Breaks----🍙**/
 /**this is for styling your line breaks**/
 .line-break{
+  width: 900px;
+}
+
+.thick-line-break{
   width: 900px;
 }
 

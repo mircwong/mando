@@ -1,7 +1,7 @@
 html{
   overflow-x: hidden;
-  font-family: swear-display, serif;
-  font-weight: 500;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -16,7 +16,7 @@ body{
   padding: 2px;
   overflow: hidden;
   text-decoration: none;
-  background-color: #FFFBF3;
+  background-color: #F8F7F5;
   position: fixed;
   width: 100%;
   z-index: 15;
@@ -66,26 +66,26 @@ margin-left: 10px;
 
 
 .topnav a {
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 0.9em;
+  font-size: 1.2em;
   text-decoration: none;
   color: #121719;
-
-  transition: all 0.3s ease;
 }
 
 
 .topnav a:hover {
+  font-family: swear-display, serif;
   color: #FF5924;
   font-style: italic;
   background-color: none;
 }
 
 .topnav a.active {
-  color: #FF5924;
+  font-family: swear-display, serif;
   font-style: italic;
+  color: #FF5924;
 }
 
 .topnav .openMenu {
@@ -123,7 +123,7 @@ margin-left: 10px;
     z-index: 10;
     flex-direction: column;
     align-items: center;
-    background: #FFFBF3;
+    background: #F8F7F5;
     transition: top 1.5s ease-in-out;
     display: none;
     padding-left: 0px;

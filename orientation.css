@@ -1,7 +1,7 @@
 /**👋----------------Mobile-------------------👋**/
 @media only screen and (min-width: 300px)  {
 body{
-  background-color: #F7F9F9;
+  background-color: #F8F7F5;
 }
 
 a{
@@ -63,7 +63,7 @@ section:nth-of-type(1) {
 }
 
 .go-back {
-  font-family: swear-display, sans-serif;
+  font-family: "Instrument Serif", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -95,7 +95,7 @@ section:nth-of-type(1) {
 }
 
 .previous {
-  font-family: swear-display, sans-serif;
+  font-family: "Instrument Serif", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -111,7 +111,7 @@ section:nth-of-type(1) {
 }
 
 .next {
-  font-family: swear-display, sans-serif;
+  font-family: "Instrument Serif", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -138,14 +138,14 @@ section:nth-of-type(1) {
 }
 
 #project-date{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
 }
 
 #project-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
@@ -191,7 +191,7 @@ section:nth-of-type(1) {
 
 
 .small-side-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
@@ -200,7 +200,7 @@ section:nth-of-type(1) {
 }
 
 .side-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
@@ -211,10 +211,10 @@ section:nth-of-type(1) {
 
 
 .detail-title, .right-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .detail-title{
@@ -273,7 +273,7 @@ section:nth-of-type(1) {
 }
 
 .previous {
-  font-family: swear-display, sans-serif;
+  font-family: "Instrument Serif", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -289,7 +289,7 @@ section:nth-of-type(1) {
 }
 
 .next {
-  font-family: swear-display, sans-serif;
+  font-family: "Instrument Serif", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -320,7 +320,7 @@ section:nth-of-type(1) {
   }
 
   .go-back {
-    font-family: swear-display, sans-serif;
+    font-family: "Instrument Serif", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: inline-block;
@@ -385,7 +385,7 @@ section:nth-of-type(1) {
   }
 
   #project-title{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3em;

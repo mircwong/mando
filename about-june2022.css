@@ -35,22 +35,28 @@
   }
 
   .sweardisplay-text{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
   }
 
   .sweardisplayitalic-text{
-    font-family: swear-display-cilati, sans-serif;
+    font-family: "Instrument Serif"-cilati, sans-serif;
     font-weight: 600;
     font-style: normal;
   }
 
-  .belydisplay-text{
-    font-family: bely-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  .instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 
 
@@ -84,7 +90,7 @@
 }
 
 a.imagehover{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
 
@@ -115,7 +121,7 @@ a.imagehover{
   background-color: whiteSmoke;
   transition: .2s;
 
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
@@ -203,7 +209,7 @@ a.imagehover{
 }
 
 .column-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
 
@@ -255,7 +261,7 @@ a.imagehover{
 
   /**🍎*****Footer*****🍎**/
   footer{
-    background-color: #1F271B;
+    background-color: #F04800;
     height: 330px;
     color: white;
   }
@@ -268,7 +274,7 @@ a.imagehover{
   }
 
   footer .footer-title{
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-size: 1.5em;
   }
@@ -281,6 +287,7 @@ a.imagehover{
 
 
   footer .footer-credit{
+    font-family: "Inter", serif;
     padding-top: 30px;
     font-size: 0.8em;
   }
@@ -396,6 +403,7 @@ a.imagehover{
 }
 
 a.imagehover:hover{
+  font-family: swear-display, serif;
   font-style: italic;
 }
 
@@ -415,7 +423,7 @@ a.imagehover:hover{
     margin-right: auto;
     justify-content: center;
 
-    font-family: swear-display, serif;
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -487,7 +495,7 @@ a.imagehover:hover{
 
 /**🍎*****Footer*****🍎**/
 footer{
-  background-color: #1F271B;
+  background-color: #F04800;
   height: 270px;
   color: white;
 }
@@ -500,7 +508,7 @@ footer .footer-text{
 }
 
 footer .footer-title{
-  font-family: swear-display, serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -512,7 +520,7 @@ footer .footer-icons a{
 }
 
 .footer-icons a:hover{
-  color: #FF5924;
+  color: #8A2900;
 }
 
 footer .footer-credit{
